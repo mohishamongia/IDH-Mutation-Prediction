@@ -8,7 +8,7 @@ Run    : python idh_cv_train.py
 # ── CUDA env var MUST precede 'import torch' ──────────────────────────────────
 import os
 
-GPU_IDS = [0]   # ✏️ edit before every run
+GPU_IDS = [0, 1, 2, 3, 5, 7]   # ✏️ edit before every run
 # CVD remaps physical GPUs to logical cuda:0…cuda:N-1.
 # Always use cuda:0 as primary; never reference the raw physical index.
 os.environ["CUDA_VISIBLE_DEVICES"] = ",".join(str(g) for g in GPU_IDS)
@@ -22,6 +22,7 @@ import pandas as pd
 import nibabel as nib
 import torch
 import torch.nn as nn
+import torch.nn.functional as F
 from scipy import stats as scipy_stats
 from tqdm import tqdm
 from torch.utils.data import Dataset, DataLoader
@@ -56,7 +57,7 @@ print(f"Logical range : cuda:0 … cuda:{len(GPU_IDS)-1}  |  DataParallel: {MULT
 # ─── PATHS & CONFIG ───────────────────────────────────────────────────────────
 DATA_DIR  = "/workspace/UTSW_Glioma_data/UTSW-Glioma"
 TSV_PATH  = "UTSW_Glioma_data/UTSW_Glioma_Metadata-2-1 (2).tsv"
-SAVE_DIR  = "results_final"
+SAVE_DIR  = "results"
 CACHE_DIR = "cache_npy"   # Opt-1: preprocessed volume cache
 IMG_SIZE  = 96
 BATCH     = 24            # lowered from 48; ~26 updates/epoch on 622 subjects
@@ -64,6 +65,36 @@ EPOCHS    = 100
 LR        = 1e-4
 PATIENCE  = 7
 N_FOLDS   = 5
+
+# ── Continual-learning (EWC) config ────────────────────────────────────────
+# Per-task epoch budget: smaller than EPOCHS/PATIENCE above because the
+# continual model trains 4 sequential tasks per fold, not 1. At the full
+# 100/patience-7 budget per task this would run ~4x a single baseline's
+# training cost per fold, on top of the 3 models you already train — that's
+# a lot of extra GPU time. Cut TASK_EPOCHS/TASK_PATIENCE further if you need
+# to keep runtime down; raise them if fold results look under-converged.
+TASK_EPOCHS   = 40
+TASK_PATIENCE = 5
+# EWC_LAMBDA operates on NORMALISED Fisher (mean-rescaled to ~1.0), verified
+# via proto_ewc.py — this keeps it in a small, human-tunable range (~0.1-100)
+# instead of needing per-architecture magic numbers. Start here; if All_4 AUC
+# collapses across the curriculum, raise it. If T1_only AUC won't improve
+# past ~chance, lower it.
+EWC_LAMBDA    = 5.0
+# EWC doesn't cover BN running stats (they're buffers, not params), so freezing
+# them after Task1 keeps All_4 retention from measuring BN drift as forgetting.
+FREEZE_BN_AFTER_TASK1 = True
+# Ordered task curriculum: easiest (full modality) -> hardest (single modality).
+# Tier 2 groups the three "one modality missing" scenarios into a single task
+# (uniform random pick per batch) since they're the same difficulty tier —
+# treating each as its own task would need 6 sequential tasks instead of 4
+# for no real curriculum benefit.
+TASK_SEQUENCE = [
+    ("Task1_AllModalities", ["All_4"]),
+    ("Task2_OneMissing",    ["T1CE_missing", "FLAIR_missing", "T2_missing"]),
+    ("Task3_TwoAvailable",  ["T1_T2_only"]),
+    ("Task4_SingleModality",["T1_only"]),
+]
 
 TEST_SCENARIOS = {
     "All_4"         : [0, 1, 2, 3],
@@ -99,7 +130,7 @@ def make_loader(dataset, shuffle, batch=BATCH):
     g.manual_seed(SEED)
     return DataLoader(
         dataset, batch_size=batch, shuffle=shuffle,
-        num_workers=4, pin_memory=True,
+        num_workers=2, pin_memory=True,
         worker_init_fn=seed_worker, generator=g
     )
 
@@ -170,41 +201,66 @@ STRUCTURED_WEIGHTS = {
 class GliomaDataset(Dataset):
     """
     dropout_mode:
-      'random'     — each channel independently dropped with prob dropout_p
-                     (dropout_p IS used here)
-      'structured' — sample a test scenario according to model-specific weights
-                     in STRUCTURED_WEIGHTS (dropout_p ignored — distribution
-                     controls aggressiveness; model_name must be supplied)
-      None / 0.0   — no dropout (validation / test)
+      'random'          — each channel independently dropped with prob dropout_p
+                          (dropout_p IS used here)
+      'structured'      — sample a test scenario according to model-specific
+                          weights in STRUCTURED_WEIGHTS (dropout_p ignored —
+                          distribution controls aggressiveness; model_name
+                          must be supplied)
+      'task_scenarios'  — uniformly sample among a restricted scenario subset
+                          (task_scenarios param) each __getitem__ call. Used
+                          for one task in the continual-learning (EWC)
+                          curriculum — e.g. Task2_OneMissing uniformly rotates
+                          through T1CE_missing/FLAIR_missing/T2_missing so the
+                          model doesn't overfit to one specific channel being
+                          the one that's gone.
+      None / 0.0        — no dropout (validation / test)
     missing: list of channel indices to KEEP (test-time explicit scenario)
     """
     def __init__(self, subjects, labels, cache_map,
                  dropout_p=0.0, dropout_mode="random",
-                 missing=None, model_name=None):
+                 missing=None, model_name=None, task_scenarios=None):
         self.subjects     = subjects
         self.labels       = labels
         self.cache_map    = cache_map
         self.dropout_p    = dropout_p
         self.dropout_mode = dropout_mode
         self.missing      = missing
+        self.epoch        = 0
         self._scenario_lists   = list(TEST_SCENARIOS.values())
         # Resolve per-model weights; fall back to uniform if name not found
         raw_w = STRUCTURED_WEIGHTS.get(model_name, [1/6]*6)
         total = sum(raw_w)
         self._scenario_weights = [w / total for w in raw_w]
+        # For 'task_scenarios' mode: restrict sampling to this scenario subset
+        self._task_channel_lists = (
+            [TEST_SCENARIOS[s] for s in task_scenarios]
+            if task_scenarios is not None else None
+        )
 
     def __len__(self):
         return len(self.subjects)
+
+    def set_epoch(self, epoch):
+        # folded into the mask seed so masks change each epoch — default workers
+        # re-seed identically every epoch, which froze the old global-RNG draws
+        self.epoch = int(epoch)
 
     def __getitem__(self, idx):
         sid    = self.subjects[idx]
         volume = np.load(self.cache_map[sid]).astype(np.float32).copy()  # (4,96,96,96)
 
+        # local RNG seeded on (seed, epoch, idx): reproducible but fresh per epoch,
+        # independent of how workers are seeded
+        mask_seed = (SEED * 2654435761 + self.epoch * 40503 + idx) & 0x7FFFFFFF
+        np_rng    = np.random.default_rng(mask_seed)
+        py_rng    = random.Random(mask_seed)
+
         if self.dropout_p > 0 and self.dropout_mode == "random":
             # Independent per-channel dropout with all-zero guardrail
-            mask = np.random.rand(4) < self.dropout_p
+            mask = np_rng.random(4) < self.dropout_p
             if mask.all():
-                mask[np.random.randint(4)] = False
+                mask[np_rng.integers(4)] = False
             volume[mask] = 0.0
 
         elif self.dropout_mode == "structured":
@@ -212,8 +268,16 @@ class GliomaDataset(Dataset):
             # dropout_p is intentionally NOT used here — aggressiveness is
             # controlled by STRUCTURED_WEIGHTS, making Dropout30 vs Dropout50
             # meaningfully different training distributions.
-            avail = random.choices(self._scenario_lists,
+            avail = py_rng.choices(self._scenario_lists,
                                    weights=self._scenario_weights, k=1)[0]
+            for c in range(4):
+                if c not in avail:
+                    volume[c] = 0.0
+
+        elif self.dropout_mode == "task_scenarios":
+            # Continual-learning curriculum: uniformly sample among this
+            # task's scenario subset (e.g. the 3 one-missing scenarios).
+            avail = py_rng.choice(self._task_channel_lists)
             for c in range(4):
                 if c not in avail:
                     volume[c] = 0.0
@@ -247,9 +311,59 @@ class ResBlock3D(nn.Module):
         return self.relu(self.bn2(self.conv2(self.relu(self.bn1(self.conv1(x))))) + self.skip(x))
 
 
-class ResNet18_3D(nn.Module):
-    def __init__(self, in_channels=4, num_classes=2):
+class SelfAttention3D(nn.Module):
+    """
+    Non-local self-attention block (Wang et al., "Non-local Neural Networks",
+    2018 — embedded-Gaussian variant), adapted to 3D feature maps.
+
+    Inserted after layer3 (256 channels), NOT after layer4, deliberately:
+    at IMG_SIZE=96 the spatial size after layer3 is 6³=216, so the N×N
+    attention matrix is 216×216 (cheap). After layer4 it's 3³=27, small
+    enough that self-attention has almost no receptive-field benefit left
+    over the conv's own field of view — the block would cost compute for
+    little gain. layer3 is the sweet spot for this input resolution.
+
+    query/key are projected to in_ch//reduction to keep the attention matrix
+    affordable; value stays at full in_ch so the output channel count matches
+    the input with no extra projection needed for the residual add.
+
+    gamma starts at 0 (verified in proto_attn.py), so this block is the
+    identity function at initialisation — it can only ever help relative to
+    the pre-attention ResNet18_3D, never destabilise the existing training
+    dynamics your Baseline/Dropout30/Dropout50 models already rely on.
+    """
+    def __init__(self, in_ch, reduction=8):
         super().__init__()
+        self.inter_ch = max(in_ch // reduction, 1)
+        self.theta  = nn.Conv3d(in_ch, self.inter_ch, 1, bias=False)  # query
+        self.phi    = nn.Conv3d(in_ch, self.inter_ch, 1, bias=False)  # key
+        self.g      = nn.Conv3d(in_ch, in_ch,        1, bias=False)   # value
+        self.out    = nn.Conv3d(in_ch, in_ch,        1, bias=False)
+        self.bn_out = nn.BatchNorm3d(in_ch)
+        self.gamma  = nn.Parameter(torch.zeros(1))   # residual-safe init
+
+    def forward(self, x):
+        B, C, D, H, W = x.shape
+        N = D * H * W
+
+        q = self.theta(x).view(B, self.inter_ch, N).permute(0, 2, 1)  # (B, N, C')
+        k = self.phi(x).view(B, self.inter_ch, N)                     # (B, C', N)
+        v = self.g(x).view(B, C, N).permute(0, 2, 1)                  # (B, N, C)
+
+        attn = torch.bmm(q, k)
+        attn = torch.softmax(attn / (self.inter_ch ** 0.5), dim=-1)
+
+        out = torch.bmm(attn, v)
+        out = out.permute(0, 2, 1).contiguous().view(B, C, D, H, W)
+        out = self.bn_out(self.out(out))
+
+        return x + self.gamma * out
+
+
+class ResNet18_3D(nn.Module):
+    def __init__(self, in_channels=4, num_classes=2, use_attention=True):
+        super().__init__()
+        self.use_attention = use_attention
         self.stem   = nn.Sequential(
             nn.Conv3d(in_channels, 64, 7, stride=2, padding=3, bias=False),
             nn.BatchNorm3d(64), nn.ReLU(inplace=True),
@@ -257,6 +371,7 @@ class ResNet18_3D(nn.Module):
         self.layer1 = nn.Sequential(ResBlock3D(64,  64),            ResBlock3D(64,  64))
         self.layer2 = nn.Sequential(ResBlock3D(64,  128, stride=2), ResBlock3D(128, 128))
         self.layer3 = nn.Sequential(ResBlock3D(128, 256, stride=2), ResBlock3D(256, 256))
+        self.attn   = SelfAttention3D(256) if use_attention else nn.Identity()  # Identity = no-attn arm of the ablation
         self.layer4 = nn.Sequential(ResBlock3D(256, 512, stride=2), ResBlock3D(512, 512))
         self.pool   = nn.AdaptiveAvgPool3d(1)
         self.drop   = nn.Dropout(0.5)
@@ -266,7 +381,7 @@ class ResNet18_3D(nn.Module):
         """Standard forward — logits only. DataParallel-safe (no extra args)."""
         x   = self.stem(x)
         x   = self.layer1(x); x = self.layer2(x)
-        x   = self.layer3(x); x = self.layer4(x)
+        x   = self.layer3(x); x = self.attn(x); x = self.layer4(x)
         emb = self.pool(x).flatten(1)          # (B, 512)
         return self.fc(self.drop(emb))
 
@@ -279,7 +394,7 @@ class ResNet18_3D(nn.Module):
         """
         x = self.stem(x)
         x = self.layer1(x); x = self.layer2(x)
-        x = self.layer3(x); x = self.layer4(x)
+        x = self.layer3(x); x = self.attn(x); x = self.layer4(x)
         return self.pool(x).flatten(1)
 
 
@@ -307,6 +422,7 @@ def train_one_fold(model, train_loader, val_loader, class_weights_tensor):
 
     for epoch in range(EPOCHS):
         # --- train ---
+        train_loader.dataset.set_epoch(epoch)   # new masks this epoch; before workers fork
         model.train()
         batch_losses = []
         for imgs, lbls in tqdm(train_loader, desc=f"  Ep{epoch+1:03d}", leave=False):
@@ -360,6 +476,227 @@ def train_one_fold(model, train_loader, val_loader, class_weights_tensor):
         if patience_ctr >= PATIENCE:
             print(f"  Early stop @ epoch {epoch+1}")
             break
+
+    return model, best_state, history, best_auc
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# CONTINUAL LEARNING (EWC) — sequential task curriculum, verified in proto_ewc.py
+# ═══════════════════════════════════════════════════════════════════════════════
+def _freeze_bn_running_stats(core_model):
+    # BN.eval() stops running-stat updates while weights still train; re-called
+    # after every model.train(), which would otherwise switch BN back on
+    for m in core_model.modules():
+        if isinstance(m, nn.BatchNorm3d):
+            m.eval()
+
+
+def _quick_validate_auc(model, loader):
+    """
+    Lightweight validation: AUC only, no confusion matrix / embeddings.
+    Used for per-epoch monitoring during the continual-learning curriculum
+    (called far more often than the full evaluate_scenarios(), which writes
+    embeddings to disk and would be far too slow to call every epoch).
+    """
+    model.eval()
+    all_probs, all_true = [], []
+    with torch.no_grad():
+        for imgs, lbls in loader:
+            imgs = imgs.to(DEVICE)
+            logits = model(imgs)
+            all_probs.extend(torch.softmax(logits, 1)[:, 1].cpu().numpy())
+            all_true.extend(lbls.numpy())
+    return safe_auc(all_true, all_probs)
+
+
+class EWCState:
+    """
+    Online EWC (Schwarz et al., "Progress & Compress", 2018): a single running
+    Fisher matrix accumulated across tasks, and a single anchor (star_params)
+    updated to the model's weights at the end of each task.
+
+    Fisher is normalised (mean-rescaled to ~1.0) BEFORE accumulation — verified
+    in proto_ewc.py to be necessary: raw empirical Fisher values are tiny and
+    scale-dependent on architecture/loss, so without normalisation EWC_LAMBDA
+    would need re-sweeping by orders of magnitude for this ResNet18+attention
+    vs. whatever toy problem it was tuned on. Normalised, EWC_LAMBDA stays in
+    a small human-tunable range (~0.1-100) regardless of architecture.
+    """
+    def __init__(self):
+        self.fisher = None       # dict[name -> tensor], accumulated across tasks
+        self.star_params = None  # dict[name -> tensor], anchor = previous task's final weights
+
+    def penalty(self, core_model):
+        if self.fisher is None:
+            return torch.tensor(0.0, device=DEVICE)
+        loss = 0.0
+        for n, p in core_model.named_parameters():
+            f = self.fisher[n].to(p.device)
+            s = self.star_params[n].to(p.device)
+            loss = loss + (f * (p - s) ** 2).sum()
+        return EWC_LAMBDA * 0.5 * loss
+
+    def consolidate(self, core_model, loader, n_batches=20):
+        """
+        Call at the END of each task: compute this task's Fisher information
+        (empirical Fisher via the model's own predicted labels — no extra
+        label leakage needed), normalise it, and accumulate into the running
+        Fisher. Anchor (star_params) becomes this task's final weights.
+        """
+        core_model.eval()
+        new_fisher = {n: torch.zeros_like(p) for n, p in core_model.named_parameters()}
+        seen = 0
+        for imgs, _ in loader:
+            imgs = imgs.to(DEVICE)
+            core_model.zero_grad()
+            logits = core_model(imgs)
+            pseudo_labels = logits.argmax(1).detach()
+            loss = F.cross_entropy(logits, pseudo_labels)
+            loss.backward()
+            for n, p in core_model.named_parameters():
+                if p.grad is not None:
+                    new_fisher[n] += p.grad.detach() ** 2
+            seen += 1
+            if seen >= n_batches:
+                break
+        for n in new_fisher:
+            new_fisher[n] /= max(seen, 1)
+
+        all_vals = torch.cat([f.flatten() for f in new_fisher.values()])
+        scale = all_vals.mean().clamp_min(1e-12)
+        new_fisher = {n: f / scale for n, f in new_fisher.items()}
+
+        if self.fisher is None:
+            self.fisher = new_fisher
+        else:
+            for n in self.fisher:
+                self.fisher[n] = self.fisher[n] + new_fisher[n]
+
+        self.star_params = {n: p.clone().detach()
+                             for n, p in core_model.named_parameters()}
+        core_model.zero_grad()
+
+
+def train_continual_fold(model, X_train, y_train, X_val, y_val,
+                          cache_map, class_weights_tensor, model_name):
+    """
+    Sequential-task continual learning curriculum (TASK_SEQUENCE), with EWC
+    protecting earlier tasks' weights while later, harder tasks are learned.
+
+    Returns (model, best_state, history, best_auc) — same signature as
+    train_one_fold() so the main loop / checkpoint saving / JSON structure
+    downstream needs no changes.
+
+    history["retention_curve"]: All_4-scenario val AUC measured every epoch
+    across the WHOLE curriculum (all 4 tasks) — this is the key plot for the
+    paper: does the model actually keep its full-modality performance while
+    learning to handle missing modalities, or does it quietly erode?
+    history["tasks"]: per-task sub-histories (train_loss, val_auc per epoch).
+    """
+    if MULTI_GPU:
+        model = nn.DataParallel(model)
+    model = model.to(DEVICE)
+    core = model.module if MULTI_GPU else model
+
+    ewc = EWCState()
+    history = {"tasks": {}, "retention_curve": []}
+    best_state = {k: v.cpu().clone() for k, v in core.state_dict().items()}
+
+    # Fixed loader to measure All_4 retention every epoch, regardless of
+    # which task is currently training.
+    all4_val_ds     = GliomaDataset(X_val, y_val, cache_map, missing=TEST_SCENARIOS["All_4"])
+    all4_val_loader = make_loader(all4_val_ds, shuffle=False)
+
+    criterion = nn.CrossEntropyLoss(weight=class_weights_tensor.to(DEVICE))
+
+    for task_idx, (task_name, task_scenarios) in enumerate(TASK_SEQUENCE):
+        print(f"\n  ── [{model_name}] {task_name}  (scenarios: {task_scenarios}) ──")
+        freeze_bn = FREEZE_BN_AFTER_TASK1 and task_idx >= 1
+        if freeze_bn:
+            print(f"    (BatchNorm running stats FROZEN for {task_name} — "
+                  f"pinned to full-modality Task1 estimate)")
+
+        train_ds = GliomaDataset(X_train, y_train, cache_map,
+                                  dropout_mode="task_scenarios",
+                                  task_scenarios=task_scenarios)
+        train_loader = make_loader(train_ds, shuffle=True)
+
+        # Task validation: average AUC across this task's own scenario(s)
+        task_val_loaders = [
+            make_loader(GliomaDataset(X_val, y_val, cache_map,
+                                       missing=TEST_SCENARIOS[s]), shuffle=False)
+            for s in task_scenarios
+        ]
+
+        optimizer = torch.optim.Adam(model.parameters(), lr=LR, weight_decay=1e-4)
+        scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(
+                        optimizer, mode="max", patience=3, factor=0.5)
+
+        task_hist = {"train_loss": [], "val_auc": []}
+        best_task_auc, patience_ctr = -1.0, 0
+        task_best_state = {k: v.cpu().clone() for k, v in core.state_dict().items()}
+
+        for epoch in range(TASK_EPOCHS):
+            train_loader.dataset.set_epoch(epoch)   # fresh masks per epoch
+            model.train()
+            if freeze_bn:
+                _freeze_bn_running_stats(core)      # re-freeze BN after .train()
+            batch_losses = []
+            for imgs, lbls in tqdm(train_loader,
+                                    desc=f"    {task_name} Ep{epoch+1:03d}", leave=False):
+                imgs, lbls = imgs.to(DEVICE), lbls.to(DEVICE)
+                optimizer.zero_grad()
+                loss = criterion(model(imgs), lbls) + ewc.penalty(core)
+                loss.backward()
+                torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
+                optimizer.step()
+                batch_losses.append(loss.item())
+            task_hist["train_loss"].append(float(np.mean(batch_losses)))
+
+            task_aucs = [_quick_validate_auc(model, ld) for ld in task_val_loaders]
+            task_aucs = [a for a in task_aucs if not np.isnan(a)]
+            task_auc  = float(np.mean(task_aucs)) if task_aucs else float("nan")
+            task_hist["val_auc"].append(task_auc)
+
+            all4_auc = _quick_validate_auc(model, all4_val_loader)
+            history["retention_curve"].append({
+                "task": task_name, "epoch": epoch + 1,
+                "task_auc": task_auc, "all4_auc": all4_auc,
+            })
+
+            auc_s  = f"{task_auc:.4f}" if not np.isnan(task_auc) else "NaN "
+            all4_s = f"{all4_auc:.4f}" if not np.isnan(all4_auc) else "NaN "
+            print(f"    Ep{epoch+1:03d} | L {task_hist['train_loss'][-1]:.4f} | "
+                  f"TaskAUC {auc_s} | All4AUC(retention) {all4_s}", flush=True)
+
+            if not np.isnan(task_auc):
+                scheduler.step(task_auc)
+                if task_auc > best_task_auc:
+                    best_task_auc  = task_auc
+                    task_best_state = {k: v.cpu().clone() for k, v in core.state_dict().items()}
+                    patience_ctr = 0
+                    print(f"    ✓ Best {task_name} AUC {task_auc:.4f}", flush=True)
+                else:
+                    patience_ctr += 1
+            else:
+                patience_ctr += 1
+            if patience_ctr >= TASK_PATIENCE:
+                print(f"    Early stop {task_name} @ epoch {epoch+1}")
+                break
+
+        # Load this task's best weights before consolidating Fisher / moving on
+        core.load_state_dict(task_best_state)
+        ewc.consolidate(core, train_loader)
+
+        history["tasks"][task_name] = task_hist
+        best_state = task_best_state
+
+    # report best_auc on All_4 like the other models, not Task4's single-modality
+    # number, so all four models' best_auc mean the same thing
+    core.load_state_dict(best_state)
+    best_auc = _quick_validate_auc(model, all4_val_loader)
+    history["all4_best_auc"]       = best_auc
+    history["final_task_best_auc"] = float(best_task_auc)   # single-modality, kept for reference
 
     return model, best_state, history, best_auc
 
@@ -494,10 +831,17 @@ cache_map = preprocess_and_cache(subjects, DATA_DIR, CACHE_DIR, IMG_SIZE)
 # ═══════════════════════════════════════════════════════════════════════════════
 # dropout_mode: 'structured' (Opt-2) for robust models; None for baseline
 MODEL_CONFIGS = [
-    # (name,                  model_factory,         dropout_p, dropout_mode)
-    ("Baseline_ResNet18",  lambda: ResNet18_3D(), 0.0, None),
-    ("Dropout30_ResNet18", lambda: ResNet18_3D(), 0.3, "structured"),
-    ("Dropout50_ResNet18", lambda: ResNet18_3D(), 0.5, "structured"),
+    # (name,                  model_factory,                             dropout_p, dropout_mode)
+    # Baseline vs Attention differ only in use_attention — that pair is the ablation.
+    ("Baseline_ResNet18",     lambda: ResNet18_3D(use_attention=False), 0.0, None),
+    ("Attention_ResNet18",    lambda: ResNet18_3D(use_attention=True),  0.0, None),
+    ("Dropout30_ResNet18",    lambda: ResNet18_3D(use_attention=True),  0.3, "structured"),
+    ("Dropout50_ResNet18",    lambda: ResNet18_3D(use_attention=True),  0.5, "structured"),
+    # dropout_mode="continual_ewc" is a sentinel the main loop below branches
+    # on to call train_continual_fold() instead of train_one_fold(). dropout_p
+    # is unused here (task masking comes from TASK_SEQUENCE / GliomaDataset's
+    # "task_scenarios" mode instead).
+    ("ContinualEWC_ResNet18", lambda: ResNet18_3D(use_attention=True),  0.0, "continual_ewc"),
 ]
 
 
@@ -551,17 +895,27 @@ for fold, (train_idx, val_idx) in enumerate(skf.split(subjects_np, labels_np)):
 
         print(f"\n  ── {model_name}  (p={dropout_p}, mode={dropout_mode}) ──")
 
-        train_ds = GliomaDataset(X_train, y_train, cache_map,
-                                 dropout_p=dropout_p, dropout_mode=dropout_mode,
-                                 model_name=model_name)
-        val_ds   = GliomaDataset(X_val, y_val, cache_map)
+        if dropout_mode == "continual_ewc":
+            # Sequential-task curriculum: train_continual_fold builds its own
+            # per-task datasets internally from the raw subject lists (each
+            # task needs a different scenario-restricted GliomaDataset, not
+            # a single fixed train_ds like the other models use).
+            model, best_state, history, best_auc = train_continual_fold(
+                model_fn(), X_train, y_train, X_val, y_val,
+                cache_map, fold_w, model_name
+            )
+        else:
+            train_ds = GliomaDataset(X_train, y_train, cache_map,
+                                     dropout_p=dropout_p, dropout_mode=dropout_mode,
+                                     model_name=model_name)
+            val_ds   = GliomaDataset(X_val, y_val, cache_map)
 
-        model, best_state, history, best_auc = train_one_fold(
-            model_fn(),
-            make_loader(train_ds, shuffle=True),
-            make_loader(val_ds,   shuffle=False),
-            fold_w
-        )
+            model, best_state, history, best_auc = train_one_fold(
+                model_fn(),
+                make_loader(train_ds, shuffle=True),
+                make_loader(val_ds,   shuffle=False),
+                fold_w
+            )
 
         # Load best weights
         core = model.module if MULTI_GPU else model

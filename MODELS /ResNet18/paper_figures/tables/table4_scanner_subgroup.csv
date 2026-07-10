@@ -1,0 +1,16 @@
+Scanner,Baseline,Dropout-30,Dropout-50
+GE_1.5T,0.713,0.781,0.704
+GE_3T,0.615,0.747,0.786
+Hitachi_0.3T,–,–,–
+Hitachi_0.7T,1.000,0.600,1.000
+Hitachi_1.16T,0.833,0.667,1.000
+Hitachi_1.5T,–,–,–
+Not Reported_Not ReportedT,0.797,0.831,0.737
+Philips_1.5T,0.826,0.706,0.617
+Philips_1T,–,–,–
+Philips_3T,0.777,0.703,0.616
+Siemens_0.94999999T,–,–,–
+Siemens_1.5T,0.825,0.693,0.687
+Siemens_1T,–,–,–
+Siemens_3T,0.764,0.730,0.615
+Toshiba_1.5T,–,–,–
