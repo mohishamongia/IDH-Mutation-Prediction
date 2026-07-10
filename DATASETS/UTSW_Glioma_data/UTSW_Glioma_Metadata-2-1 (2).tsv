@@ -1,0 +1,626 @@
+Subject ID	Sex at birth	Age at Imaging	Race	Ethnicity	Tumor Type	Pathology Information	Tumor Grade	IDH	IDH_Testing Method	1p19Q CODEL	MGMT	Operation Status	T1	T1GD	T2	T2FLAIR	Scanner Make	Scanner Model	Scanner Strength	Manually Refined Segmentation
+BT0001	F	44	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	Yes
+BT0002	M	58	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	Yes
+BT0003	F	22	White	Non-Hispanic/Latino	OLIGOASTROCYTOMA	NA	2	mutated	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	GE	Signa HDxt	3	Yes
+BT0005	M	67	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	Yes
+BT0007	M	30	White	Non-Hispanic/Latino	"ASTROCYTOMA, DIFFUSE"	NA	2	mutated	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	GE	SIGNA EXCITE	3	Yes
+BT0008	M	70	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	methylated	PRE	Available	Available	Available	Available	Siemens	Symphony	1.5	No
+BT0009	M	65	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	NA	NA	PRE	Available	Available	Available	Available	Siemens	Prisma	3	Yes
+BT0011	F	49	White	Non-Hispanic/Latino	"OLIGODENDROGLIOMA, ANAPLASTIC"	NA	3	mutated	IHC	co-deleted	NA	PRE	Available	Available	Available	Available	GE	SIGNA Architect	3	Yes
+BT0013	F	62	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	GE	SIGNA Explorer	1.5	Yes
+BT0015	M	34	White	Non-Hispanic/Latino	"OLIGODENDROGLIOMA, NOS"	NA	2	mutated	IHC	co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Symphony	1.5	Yes
+BT0018	F	22	White	Non-Hispanic/Latino	"ASTROCYTOMA, ANAPLASTIC"	NA	3	mutated	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	Philips	Achieva	1.5	No
+BT0019	M	47	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	methylated	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	Yes
+BT0020	F	64	Not Reported	Not Reported	GLIOBLASTOMA	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	Philips	Achieva	3	Yes
+BT0021	F	60	White	Non-Hispanic/Latino	"OLIGODENDROGLIOMA, ANAPLASTIC"	NA	3	mutated	IHC	co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	Yes
+BT0023	M	70	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	Philips	Ingenia	1.5	No
+BT0024	M	60	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	methylated	PRE	Available	Available	Available	Available	GE	SIGNA EXCITE	1.5	No
+BT0026	M	74	Not Reported	Not Reported	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Philips	Intera	1.5	Yes
+BT0027	M	59	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	Yes
+BT0029	M	73	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Philips	Ingenia	1.5	Yes
+BT0030	M	68	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	Yes
+BT0033	M	74	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Philips	Achieva	3	Yes
+BT0034	M	68	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	Prisma	3	Yes
+BT0035	M	52	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	Yes
+BT0036	F	24	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	Avanto	1.5	Yes
+BT0041	M	26	White	Non-Hispanic/Latino	OLIGODENDROGLIOMA GRADE 2	NA	2	mutated	NGS	co-deleted	NA	PRE	Available	Available	Available	Available	GE	SIGNA EXCITE	1.5	Yes
+BT0042	F	57	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	TrioTim	3	Yes
+BT0045	F	51	White	Non-Hispanic/Latino	"OLIGODENDROGLIOMA, ANAPLASTIC"	NA	3	mutated	IHC	co-deleted	NA	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	Yes
+BT0048	F	44	White	Non-Hispanic/Latino	"ASTROCYTOMA, ANAPLASTIC"	NA	3	wild type	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	Yes
+BT0050	M	52	White	Non-Hispanic/Latino	"ASTROCYTOMA, NOS"	NA	NA	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	Signa HDxt	3	Yes
+BT0053	F	64	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	GE	SIGNA EXCITE	1.5	Yes
+BT0055	F	61	White	Non-Hispanic/Latino	OTHER	Infiltrating Glioma	2	wild type	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Avanto	1.5	Yes
+BT0059	M	57	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	methylated	PRE	Available	Available	Available	Available	Siemens	Prisma	3	Yes
+BT0060	F	68	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	Prisma	3	Yes
+BT0061	M	56	White	Non-Hispanic/Latino	"ASTROCYTOMA, ANAPLASTIC"	NA	3	wild type	NGS	NA	methylated	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	Yes
+BT0062	F	38	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	mutated	NGS	NA	methylated	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	Yes
+BT0063	M	55	White	Non-Hispanic/Latino	"ASTROCYTOMA, ANAPLASTIC"	NA	3	wild type	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	Yes
+BT0065	M	36	Not Reported	Not Reported	GLIOBLASTOMA	NA	4	mutated	IHC	NA	methylated	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	Yes
+BT0066	F	66	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	GE	SIGNA EXCITE	1.5	Yes
+BT0068	F	33	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	mutated	IHC	NA	NA	PRE	Available	Available	Available	Available	Philips	Achieva	3	Yes
+BT0070	M	52	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	Philips	Ingenia	1.5	Yes
+BT0075	M	41	White	Non-Hispanic/Latino	"OLIGODENDROGLIOMA, NOS"	NA	2	mutated	IHC	co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	TrioTim	3	Yes
+BT0076	M	40	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	mutated	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	Philips	Ingenia	3	Yes
+BT0078	M	60	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	Siemens	Prisma	3	Yes
+BT0079	M	71	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Prisma	3	No
+BT0081	F	73	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	Yes
+BT0083	M	63	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	Philips	Ingenia	3	Yes
+BT0084	M	69	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	Siemens	Prisma	3	No
+BT0086	M	56	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	Siemens	Prisma	3	Yes
+BT0087	F	55	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	Prisma	3	Yes
+BT0089	M	51	White	Non-Hispanic/Latino	"ASTROCYTOMA, DIFFUSE"	NA	2	wild type	NGS	NA	methylated	PRE	Available	Available	Available	Available	Siemens	TrioTim	3	Yes
+BT0090	F	75	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	Yes
+BT0091	M	66	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Prisma	3	Yes
+BT0095	M	62	White	Non-Hispanic/Latino	"OLIGODENDROGLIOMA, ANAPLASTIC"	NA	3	wild type	NGS	NA	NA	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	Yes
+BT0096	M	41	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	NA	unmethylated	PRE	Available	Available	Available	Available	GE	SIGNA Explorer	1.5	No
+BT0099	M	60	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	GE	SIGNA EXCITE	1.5	Yes
+BT0101	M	59	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	Siemens	Prisma	3	No
+BT0102	F	71	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	methylated	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	No
+BT0103	F	68	White	Non-Hispanic/Latino	"ASTROCYTOMA, INFILTRATING"	NA	2	wild type	NGS	NA	NA	PRE	Available	Available	Available	Available	Philips	Intera	1.5	Yes
+BT0104	F	70	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	Philips	Achieva	1.5	Yes
+BT0107	M	65	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Prisma	3	Yes
+BT0108	M	65	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	SIGNA Explorer	1.5	Yes
+BT0112	F	70	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	SymphonyTim	1.5	Yes
+BT0113	F	54	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	Yes
+BT0115	M	60	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Philips	Achieva	1.5	Yes
+BT0119	M	22	White	Non-Hispanic/Latino	"ASTROCYTOMA, INFILTRATING"	NA	4	wild type	NGS	NA	unmethylated	PRE	Available	Available	Available	Available	Siemens	Prisma	3	No
+BT0120	M	64	White	Non-Hispanic/Latino	"OLIGODENDROGLIOMA, ANAPLASTIC"	NA	3	mutated	IHC	co-deleted	NA	PRE	Available	Available	Available	Available	Philips	Ingenia	3	Yes
+BT0122	M	71	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	Siemens	Prisma	3	Yes
+BT0124	M	78	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	Siemens	Prisma	3	Yes
+BT0126	F	31	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	NA	unmethylated	PRE	Available	Available	Available	Available	GE	Optima MR450w	1.5	Yes
+BT0127	F	61	Not Reported	Not Reported	"ASTROCYTOMA, ANAPLASTIC"	NA	3	mutated	NGS	NA	NA	PRE	Available	Available	Available	Available	Philips	Ingenia	3	Yes
+BT0128	M	65	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	NA	unmethylated	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	Yes
+BT0129	M	40	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	mutated	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Philips	Intera	1.5	Yes
+BT0130	M	36	White	Non-Hispanic/Latino	"ASTROCYTOMA, ANAPLASTIC"	NA	3	wild type	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	GE	Signa HDxt	3	Yes
+BT0133	M	43	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	NA	unmethylated	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	Yes
+BT0136	M	32	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	methylated	PRE	Available	Available	Available	Available	Siemens	Prisma	3	Yes
+BT0137	F	74	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	Yes
+BT0138	F	58	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	NA	methylated	PRE	Available	Available	Available	Available	Philips	Achieva	1.5	Yes
+BT0139	M	58	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	NA	methylated	PRE	Available	Available	Available	Available	Siemens	SymphonyTim	1.5	Yes
+BT0140	M	51	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	Yes
+BT0141	M	38	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	NA	NA	PRE	Available	Available	Available	Available	GE	Optima MR450w	1.5	Yes
+BT0142	F	61	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	NA	NA	PRE	Available	Available	Available	Available	Philips	Achieva	1.5	Yes
+BT0143	M	60	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	NA	methylated	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	Yes
+BT0144	F	70	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	NA	NA	PRE	Available	Available	Available	Available	Siemens	Prisma	3	Yes
+BT0145	F	69	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	Yes
+BT0146	M	57	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	methylated	PRE	Available	Available	Available	Available	Siemens	Skyra	3	Yes
+BT0147	F	55	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Prisma	3	No
+BT0148	F	52	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	Yes
+BT0149	F	70	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Skyra	3	Yes
+BT0150	F	27	White	Non-Hispanic/Latino	"ASTROCYTOMA, ANAPLASTIC"	NA	3	mutated	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	Philips	Ingenia	1.5	Yes
+BT0152	M	57	Not Reported	Not Reported	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	GENESIS_SIGNA	1.5	Yes
+BT0155	F	38	White	Non-Hispanic/Latino	"ASTROCYTOMA, ANAPLASTIC"	NA	3	wild type	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	Yes
+BT0156	F	53	White	Non-Hispanic/Latino	"ASTROCYTOMA, ANAPLASTIC"	NA	3	mutated	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	Yes
+BT0157	M	77	White	Non-Hispanic/Latino	"ASTROCYTOMA, INFILTRATING"	NA	2	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	SIGNA EXCITE	3	Yes
+BT0158	M	57	White	Non-Hispanic/Latino	"GLIOMA, NOS"	NA	2	wild type	NGS	NA	NA	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	Yes
+BT0159	M	41	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	NA	NA	PRE	Available	Available	Available	Available	Siemens	Harmony	1	No
+BT0160	F	18	White	Non-Hispanic/Latino	OTHER	high-grade astrocytic neoplasm	3	wild type	NGS	NA	NA	PRE	Available	Available	Available	Available	Siemens	Verio	3	Yes
+BT0162	M	67	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	NA	methylated	PRE	Available	Available	Available	Available	Philips	Ingenia	1.5	Yes
+BT0165	F	52	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	mutated	IHC	NA	methylated	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	Yes
+BT0166	M	39	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	Yes
+BT0168	M	46	White	Non-Hispanic/Latino	"ASTROCYTOMA, ANAPLASTIC"	NA	3	mutated	NGS	NA	NA	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	Yes
+BT0169	M	77	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Symphony	1.5	Yes
+BT0170	F	61	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	Yes
+BT0172	M	44	White	Non-Hispanic/Latino	"ASTROCYTOMA, ANAPLASTIC"	NA	3	mutated	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Prisma	3	Yes
+BT0173	M	50	White	Non-Hispanic/Latino	"INFILTRATING GLIOMA, HIGH-GRADE"	NA	3	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	SIGNA EXCITE	1.5	Yes
+BT0179	M	64	White	Non-Hispanic/Latino	"OLIGODENDROGLIOMA, NOS"	NA	2	mutated	NGS	co-deleted	NA	PRE	Available	Available	Available	Available	Philips	Intera	1.5	Yes
+BT0181	F	45	White	Non-Hispanic/Latino	"OLIGOASTROCYTOMA, ANAPLASTIC"	NA	3	mutated	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	Philips	Ingenia	1.5	Yes
+BT0182	M	39	White	Non-Hispanic/Latino	OLIGOASTROCYTOMA	NA	2	mutated	IHC	co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Prisma	3	Yes
+BT0183	M	34	White	Non-Hispanic/Latino	OLIGOASTROCYTOMA	NA	2	mutated	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	GE	GENESIS_SIGNA	1.5	Yes
+BT0184	M	70	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Symphony	1.5	Yes
+BT0187	M	59	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	NA	NA	PRE	Available	Available	Available	Available	Philips	Ingenia	1.5	No
+BT0188	M	39	White	Non-Hispanic/Latino	"INFILTRATING GLIOMA, HIGH-GRADE"	NA	2	mutated	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	Philips	Ingenia	3	Yes
+BT0189	M	25	White	Non-Hispanic/Latino	"ASTROCYTOMA, ANAPLASTIC"	NA	3	mutated	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Prisma	3	Yes
+BT0190	M	40	White	Non-Hispanic/Latino	"OLIGODENDROGLIOMA, NOS"	NA	2	mutated	IHC	co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	Yes
+BT0191	F	56	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	NA	NA	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	Yes
+BT0193	F	52	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	methylated	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	No
+BT0194	M	65	White	Non-Hispanic/Latino	"OLIGOASTROCYTOMA, ANAPLASTIC"	NA	3	wild type	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	Hitachi	AIRIS II	0.3	Yes
+BT0196	F	67	White	Non-Hispanic/Latino	"OLIGODENDROGLIOMA, ANAPLASTIC"	NA	3	mutated	IHC	co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Symphony	1.5	Yes
+BT0197	M	44	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	NA	NA	PRE	Available	Available	Available	Available	Siemens	Symphony	1.5	Yes
+BT0199	F	27	White	Non-Hispanic/Latino	"ASTROCYTOMA, ANAPLASTIC"	NA	3	mutated	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	TrioTim	3	Yes
+BT0204	F	33	White	Non-Hispanic/Latino	"ASTROCYTOMA, DIFFUSE"	NA	2	mutated	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	GE	SIGNA EXCITE	1.5	Yes
+BT0205	M	72	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	NA	NA	PRE	Available	Available	Available	Available	Siemens	TrioTim	3	No
+BT0206	M	65	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	NA	NA	PRE	Available	Available	Available	Available	Philips	Achieva	3	Yes
+BT0210	F	72	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Skyra	3	Yes
+BT0211	F	68	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	TrioTim	3	Yes
+BT0212	M	34	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	mutated	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	GE	SIGNA EXCITE	1.5	Yes
+BT0213	M	62	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	NA	NA	PRE	Available	Available	Available	Available	Siemens	Prisma	3	Yes
+BT0216	F	55	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Prisma	3	Yes
+BT0219	M	28	White	Non-Hispanic/Latino	OTHER	High Grade Neuroglial Neoplasm	NA	wild type	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	TrioTim	3	No
+BT0220	F	47	White	Non-Hispanic/Latino	"OLIGODENDROGLIOMA, NOS"	NA	2	mutated	IHC	co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Symphony	1.5	Yes
+BT0221	M	21	White	Non-Hispanic/Latino	"OLIGODENDROGLIOMA, ANAPLASTIC"	NA	3	mutated	NGS	NA	methylated	PRE	Available	Available	Available	Available	Siemens	TrioTim	3	Yes
+BT0222	M	65	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	Siemens	Symphony	1.5	Yes
+BT0223	F	22	White	Non-Hispanic/Latino	"ASTROCYTOMA, HIGH-GRADE"	NA	3	wild type	NGS	NA	unmethylated	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	Yes
+BT0224	M	58	White	Non-Hispanic/Latino	"OLIGODENDROGLIOMA, ANAPLASTIC"	NA	3	wild type	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	Prisma	3	Yes
+BT0225	F	64	White	Non-Hispanic/Latino	"ASTROCYTOMA, INFILTRATING"	NA	2	wild type	NGS	NA	NA	PRE	Available	Available	Available	Available	Philips	Ingenia	1.5	Yes
+BT0226	M	45	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	GE	SIGNA EXCITE	1.5	Yes
+BT0227	M	55	White	Non-Hispanic/Latino	"OLIGODENDROGLIOMA, ANAPLASTIC"	NA	3	mutated	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Siemens	Symphony	1.5	Yes
+BT0228	F	36	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	mutated	NGS	NA	methylated	PRE	Available	Available	Available	Available	Siemens	Skyra	3	Yes
+BT0233	M	57	White	Non-Hispanic/Latino	OLIGODENDROGLIOMA GRADE 2	NA	2	mutated	IHC	co-deleted	NA	PRE	Available	Available	Available	Available	Philips	Ingenia	3	Yes
+BT0234	M	56	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	NA	NA	NA	unmethylated	PRE	Available	Available	Available	Available	Siemens	Symphony	1.5	Yes
+BT0235	F	57	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	NA	NA	NA	unmethylated	PRE	Available	Available	Available	Available	Siemens	Symphony	1.5	Yes
+BT0236	F	62	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	Signa HDxt	3	Yes
+BT0237	M	60	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Prisma	3	Yes
+BT0240	F	59	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Philips	Ingenia	1.5	Yes
+BT0242	F	54	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Symphony	1.5	Yes
+BT0243	M	63	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Symphony	1.5	No
+BT0244	M	65	White	Non-Hispanic/Latino	"INFILTRATING GLIOMA, HIGH-GRADE"	NA	3	mutated	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Skyra	3	Yes
+BT0246	M	32	White	Non-Hispanic/Latino	OLIGODENDROGLIOMA GRADE 2	NA	2	mutated	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	Yes
+BT0248	F	75	White	Non-Hispanic/Latino	"ASTROCYTOMA, INFILTRATING"	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Philips	Intera	1.5	Yes
+BT0250	M	47	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	SIGNA EXCITE	1.5	Yes
+BT0251	M	32	White	Non-Hispanic/Latino	OLIGODENDROGLIOMA GRADE 2	NA	2	mutated	IHC	co-deleted	NA	PRE	Available	Available	Available	Available	Philips	Achieva	1.5	Yes
+BT0252	M	31	White	Non-Hispanic/Latino	OLIGOASTROCYTOMA GRADE 2	NA	2	mutated	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Siemens	Verio	3	Yes
+BT0254	F	32	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	Yes
+BT0255	F	56	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	SIGNA HDe	1.5	Yes
+BT0258	F	73	Not Reported	Not Reported	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Philips	Ingenia	1.5	Yes
+BT0261	F	35	White	Non-Hispanic/Latino	"ASTROCYTOMA, INFILTRATING"	NA	3	mutated	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	Yes
+BT0262	F	62	White	Non-Hispanic/Latino	"ASTROCYTOMA, ANAPLASTIC"	NA	3	wild type	NGS	NA	NA	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	No
+BT0268	M	75	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Philips	Ingenia	3	No
+BT0269	F	31	White	Non-Hispanic/Latino	OLIGOASTROCYTOMA GRADE 2	NA	2	mutated	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Avanto	1.5	Yes
+BT0270	F	35	White	Non-Hispanic/Latino	OLIGOASTROCYTOMA GRADE 2	NA	2	mutated	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	GE	Optima MR450w	1.5	Yes
+BT0273	F	25	White	Non-Hispanic/Latino	"ASTROCYTOMA, DIFFUSE"	NA	2	mutated	NGS	NA	unmethylated	PRE	Available	Available	Available	Available	Philips	Achieva	3	Yes
+BT0275	F	51	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	Signa HDxt	3	Yes
+BT0276	M	63	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Philips	Ingenia	3	Yes
+BT0277	M	73	Not Reported	Not Reported	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	SIGNA EXCITE	3	Yes
+BT0280	F	63	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	SIGNA EXCITE	1.5	No
+BT0281	F	62	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	Optima MR450w	1.5	Yes
+BT0282	M	33	White	Non-Hispanic/Latino	OLIGOASTROCYTOMA GRADE 2	NA	2	mutated	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	Philips	Intera	1.5	Yes
+BT0283	M	43	White	Non-Hispanic/Latino	"ASTROCYTOMA, ANAPLASTIC"	NA	3	wild type	NGS	NA	NA	PRE	Available	Available	Available	Available	Siemens	Skyra	3	Yes
+BT0285	F	35	White	Non-Hispanic/Latino	OLIGODENDROGLIOMA GRADE 2	NA	2	mutated	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	Philips	Ingenia	3	Yes
+BT0287	F	72	White	Non-Hispanic/Latino	"ASTROCYTOMA, ANAPLASTIC"	NA	3	wild type	NGS	NA	NA	PRE	Available	Available	Available	Available	Siemens	TrioTim	3	Yes
+BT0288	M	67	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	NA	NA	NA	unmethylated	PRE	Available	Available	Available	Available	GE	GENESIS_SIGNA	1.5	Yes
+BT0289	F	55	Not Reported	Not Reported	OTHER	INFILTRATING GLIOMA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	Yes
+BT0291	M	58	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	No
+BT0292	F	68	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	SIGNA HDe	1.5	Yes
+BT0294	M	69	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	Yes
+BT0295	F	28	White	Non-Hispanic/Latino	OLIGOASTROCYTOMA GRADE 2	NA	2	mutated	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	Philips	Ingenia	3	Yes
+BT0296	M	68	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	NA	NA	PRE	Available	Available	Available	Available	Siemens	Symphony	1.5	Yes
+BT0299	F	33	White	Non-Hispanic/Latino	"ASTROCYTOMA, ANAPLASTIC"	NA	3	wild type	NGS	NA	NA	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	Yes
+BT0300	M	47	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	Yes
+BT0301	M	71	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	Philips	Ingenia	3	Yes
+BT0305	M	61	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Philips	Ingenia	3	No
+BT0306	M	71	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	SIGNA EXCITE	1.5	Yes
+BT0307	M	51	White	Non-Hispanic/Latino	"ASTROCYTOMA, INFILTRATING"	NA	2	mutated	IHC	NA	NA	PRE	Available	Available	Available	Available	Philips	Achieva	3	Yes
+BT0308	M	73	Not Reported	Not Reported	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Hitachi	Altaire	0.7	Yes
+BT0310	F	29	White	Non-Hispanic/Latino	OLIGODENDROGLIOMA GRADE 2	NA	2	mutated	IHC	co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	Yes
+BT0311	M	48	White	Non-Hispanic/Latino	OLIGOASTROCYTOMA GRADE 2	NA	2	mutated	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	Philips	Achieva	3	Yes
+BT0312	F	36	White	Non-Hispanic/Latino	"OLIGOASTROCYTOMA, ANAPLASTIC"	NA	3	mutated	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	Philips	Intera	1.5	Yes
+BT0315	M	52	Not Reported	Not Reported	"OLIGODENDROGLIOMA, ANAPLASTIC"	NA	3	mutated	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	Yes
+BT0318	F	50	White	Non-Hispanic/Latino	OTHER	HIGH GRADE ASTROCYTIC NEOPLASM	NA	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Philips	Achieva	1.5	Yes
+BT0319	F	61	White	Non-Hispanic/Latino	"OLIGODENDROGLIOMA, NOS"	NA	2	mutated	IHC	co-deleted	NA	PRE	Available	Available	Available	Available	Philips	Achieva	3	Yes
+BT0320	M	67	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Philips	Achieva	1.5	Yes
+BT0323	F	38	Not Reported	Not Reported	"ASTROCYTOMA, ANAPLASTIC"	NA	3	wild type	NGS	NA	NA	PRE	Available	Available	Available	Available	Hitachi	Altaire	0.7	Yes
+BT0324	M	28	White	Non-Hispanic/Latino	"OLIGOASTROCYTOMA, ANAPLASTIC"	NA	3	mutated	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	Yes
+BT0325	F	71	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Avanto	1.5	Yes
+BT0327	M	45	Not Reported	Not Reported	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Philips	Ingenia	3	Yes
+BT0330	F	58	Not Reported	Not Reported	GLIOBLASTOMA	NA	4	wild type	NGS	NA	NA	PRE	Available	Available	Available	Available	GE	SIGNA HDe	1.5	No
+BT0333	F	36	White	Non-Hispanic/Latino	OLIGOASTROCYTOMA GRADE 2	NA	2	mutated	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	Philips	Achieva	3	Yes
+BT0336	M	47	White	Non-Hispanic/Latino	"OLIGOASTROCYTOMA, ANAPLASTIC"	NA	3	mutated	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	GE	GENESIS_SIGNA	1.5	Yes
+BT0338	M	53	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Philips	Eclipse 1.5T	1.5	No
+BT0339	F	40	Not Reported	Not Reported	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	SIGNA EXCITE	1.5	Yes
+BT0342	M	62	White	Non-Hispanic/Latino	"ASTROCYTOMA, INFILTRATING"	NA	2	wild type	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	Philips	Achieva	3	Yes
+BT0345	F	27	White	Non-Hispanic/Latino	"OLIGOASTROCYTOMA, ANAPLASTIC"	NA	3	mutated	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	GE	Optima MR450w	1.5	Yes
+BT0347	M	36	White	Non-Hispanic/Latino	"GLIOMA, NOS"	NA	2	mutated	IHC	co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	No
+BT0348	F	63	Not Reported	Not Reported	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Philips	Ingenia	3	Yes
+BT0351	M	57	White	Non-Hispanic/Latino	OLIGOASTROCYTOMA GRADE 2	NA	2	wild type	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	Philips	Achieva	1.5	Yes
+BT0358	F	71	White	Non-Hispanic/Latino	"ASTROCYTOMA, INFILTRATING"	NA	3	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	SIGNA EXCITE	1.5	Yes
+BT0359	F	61	Not Reported	Not Reported	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	SIGNA EXCITE	3	No
+BT0360	M	64	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	GENESIS_SIGNA	1.5	Yes
+BT0361	F	46	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	Yes
+BT0363	F	53	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	Yes
+BT0364	F	70	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	Yes
+BT0365	F	62	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	Yes
+BT0367	M	51	White	Non-Hispanic/Latino	"OLIGODENDROGLIOMA, ANAPLASTIC"	NA	3	mutated	IHC	co-deleted	NA	PRE	Available	Available	Available	Available	Philips	Ingenia	3	Yes
+BT0368	F	65	White	Non-Hispanic/Latino	"ASTROCYTOMA, ANAPLASTIC"	NA	3	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	No
+BT0373	M	68	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Avanto	1.5	Yes
+BT0374	M	27	White	Non-Hispanic/Latino	"OLIGODENDROGLIOMA, ANAPLASTIC"	NA	3	mutated	IHC	co-deleted	NA	PRE	Available	Available	Available	Available	GE	GENESIS_SIGNA	1.5	Yes
+BT0376	F	53	White	Non-Hispanic/Latino	"ASTROCYTOMA, INFILTRATING"	NA	2	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	GENESIS_SIGNA	1.5	Yes
+BT0377	M	64	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Hitachi	Altaire	0.7	Yes
+BT0378	M	65	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Skyra	3	Yes
+BT0384	F	55	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Philips	Achieva	3	Yes
+BT0385	F	37	White	Non-Hispanic/Latino	OLIGOASTROCYTOMA GRADE 2	NA	2	mutated	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	No
+BT0387	M	62	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Philips	Ingenia	3	Yes
+BT0394	M	24	White	Non-Hispanic/Latino	"GLIOMA, HIGH-GRADE"	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	SIGNA EXCITE	1.5	Yes
+BT0397	M	48	White	Non-Hispanic/Latino	"OLIGODENDROGLIOMA, ANAPLASTIC"	NA	3	mutated	IHC	co-deleted	NA	PRE	Available	Available	Available	Available	Philips	Intera	1.5	Yes
+BT0398	M	66	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	Yes
+BT0399	F	53	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	mutated	IHC	NA	NA	PRE	Available	Available	Available	Available	Hitachi	AIRIS II	0.3	Yes
+BT0400	M	69	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Philips	Ingenia	1.5	Yes
+BT0405	F	67	Not Reported	Not Reported	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	SIGNA EXCITE	1.5	Yes
+BT0406	M	61	White	Non-Hispanic/Latino	"OLIGOASTROCYTOMA, ANAPLASTIC"	NA	3	mutated	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	Yes
+BT0407	F	34	White	Non-Hispanic/Latino	OLIGODENDROGLIOMA GRADE 2	NA	2	mutated	IHC	co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Symphony	1.5	Yes
+BT0408	F	76	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Verio	3	Yes
+BT0411	F	65	Not Reported	Not Reported	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	Yes
+BT0412	M	66	Not Reported	Not Reported	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	TrioTim	3	Yes
+BT0414	F	77	Not Reported	Not Reported	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	GENESIS_SIGNA	1.5	No
+BT0416	M	42	White	Non-Hispanic/Latino	"ASTROCYTOMA, ANAPLASTIC"	NA	3	mutated	IHC	NA	NA	PRE	Available	Available	Available	Available	Philips	Ingenia	1.5	Yes
+BT0421	M	67	Not Reported	Not Reported	"ASTROCYTOMA, INFILTRATING"	NA	3	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Philips	Achieva	1.5	Yes
+BT0422	M	68	Not Reported	Not Reported	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Philips	Ingenia	1.5	Yes
+BT0424	F	54	Not Reported	Not Reported	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	SymphonyTim	1.5	Yes
+BT0425	M	65	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Harmony	1	No
+BT0426	F	75	Not Reported	Not Reported	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	SymphonyTim	1.5	Yes
+BT0427	F	42	White	Non-Hispanic/Latino	OTHER	LOW GRADE INFILTRATING GLIOMA	2	mutated	NGS	co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Symphony	1.5	Yes
+BT0431	M	31	White	Non-Hispanic/Latino	OLIGODENDROGLIOMA GRADE 2	NA	2	mutated	IHC	co-deleted	NA	PRE	Available	Available	Available	Available	Philips	Intera	1.5	No
+BT0432	M	55	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Hitachi	Altaire	0.7	No
+BT0436	F	45	White	Non-Hispanic/Latino	"OLIGODENDROGLIOMA, ANAPLASTIC"	NA	3	mutated	IHC	co-deleted	NA	PRE	Available	Available	Available	Available	Philips	Achieva	3	Yes
+BT0438	F	43	White	Non-Hispanic/Latino	"OLIGODENDROGLIOMA, ANAPLASTIC"	NA	3	mutated	IHC	co-deleted	NA	PRE	Available	Available	Available	Available	Philips	Intera	1.5	No
+BT0444	M	66	Not Reported	Not Reported	"ASTROCYTOMA, ANAPLASTIC"	NA	3	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Harmony	0.94999999	No
+BT0448	F	73	Not Reported	Not Reported	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Philips	Intera	1.5	Yes
+BT0450	F	77	Not Reported	Not Reported	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	Signa HDxt	3	Yes
+BT0452	F	68	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	Optima MR450w	1.5	Yes
+BT0456	F	74	Not Reported	Not Reported	"ASTROCYTOMA, INFILTRATING"	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Symphony	1.5	Yes
+BT0460	M	26	White	Non-Hispanic/Latino	OLIGOASTROCYTOMA GRADE 2	NA	2	mutated	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	Yes
+BT0461	M	58	Not Reported	Not Reported	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Symphony	1.5	Yes
+BT0462	M	62	White	Non-Hispanic/Latino	"ASTROCYTOMA, ANAPLASTIC"	NA	3	mutated	NGS	NA	NA	PRE	Available	Available	Available	Available	Siemens	Skyra	3	Yes
+BT0463	M	42	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Philips	Gyroscan NT Intera	1.5	Yes
+BT0465	M	66	White	Non-Hispanic/Latino	"ASTROCYTOMA, INFILTRATING"	NA	3	wild type	NGS	NA	NA	PRE	Available	Available	Available	Available	Philips	Intera	1.5	Yes
+BT0466	M	58	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Verio	3	No
+BT0468	M	33	Not Reported	Not Reported	"OLIGOASTROCYTOMA, ANAPLASTIC"	NA	3	mutated	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Avanto	1.5	Yes
+BT0469	F	24	White	Non-Hispanic/Latino	"OLIGOASTROCYTOMA, ANAPLASTIC"	NA	3	mutated	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	Philips	Intera	1.5	No
+BT0472	M	42	White	Non-Hispanic/Latino	"OLIGOASTROCYTOMA, ANAPLASTIC"	NA	3	mutated	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	No
+BT0474	F	49	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	Signa HDxt	3	Yes
+BT0476	M	56	White	Non-Hispanic/Latino	"ASTROCYTOMA, ANAPLASTIC"	NA	3	mutated	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	TrioTim	3	No
+BT0479	M	50	Not Reported	Not Reported	"ASTROCYTOMA, ANAPLASTIC"	NA	3	wild type	NGS	NA	NA	PRE	Available	Available	Available	Available	Philips	Achieva	1.5	No
+BT0482	F	25	White	Non-Hispanic/Latino	OLIGOASTROCYTOMA GRADE 2	NA	2	mutated	IHC	NA	NA	PRE	Available	Available	Available	Available	Philips	Intera	1.5	Yes
+BT0484	M	32	White	Non-Hispanic/Latino	OLIGOASTROCYTOMA GRADE 2	NA	2	mutated	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	Hitachi	Altaire	0.7	No
+BT0486	M	51	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	Verio	3	Yes
+BT0488	M	58	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	NA	NA	PRE	Available	Available	Available	Available	Siemens	Symphony	1.5	Yes
+BT0489	M	35	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	mutated	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	SIGNA EXCITE	1.5	Yes
+BT0490	F	51	White	Non-Hispanic/Latino	"OLIGOASTROCYTOMA, ANAPLASTIC"	NA	3	mutated	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	Yes
+BT0491	F	32	White	Non-Hispanic/Latino	"ASTROCYTOMA, INFILTRATING"	NA	3	mutated	NGS	NA	NA	PRE	Available	Available	Available	Available	Philips	Intera	1	Yes
+BT0498	M	53	Not Reported	Not Reported	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	Yes
+BT0501	F	40	Not Reported	Not Reported	OLIGODENDROGLIOMA GRADE 2	NA	2	mutated	IHC	co-deleted	NA	PRE	Available	Available	Available	Available	GE	Signa HDxt	3	Yes
+BT0502	F	34	Not Reported	Not Reported	GLIOBLASTOMA	NA	4	mutated	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	Optima MR450w	1.5	No
+BT0507	M	45	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	Avanto	1.5	Yes
+BT0515	M	33	Not Reported	Not Reported	"OLIGOASTROCYTOMA, ANAPLASTIC"	NA	3	wild type	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	No
+BT0521	F	78	Not Reported	Not Reported	"ASTROCYTOMA, ANAPLASTIC"	NA	3	wild type	NGS	NA	NA	PRE	Available	Available	Available	Available	Philips	Achieva	3	No
+BT0525	F	70	Not Reported	Not Reported	OTHER	"High-grade glioneuronal neoplasm, not further classifiable. WHO grade III or IV"	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	SIGNA EXCITE	1.5	No
+BT0533	M	53	White	Non-Hispanic/Latino	OLIGODENDROGLIOMA GRADE 2	NA	2	mutated	IHC	co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Verio	3	Yes
+BT0537	M	54	Not Reported	Not Reported	"ASTROCYTOMA, INFILTRATING"	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	No
+BT0540	M	60	Not Reported	Not Reported	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Avanto	1.5	Yes
+BT0600	M	45	White	Non-Hispanic/Latino	"ASTROCYTOMA, ANAPLASTIC"	NA	3	wild type	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	TrioTim	3	Yes
+BT0602	F	65	White	Non-Hispanic/Latino	"OLIGODENDROGLIOMA, ANAPLASTIC"	NA	3	mutated	IHC	co-deleted	NA	PRE	Available	Available	Available	Available	Hitachi	OASIS	1.16	Yes
+BT0605	M	57	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	Yes
+BT0606	M	75	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Avanto_fit	1.5	Yes
+BT0607	M	62	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	methylated	PRE	Available	Available	Available	Available	GE	SIGNA EXCITE	1.5	Yes
+BT0610	F	55	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	methylated	PRE	Available	Available	Available	Available	Siemens	Prisma	3	Yes
+BT0611	F	63	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	Siemens	Prisma	3	No
+BT0612	F	30	White	Non-Hispanic/Latino	OLIGODENDROGLIOMA GRADE 2	NA	2	mutated	NGS	co-deleted	NA	PRE	Available	Available	Available	Available	Philips	Achieva	3	Yes
+BT0614	M	50	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Prisma	3	Yes
+BT0616	M	57	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	SIGNA Voyager	1.5	Yes
+BT0617	M	68	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	NA	unmethylated	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	Yes
+BT0618	M	68	Not Reported	Not Reported	GLIOBLASTOMA	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	Philips	Ingenia	3	No
+BT0619	M	65	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Prisma	3	Yes
+BT0621	M	40	White	Non-Hispanic/Latino	"OLIGODENDROGLIOMA, ANAPLASTIC"	NA	3	mutated	IHC	co-deleted	NA	PRE	Available	Available	Available	Available	Philips	Ingenia	1.5	No
+BT0622	F	25	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	Optima MR450w	1.5	Yes
+BT0623	M	30	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	mutated	IHC	NA	methylated	PRE	Available	Available	Available	Available	Siemens	Avanto_fit	1.5	Yes
+BT0624	F	73	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	GE	SIGNA EXCITE	1.5	Yes
+BT0625	M	74	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	SIGNA Architect	3	Yes
+BT0626	M	49	White	Non-Hispanic/Latino	"ASTROCYTOMA, ANAPLASTIC"	NA	3	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	Yes
+BT0629	M	63	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	GE	SIGNA Explorer	1.5	Yes
+BT0630	M	68	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Avanto_fit	1.5	Yes
+BT0631	F	53	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	methylated	PRE	Available	Available	Available	Available	Siemens	Symphony	1.5	Yes
+BT0632	M	72	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Philips	Ingenia	1.5	Yes
+BT0633	F	69	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	NA	methylated	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	No
+BT0635	M	53	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	methylated	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	Yes
+BT0636	F	52	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	Skyra	3	Yes
+BT0637	M	63	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	Yes
+BT0638	F	65	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	Yes
+BT0639	F	64	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	Not Reported	Not Reported	Not Reported	No
+BT0642	M	65	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	Yes
+BT0643	M	27	White	Non-Hispanic/Latino	"ASTROCYTOMA, ANAPLASTIC"	NA	3	mutated	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	GE	SIGNA Artist	1.5	Yes
+BT0645	F	49	White	Non-Hispanic/Latino	OLIGODENDROGLIOMA GRADE 2	NA	2	mutated	NGS	co-deleted	NA	PRE	Available	Available	Available	Available	GE	Signa HDxt	3	Yes
+BT0646	M	48	White	Non-Hispanic/Latino	"ASTROCYTOMA, ANAPLASTIC"	NA	3	mutated	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	TrioTim	3	Yes
+BT0647	F	73	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	GE	SIGNA EXCITE	1.5	Yes
+BT0649	M	47	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	Prisma	3	Yes
+BT0652	M	74	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Avanto	1.5	Yes
+BT0653	M	57	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	GE	SIGNA EXCITE	1.5	Yes
+BT0655	F	50	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	methylated	PRE	Available	Available	Available	Available	Siemens	Prisma	3	Yes
+BT0656	M	66	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Prisma	3	Yes
+BT0657	M	79	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Verio	3	Yes
+BT0660	F	33	White	Non-Hispanic/Latino	"ASTROCYTOMA, INFILTRATING"	NA	2	mutated	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	GE	SIGNA EXCITE	1.5	Yes
+BT0661	F	68	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Verio	3	Yes
+BT0663	M	39	White	Non-Hispanic/Latino	"OLIGODENDROGLIOMA, ANAPLASTIC"	NA	3	mutated	IHC	co-deleted	NA	PRE	Available	Available	Available	Available	GE	Optima MR450w	1.5	Yes
+BT0667	M	71	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	methylated	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	No
+BT0669	F	68	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	NA	unmethylated	PRE	Available	Available	Available	Available	GE	SIGNA EXCITE	1.5	Yes
+BT0670	F	43	White	Non-Hispanic/Latino	"ASTROCYTOMA, ANAPLASTIC"	NA	3	wild type	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	TrioTim	3	Yes
+BT0671	M	52	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	Verio	3	Yes
+BT0672	M	52	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	Symphony	1.5	Yes
+BT0675	M	70	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	Symphony	1.5	Yes
+BT0676	F	77	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	No
+BT0678	F	19	White	Non-Hispanic/Latino	"ASTROCYTOMA, HIGH-GRADE"	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	Optima MR450w	1.5	Yes
+BT0679	M	28	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	Hitachi	OASIS	1.16	Yes
+BT0680	M	23	White	Non-Hispanic/Latino	OLIGODENDROGLIOMA GRADE 2	NA	2	mutated	NGS	co-deleted	NA	PRE	Available	Available	Available	Available	GE	SIGNA EXCITE	1.5	Yes
+BT0681	M	47	White	Non-Hispanic/Latino	DIFFUSE MIDLINE GLIOMA	NA	4	wild type	NGS	NA	NA	PRE	Available	Available	Available	Available	Siemens	Prisma	3	Yes
+BT0686	M	65	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	GE	SIGNA Artist	1.5	Yes
+BT0687	F	29	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	mutated	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Philips	Ingenia	3	Yes
+BT0688	M	47	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	Siemens	Skyra	3	Yes
+BT0690	M	76	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	Yes
+BT0692	F	28	Not Reported	Not Reported	GLIOBLASTOMA	NA	4	mutated	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Verio	3	No
+BT0694	M	57	White	Non-Hispanic/Latino	OLIGODENDROGLIOMA GRADE 2	NA	2	mutated	IHC	co-deleted	methylated	PRE	Available	Available	Available	Available	Philips	Ingenia	3	Yes
+BT0695	F	41	White	Non-Hispanic/Latino	"ASTROCYTOMA, INFILTRATING"	NA	2	mutated	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	Yes
+BT0697	F	37	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	mutated	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	GE	GENESIS_SIGNA	1.5	No
+BT0700	M	51	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	No
+BT0704	F	64	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	Yes
+BT0707	F	71	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	Yes
+BT0709	F	48	White	Non-Hispanic/Latino	"ASTROCYTOMA, DIFFUSE"	NA	2	mutated	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Philips	Ingenia	3	Yes
+BT0712	M	29	White	Non-Hispanic/Latino	"ASTROCYTOMA, ANAPLASTIC"	NA	3	mutated	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	Skyra	3	Yes
+BT0713	M	42	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	mutated	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	Yes
+BT0716	F	71	White	Non-Hispanic/Latino	"ASTROCYTOMA, HIGH-GRADE"	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	Siemens	Avanto_DOT	1.5	Yes
+BT0717	F	83	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Prisma	3	No
+BT0719	M	73	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Philips	Achieva	1.5	Yes
+BT0721	F	69	White	Non-Hispanic/Latino	OLIGODENDROGLIOMA GRADE 2	NA	2	mutated	IHC	co-deleted	NA	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	No
+BT0722	M	59	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	methylated	PRE	Available	Available	Available	Available	Siemens	Skyra	3	No
+BT0725	F	53	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Philips	Ingenia	1.5	Yes
+BT0726	F	66	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	GE	DISCOVERY MR750w	3	Yes
+BT0728	M	75	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	GE	SIGNA Architect	3	Yes
+BT0729	M	67	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	Yes
+BT0732	M	70	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Philips	Ingenia	1.5	Yes
+BT0733	F	73	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	Yes
+BT0734	M	72	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	GE	SIGNA Artist	1.5	Yes
+BT0735	F	24	White	Non-Hispanic/Latino	OLIGODENDROGLIOMA GRADE 2	NA	2	mutated	IHC	co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	Yes
+BT0737	F	67	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	methylated	PRE	Available	Available	Available	Available	Siemens	Skyra	3	Yes
+BT0738	M	64	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Philips	Ingenia	3	Yes
+BT0740	M	46	Not Reported	Not Reported	GLIOBLASTOMA	NA	4	wild type	NGS	NA	unmethylated	PRE	Available	Available	Available	Available	Siemens	Verio	3	Yes
+BT0741	M	57	Not Reported	Not Reported	"ASTROCYTOMA, HIGH-GRADE"	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	Yes
+BT0742	F	77	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	Yes
+BT0743	F	37	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	mutated	NGS	NA	unmethylated	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	Yes
+BT0747	M	51	White	Non-Hispanic/Latino	OTHER	PLEOMORPHIC XANTHOASTROCYTOMA	2	wild type	NGS	NA	NA	PRE	Available	Available	Available	Available	GE	SIGNA Artist	1.5	Yes
+BT0748	F	63	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	Yes
+BT0749	F	41	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	mutated	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	Yes
+BT0750	M	47	White	Non-Hispanic/Latino	OLIGODENDROGLIOMA GRADE 2	NA	2	mutated	IHC	co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Skyra	3	Yes
+BT0751	M	57	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	Siemens	Prisma	3	Yes
+BT0752	M	24	White	Non-Hispanic/Latino	"ASTROCYTOMA, INFILTRATING"	NA	2	mutated	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	GE	GENESIS_SIGNA	1.5	Yes
+BT0753	M	22	White	Non-Hispanic/Latino	OLIGODENDROGLIOMA GRADE 2	NA	2	mutated	IHC	co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	Yes
+BT0754	M	69	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Philips	Ingenia	1.5	Yes
+BT0756	M	72	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	Yes
+BT0757	M	48	White	Non-Hispanic/Latino	"ASTROCYTOMA, INFILTRATING"	NA	2	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	SIGNA Explorer	1.5	Yes
+BT0759	F	65	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	Siemens	SymphonyTim	1.5	Yes
+BT0762	M	82	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Philips	Ingenia	3	Yes
+BT0764	M	57	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	methylated	PRE	Available	Available	Available	Available	Philips	Achieva	1.5	Yes
+BT0765	F	65	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	TrioTim	3	Yes
+BT0766	F	55	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	Yes
+BT0767	M	71	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	GE	Optima MR450w	1.5	Yes
+BT0768	M	62	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	NA	unmethylated	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	Yes
+BT0769	M	63	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	methylated	PRE	Available	Available	Available	Available	Philips	Achieva	1.5	Yes
+BT0770	F	38	White	Non-Hispanic/Latino	"ASTROCYTOMA, DIFFUSE"	NA	2	mutated	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	Yes
+BT0772	F	80	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Philips	Ingenia	3	Yes
+BT0773	M	72	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	Yes
+BT0777	M	44	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	GE	SIGNA Artist	1.5	Yes
+BT0781	F	54	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	Yes
+BT0782	M	71	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	Yes
+BT0783	M	67	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	Skyra	3	Yes
+BT0784	F	67	White	Non-Hispanic/Latino	OLIGODENDROGLIOMA GRADE 2	NA	2	mutated	IHC	co-deleted	NA	PRE	Available	Available	Available	Available	Philips	Achieva	1.5	Yes
+BT0785	M	65	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	methylated	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	Yes
+BT0786	F	56	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	GE	SIGNA Architect	3	Yes
+BT0787	M	39	White	Non-Hispanic/Latino	DIFFUSE MIDLINE GLIOMA	NA	4	wild type	NGS	NA	unmethylated	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	Yes
+BT0788	M	38	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	NA	unmethylated	PRE	Available	Available	Available	Available	Siemens	Skyra	3	Yes
+BT0790	M	58	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	Siemens	Symphony	1.5	Yes
+BT0791	M	61	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	3	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Philips	Achieva	1.5	Yes
+BT0793	F	46	White	Non-Hispanic/Latino	"ASTROCYTOMA, HIGH-GRADE"	NA	3	wild type	NGS	non co-deleted	methylated	PRE	Available	Available	Available	Available	Philips	Intera	1.5	Yes
+BT0794	M	51	White	Non-Hispanic/Latino	OLIGODENDROGLIOMA GRADE 2	NA	2	mutated	IHC	co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	Yes
+BT0796	F	54	White	Non-Hispanic/Latino	OLIGODENDROGLIOMA GRADE 2	NA	2	mutated	IHC	co-deleted	NA	PRE	Available	Available	Available	Available	GE	Optima MR450w	1.5	Yes
+BT0801	F	53	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	NA	methylated	PRE	Available	Available	Available	Available	GE	SIGNA Explorer	1.5	No
+BT0802	M	32	White	Non-Hispanic/Latino	"ASTROCYTOMA, ANAPLASTIC"	NA	3	mutated	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	Yes
+BT0804	M	70	White	Non-Hispanic/Latino	"ASTROCYTOMA, HIGH-GRADE"	NA	3	wild type	NGS	NA	unmethylated	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	Yes
+BT0805	M	59	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Philips	Ingenia	1.5	Yes
+BT0807	F	50	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	NA	NA	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	No
+BT0809	M	33	White	Non-Hispanic/Latino	"ASTROCYTOMA, ANAPLASTIC"	NA	3	wild type	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Philips	Achieva	1.5	Yes
+BT0812	M	51	White	Non-Hispanic/Latino	"ASTROCYTOMA, DIFFUSE"	NA	2	mutated	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Skyra	3	Yes
+BT0815	M	35	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Siemens	TrioTim	3	No
+BT0817	F	73	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	NA	methylated	PRE	Available	Available	Available	Available	GE	SIGNA Architect	3	Yes
+BT0818	F	61	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	methylated	PRE	Available	Available	Available	Available	GE	DISCOVERY MR750w	3	Yes
+BT0820	F	60	White	Non-Hispanic/Latino	DIFFUSE MIDLINE GLIOMA	NA	4	wild type	NGS	NA	NA	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	Yes
+BT0823	M	80	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	methylated	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	Yes
+BT0828	F	71	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Siemens	Verio_DOT	3	Yes
+BT0829	M	42	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	mutated	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Siemens	Skyra	3	No
+BT0830	F	38	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Siemens	Prisma	3	Yes
+BT0833	F	75	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	Yes
+BT0835	F	77	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	Yes
+BT0836	M	52	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	NA	unmethylated	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	Yes
+BT0837	F	72	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	Philips	Ingenia	1.5	Yes
+BT0840	M	74	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	GE	SIGNA EXCITE	1.5	Yes
+BT0841	M	49	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	methylated	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	No
+BT0842	M	57	White	Non-Hispanic/Latino	"ASTROCYTOMA, HIGH-GRADE"	NA	4	wild type	NGS	NA	methylated	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	Yes
+BT0843	M	67	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	methylated	PRE	Available	Available	Available	Available	GE	DISCOVERY MR750w	3	Yes
+BT0847	F	73	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	methylated	PRE	Available	Available	Available	Available	Philips	Ingenia	3	Yes
+BT0848	M	52	White	Non-Hispanic/Latino	OLIGODENDROGLIOMA GRADE 2	NA	2	mutated	IHC	co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	Yes
+BT0900	M	73	Not Reported	Not Reported	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	No
+BT0904	F	63	Not Reported	Not Reported	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	methylated	PRE	Available	Available	Available	Available	GE	Optima MR450w	1.5	No
+BT0905	M	64	Black or African American	Non-Hispanic/Latino	"ASTROCYTOMA, HIGH-GRADE"	NA	3	mutated	IHC	NA	NA	PRE	Available	Available	Available	Available	Philips	Ingenia	3	No
+BT0907	F	78	Not Reported	Hispanic or latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	methylated	PRE	Available	Available	Available	Available	Siemens	MAGNETOM Sola	1.5	No
+BT0908	M	67	Black or African American	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	No
+BT0912	M	57	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	Philips	Achieva	1.5	No
+BT0914	M	66	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	GE	DISCOVERY MR750w	3	No
+BT0915	M	47	White	Non-Hispanic/Latino	OLIGODENDROGLIOMA GRADE 2	NA	2	mutated	IHC	co-deleted	NA	PRE	Available	Available	Available	Available	GE	GENESIS_SIGNA	1.5	No
+BT0917	F	81	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	No
+BT0919	M	78	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Philips	Achieva	3	No
+BT0925	M	76	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	GE	SIGNA Architect	3	No
+BT0926	M	35	Not Reported	Not Reported	OTHER	LOW GRADE ASTROCYTIC NEOPLASM	2	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Philips	Achieva	3	No
+BT0928	M	22	White	Non-Hispanic/Latino	"ASTROCYTOMA, NOS"	NA	2	mutated	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	No
+BT0929	F	62	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	methylated	PRE	Available	Available	Available	Available	Siemens	Skyra	3	No
+BT0930	F	31	Not Reported	Not Reported	"ASTROCYTOMA, INFILTRATING"	NA	2	mutated	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	No
+BT0931	M	64	Not Reported	Not Reported	"OLIGODENDROGLIOMA, ANAPLASTIC"	NA	3	mutated	NGS	co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	No
+BT0932	M	51	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	No
+BT0944	M	58	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	Avanto_fit	1.5	No
+BT0945	F	66	Not Reported	Not Reported	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	No
+BT0947	M	69	Black or African American	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Philips	Ingenia	3	No
+BT0948	F	78	Not Reported	Not Reported	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	GE	DISCOVERY MR750w	3	No
+BT0950	M	41	White	Non-Hispanic/Latino	"ASTROCYTOMA, HIGH-GRADE"	NA	3	mutated	NGS	non co-deleted	methylated	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	No
+BT0951	M	59	White	Non-Hispanic/Latino	"OLIGODENDROGLIOMA, NOS"	NA	2	mutated	NGS	co-deleted	NA	PRE	Available	Available	Available	Available	GE	Signa HDxt	3	No
+BT0953	F	28	White	Non-Hispanic/Latino	"ASTROCYTOMA, NOS"	NA	4	mutated	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	Philips	Ingenia	3	No
+BT0955	M	37	American Indian/Alaska Native	Non-Hispanic/Latino	"ASTROCYTOMA, INFILTRATING"	NA	2	mutated	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	Philips	Ingenia	1.5	No
+BT0957	M	62	Not Reported	Not Reported	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	No
+BT0958	F	30	Asian	Non-Hispanic/Latino	"OLIGODENDROGLIOMA, ANAPLASTIC"	NA	3	mutated	IHC	co-deleted	NA	PRE	Available	Available	Available	Available	Philips	Ingenia	1.5	No
+BT0959	M	70	Not Reported	Not Reported	GLIOBLASTOMA	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	Siemens	Avanto_fit	1.5	No
+BT0960	F	46	Not Reported	Hispanic or Latino	OLIGODENDROGLIOMA GRADE 2	NA	2	mutated	NGS	co-deleted	NA	PRE	Available	Available	Available	Available	Hitachi	OASIS	1.16	No
+BT0961	M	41	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	mutated	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	No
+BT0962	M	54	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Philips	Ingenia	3	No
+BT0964	F	57	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	Philips	Ingenia	3	No
+BT0965	M	36	White	Non-Hispanic/Latino	"ASTROCYTOMA, NOS"	NA	3	mutated	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	Philips	Ingenia Ambition X	1.5	No
+BT0969	M	45	Asian	Non-Hispanic/Latino	"ASTROCYTOMA, INFILTRATING"	NA	2	mutated	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	Philips	Ingenia	3	No
+BT0970	M	54	White	Hispanic or latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	No
+BT0971	F	30	White	Non-Hispanic/Latino	OLIGODENDROGLIOMA GRADE 2	NA	2	mutated	NGS	co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	No
+BT0972	F	69	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	methylated	PRE	Available	Available	Available	Available	GE	DISCOVERY MR750w	3	No
+BT1000	M	54	White	Non-Hispanic/Latino	"ASTROCYTOMA, INFILTRATING"	NA	2	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Avanto_fit	1.5	No
+BT1001	F	49	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	GE	SIGNA EXCITE	1.5	No
+BT1006	M	46	Not Reported	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	Philips	Achieva	1.5	No
+BT1009	F	78	White	Non-Hispanic/Latino	"ASTROCYTOMA, INFILTRATING"	NA	2	wild type	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	No
+BT1010	M	42	White	Non-Hispanic/Latino	"INFILTRATING GLIOMA, HIGH-GRADE"	NA	2	mutated	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	SIGNA Voyager	1.5	No
+BT1011	F	25	White	Non-Hispanic/Latino	"ASTROCYTOMA, NOS"	NA	3	mutated	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	No
+BT1012	F	21	White	Non-Hispanic/Latino	"ASTROCYTOMA, INFILTRATING"	NA	2	mutated	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	Not Reported	Not Reported	Not Reported	No
+BT1015	M	60	White	Not Reported	"ASTROCYTOMA, NOS"	NA	2	mutated	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	GE	SIGNA Artist	1.5	No
+BT1016	F	32	White	Non-Hispanic/Latino	OTHER	astrocytic neoplasm	NA	wild type	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	No
+BT1017	M	66	Black or African American	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	Prisma	3	No
+BT1018	F	34	Black or African American	Non-Hispanic/Latino	"ASTROCYTOMA, NOS"	NA	2	mutated	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	Philips	Ingenia	1.5	No
+BT1019	F	33	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Philips	Ingenia	3	No
+BT1020	M	40	White	Non-Hispanic/Latino	"ASTROCYTOMA, NOS"	NA	2	mutated	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	Signa	1.5	No
+BT1021	F	46	White	Not Reported	"ASTROCYTOMA, NOS"	NA	4	mutated	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Symphony	1.5	No
+BT1023	M	30	White	Non-Hispanic/Latino	"ASTROCYTOMA, ANAPLASTIC"	NA	3	mutated	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Verio	3	No
+BT1025	M	66	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	Philips	Intera	1.5	No
+BT1026	M	66	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Prisma	3	No
+BT1027	F	63	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Philips	Achieva	3	No
+BT1028	F	64	American Indian/Alaska Native	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Prisma	3	No
+BT1029	M	75	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Siemens	Skyra	3	No
+BT1032	F	85	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	methylated	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	No
+BT1033	M	80	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Philips	Ingenia	1.5	No
+BT1034	M	69	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	No
+BT1035	M	55	Black or African American	Non-Hispanic/Latino	OTHER	"INFILTRATING ASTROCYTOMA, PROBABLY GLIOBLASTOMA"	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Siemens	Verio	3	No
+BT1036	M	52	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	Siemens	Skyra	3	No
+BT1037	M	67	Black or African American	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	No
+BT1038	M	56	White	Non-Hispanic/Latino	"ASTROCYTOMA, INFILTRATING"	NA	4	wild type	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	No
+BT1039	F	73	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Philips	Ingenia	3	No
+BT1041	M	65	White	Non-Hispanic/Latino	"ASTROCYTOMA, HIGH-GRADE"	NA	4	wild type	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	No
+BT1042	M	55	White	Hispanic or Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	No
+BT1046	M	66	White	Non-Hispanic/Latino	"ASTROCYTOMA, HIGH-GRADE"	NA	NA	wild type	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	Hitachi	ECHELON_OVAL	1.5	No
+BT1048	F	74	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	GE	Optima MR450w	1.5	No
+BT1050	F	40	White	Non-Hispanic/Latino	OLIGODENDROGLIOMA GRADE 2	NA	2	mutated	NGS	co-deleted	NA	PRE	Available	Available	Available	Available	GE	Optima MR450w	1.5	No
+BT1051	F	34	White	Hispanic or Latino	OLIGODENDROGLIOMA GRADE 2	NA	2	mutated	NGS	co-deleted	NA	PRE	Available	Available	Available	Available	GE	SIGNA Explorer	1.5	No
+BT1053	F	32	White	Non-Hispanic/Latino	OLIGODENDROGLIOMA GRADE 2	NA	2	mutated	NGS	co-deleted	NA	PRE	Available	Available	Available	Available	GE	GENESIS_SIGNA	1.5	No
+BT1054	F	38	Black or African American	Non-Hispanic/Latino	OLIGODENDROGLIOMA GRADE 2	NA	2	mutated	IHC	co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	MAGNETOM Sola	1.5	No
+BT1056	M	31	White	Non-Hispanic/Latino	"OLIGODENDROGLIOMA, NOS"	NA	3	mutated	IHC	co-deleted	NA	PRE	Available	Available	Available	Available	GE	SIGNA Architect	3	No
+BT1058	M	49	White	Non-Hispanic/Latino	"OLIGODENDROGLIOMA, NOS"	NA	3	mutated	NGS	co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Symphony	1.5	No
+BT1060	F	42	White	Non-Hispanic/Latino	"OLIGODENDROGLIOMA, NOS"	NA	3	mutated	NGS	co-deleted	NA	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	No
+BT1067	M	34	White	Non-Hispanic/Latino	"ASTROCYTOMA, HIGH-GRADE"	NA	2	mutated	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	GE	SIGNA Artist	1.5	No
+BT1068	F	60	White	Non-Hispanic/Latino	"GLIOMA, HIGH-GRADE"	NA	NA	wild type	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	Philips	Ingenia	3	No
+BT1070	M	53	White	Non-Hispanic/Latino	"GLIOMA, HIGH-GRADE"	NA	4	wild type	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	GE	Optima MR450w	1.5	No
+BT1071	F	46	White	Non-Hispanic/Latino	"ASTROCYTOMA, NOS"	NA	2	mutated	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	No
+BT1072	M	38	Black or African American	Non-Hispanic/Latino	"ASTROCYTOMA, NOS"	NA	2	mutated	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	No
+BT1073	M	38	Not Reported	Non-Hispanic/Latino	"ASTROCYTOMA, NOS"	NA	2	mutated	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	Philips	Achieva	3	No
+BT1076	M	63	Black or African American	Non-Hispanic/Latino	"ASTROCYTOMA, NOS"	NA	2	wild type	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	No
+BT1079	M	61	White	Non-Hispanic/Latino	"GLIOMA, HIGH-GRADE"	NA	3	wild type	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Philips	Ingenia	1.5	No
+BT1080	F	33	White	Non-Hispanic/Latino	DIFFUSE MIDLINE GLIOMA	NA	4	wild type	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	No
+BT1081	F	19	White	Non-Hispanic/Latino	DIFFUSE MIDLINE GLIOMA	NA	4	wild type	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	GE	Optima MR450w	1.5	No
+BT1082	F	68	Not Reported	Hispanic or Latino	"GLIOMA, NOS"	NA	4	wild type	NGS	NA	NA	PRE	Available	Available	Available	Available	Hitachi	ECHELON_OVAL	1.5	No
+BT1083	M	77	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	Skyra	3	No
+BT1084	M	58	Not Reported	Non-Hispanic/Latino	"ASTROCYTOMA, NOS"	NA	4	mutated	IHC	NA	methylated	PRE	Available	Available	Available	Available	Philips	Ingenia	1.5	No
+BT1085	M	55	White	Non-Hispanic/Latino	"ASTROCYTOMA, HIGH-GRADE"	NA	4	wild type	NGS	non co-deleted	methylated	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	No
+BT1086	M	57	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	GE	SIGNA Artist	1.5	No
+BT1087	F	71	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	GE	DISCOVERY MR750w	3	No
+BT1088	M	70	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	Skyra	3	No
+BT1090	M	65	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	GE	SIGNA Architect	3	No
+BT1091	M	72	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	Avanto_DOT	1.5	No
+BT1092	M	65	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Philips	Ingenia	3	No
+BT1094	F	69	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Siemens	Skyra	3	No
+BT1095	M	72	Not Reported	Not Reported	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Philips	Intera	1.5	No
+BT1096	M	51	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	MAGNETOM Vida	3	No
+BT1098	F	60	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	GE	SIGNA Architect	3	No
+BT1099	M	66	White	Hispanic or Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	GE	DISCOVERY MR750	3	No
+BT1100	M	77	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	No
+BT1102	M	75	Black or African American	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Philips	Ingenia	1.5	No
+BT1103	F	77	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	No
+BT1104	M	65	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	MAGNETOM Vida	3	No
+BT1105	M	57	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	No
+BT1106	M	44	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Philips	Ingenia	3	No
+BT1107	F	62	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	Prisma	3	No
+BT1108	M	70	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Philips	Ingenia	3	No
+BT1109	M	72	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Philips	Ingenia	1.5	No
+BT1110	F	74	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	methylated	PRE	Available	Available	Available	Available	Hitachi	Altaire	0.7	No
+BT1112	F	66	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	GE	SIGNA Artist	1.5	No
+BT1113	M	70	Not Reported	Hispanic or Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	methylated	PRE	Available	Available	Available	Available	Philips	Ingenia	1.5	No
+BT1114	M	51	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	NA	unmethylated	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	No
+BT1115	M	78	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	No
+BT1116	M	64	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Siemens	Prisma	3	No
+BT1117	M	80	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	unmethylated	PRE	Available	Available	Available	Available	Philips	Ingenia	3	No
+BT1120	M	66	Black or African American	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	methylated	PRE	Available	Available	Available	Available	GE	Optima MR450w	1.5	No
+BT1121	M	73	Not Reported	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Philips	Ingenia	1.5	No
+BT1122	M	66	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	GE	SIGNA Explorer	1.5	No
+BT1123	F	45	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	Philips	Ingenia	3	No
+BT1124	F	83	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	Prisma	3	No
+BT1125	M	47	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	No
+BT1126	M	68	White	Hispanic or Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Philips	Ingenia	1.5	No
+BT1128	M	60	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	No
+BT1129	M	61	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	No
+BT1131	M	84	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	methylated	PRE	Available	Available	Available	Available	Siemens	Prisma	3	No
+BT1134	M	28	Not Reported	Not Reported	OTHER	HIGH-GRADE GLIONEURONAL NEOPLASM	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	GE	Signa	1.5	No
+BT1135	F	47	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	NA	unmethylated	PRE	Available	Available	Available	Available	GE	Optima MR450w	1.5	No
+BT1137	F	63	Not Reported	Not Reported	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	No
+BT1138	F	35	White	Non-Hispanic/Latino	OLIGOASTROCYTOMA	NA	2	mutated	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	GE	SIGNA EXCITE	1.5	No
+BT1139	M	41	White	Non-Hispanic/Latino	"ASTROCYTOMA, NOS"	NA	3	mutated	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Aera	1.5	No
+BT1140	M	32	White	Non-Hispanic/Latino	"ASTROCYTOMA, NOS"	NA	3	mutated	NGS	co-deleted	NA	PRE	Available	Available	Available	Available	Toshiba	Titan	1.5	No
+BT1141	M	26	White	Non-Hispanic/Latino	"ASTROCYTOMA, NOS"	NA	3	mutated	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	No
+BT1143	F	45	White	Non-Hispanic/Latino	"ASTROCYTOMA, NOS"	NA	2	mutated	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	GE	GENESIS_SIGNA	1.5	No
+BT1146	M	28	White	Non-Hispanic/Latino	"ASTROCYTOMA, NOS"	NA	4	mutated	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	Philips	Ingenia	3	No
+BT1147	M	43	White	Non-Hispanic/Latino	"ASTROCYTOMA, NOS"	NA	2	mutated	NGS	NA	NA	PRE	Available	Available	Available	Available	Philips	Achieva	3	No
+BT1148	M	71	White	Non-Hispanic/Latino	"ASTROCYTOMA, NOS"	NA	3	wild type	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	GE	SIGNA Architect	3	No
+BT1150	F	27	White	Non-Hispanic/Latino	"ASTROCYTOMA, NOS"	NA	3	mutated	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	No
+BT1151	M	28	Not Reported	Not Reported	OLIGOASTROCYTOMA GRADE 2	NA	2	mutated	IHC	non co-deleted	NA	PRE	Available	Available	Available	Available	Siemens	Avanto	1.5	No
+BT1201	F	43	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Philips	Ingenia	3	No
+BT1205	F	35	White	Non-Hispanic/Latino	"ASTROCYTOMA, NOS"	NA	2	wild type	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	Not Reported	Not Reported	Not Reported	No
+BT1207	M	71	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	No
+BT1208	M	55	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	NA	unmethylated	PRE	Available	Available	Available	Available	Siemens	MAGNETOM Sola	1.5	No
+BT1209	F	63	White	Non-Hispanic/Latino	"OLIGODENDROGLIOMA, NOS"	NA	3	mutated	NGS	co-deleted	NA	PRE	Available	Available	Available	Available	Not Reported	Not Reported	Not Reported	No
+BT1213	F	47	White	Non-Hispanic/Latino	"ASTROCYTOMA, NOS"	NA	3	mutated	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Not Reported	Not Reported	Not Reported	No
+BT1215	F	70	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Siemens	MAGNETOM Aera	1.5	No
+BT1216	F	71	White	Non-Hispanic/Latino	"GLIOMA, NOS"	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	GE	SIGNA Architect	3	No
+BT1223	F	73	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	No
+BT1226	F	36	Asian	Non-Hispanic/Latino	DIFFUSE MIDLINE GLIOMA	NA	4	wild type	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Philips	Ingenia	1.5	No
+BT1228	F	72	Not Reported	Hispanic or Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Not Reported	Not Reported	Not Reported	No
+BT1229	M	59	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	methylated	PRE	Available	Available	Available	Available	Siemens	MAGNETOM Vida	3	No
+BT1232	M	43	Black or African American	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Not Reported	Not Reported	Not Reported	No
+BT1233	M	67	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Philips	Achieva	1.5	No
+BT1234	M	53	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	methylated	PRE	Available	Available	Available	Available	Hitachi	OASIS	1.16	No
+BT1235	M	55	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	Avanto_fit	1.5	No
+BT1236	M	67	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Hitachi	OASIS	1.16	No
+BT1239	M	65	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Not Reported	Not Reported	Not Reported	No
+BT1240	M	71	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Philips	Ingenia	3	No
+BT1243	F	63	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	methylated	PRE	Available	Available	Available	Available	Not Reported	Not Reported	Not Reported	No
+BT1244	M	52	Asian	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	methylated	PRE	Available	Available	Available	Available	GE	Optima MR450w	1.5	No
+BT1245	M	66	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Philips	Ingenia	1.5	No
+BT1246	M	69	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	MAGNETOM Sola	1.5	No
+BT1247	M	45	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	methylated	PRE	Available	Available	Available	Available	Philips	Ingenia Elition X	3	No
+BT1249	M	70	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Siemens	Avanto_fit	1.5	No
+BT1250	M	72	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Not Reported	Not Reported	Not Reported	No
+BT1252	M	67	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	NA	PRE	Available	Available	Available	Available	Not Reported	Not Reported	Not Reported	No
+BT1253	F	68	White	Not Reported	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Not Reported	Not Reported	Not Reported	No
+BT1254	M	50	Asian	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	No
+BT1258	M	63	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Not Reported	Not Reported	Not Reported	No
+BT1259	M	61	White	Non-Hispanic/Latino	"GLIOMA, HIGH-GRADE"	NA	4	wild type	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Philips	Ingenia Ambition X	1.5	No
+BT1262	M	74	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Philips	Ingenia	1.5	No
+BT1263	M	76	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Siemens	Avanto_DOT	1.5	No
+BT1267	F	70	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Not Reported	Not Reported	Not Reported	No
+BT1268	F	68	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	Espree	1.5	No
+BT1269	M	75	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Philips	Ingenia	1.5	No
+BT1270	F	78	White	Hispanic or Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	methylated	PRE	Available	Available	Available	Available	Not Reported	Not Reported	Not Reported	No
+BT1271	F	65	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	NA	methylated	PRE	Available	Available	Available	Available	Not Reported	Not Reported	Not Reported	No
+BT1272	M	63	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Not Reported	Not Reported	Not Reported	No
+BT1273	M	72	Black or African American	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	methylated	PRE	Available	Available	Available	Available	Not Reported	Not Reported	Not Reported	No
+BT1274	M	62	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Not Reported	Not Reported	Not Reported	No
+BT1276	M	58	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	MAGNETOM Altea	1.5	No
+BT1277	F	76	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Philips	Ingenia	3	No
+BT1279	M	67	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Not Reported	Not Reported	Not Reported	No
+BT1280	M	68	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	IHC	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Not Reported	Not Reported	Not Reported	No
+BT1282	F	72	White	Non-Hispanic/Latino	GLIOBLASTOMA	NA	4	wild type	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	GE	Optima MR450w	1.5	No
+BT1283	M	52	White	Non-Hispanic/Latino	"ASTROCYTOMA, NOS"	NA	2	mutated	NGS	non co-deleted	methylated	PRE	Available	Available	Available	Available	Not Reported	Not Reported	Not Reported	No
+BT1284	F	27	White	Non-Hispanic/Latino	"ASTROCYTOMA, NOS"	NA	4	mutated	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	GE	Brivo MR355	1.5	No
+BT1285	M	57	White	Non-Hispanic/Latino	"ASTROCYTOMA, NOS"	NA	3	mutated	NGS	co-deleted	unmethylated	PRE	Available	Available	Available	Available	Not Reported	Not Reported	Not Reported	No
+BT1286	M	31	White	Non-Hispanic/Latino	"ASTROCYTOMA, NOS"	NA	3	mutated	NGS	non co-deleted	methylated	PRE	Available	Available	Available	Available	GE	Signa HDxt	1.5	No
+BT1288	F	53	Black or African American	Non-Hispanic/Latino	"ASTROCYTOMA, NOS"	NA	2	mutated	NGS	non co-deleted	NA	PRE	Available	Available	Available	Available	GE	SIGNA Artist	1.5	No
+BT1289	F	27	White	Non-Hispanic/Latino	"ASTROCYTOMA, NOS"	NA	4	mutated	NGS	non co-deleted	methylated	PRE	Available	Available	Available	Available	Not Reported	Not Reported	Not Reported	No
+BT1296	M	25	White	Non-Hispanic/Latino	"OLIGODENDROGLIOMA, NOS"	NA	3	mutated	NGS	co-deleted	methylated	PRE	Available	Available	Available	Available	Philips	Ingenia	1.5	No
+BT1297	M	43	White	Non-Hispanic/Latino	"ASTROCYTOMA, NOS"	NA	4	mutated	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Siemens	Verio_DOT	3	No
+BT1298	F	27	White	Non-Hispanic/Latino	"OLIGODENDROGLIOMA, NOS"	NA	3	mutated	NGS	co-deleted	NA	PRE	Available	Available	Available	Available	Philips	Ingenia	3	No
+BT1300	M	59	White	Non-Hispanic/Latino	OLIGODENDROGLIOMA GRADE 2	NA	2	mutated	NGS	co-deleted	NA	PRE	Available	Available	Available	Available	Not Reported	Not Reported	Not Reported	No
+BT1301	F	20	White	Non-Hispanic/Latino	OLIGODENDROGLIOMA GRADE 2	NA	2	mutated	IHC	co-deleted	NA	PRE	Available	Available	Available	Available	Not Reported	Not Reported	Not Reported	No
+BT1303	F	42	White	Non-Hispanic/Latino	OLIGODENDROGLIOMA GRADE 2	NA	2	mutated	NGS	co-deleted	NA	PRE	Available	Available	Available	Available	GE	SIGNA Artist	1.5	No
+BT1311	M	50	White	Hispanic or Latino	"GLIOMA, HIGH-GRADE"	NA	4	wild type	NGS	non co-deleted	unmethylated	PRE	Available	Available	Available	Available	Not Reported	Not Reported	Not Reported	No
+BT1312	M	62	White	Non-Hispanic/Latino	"GLIOMA, HIGH-GRADE"	NA	NA	wild type	NGS	non co-deleted	methylated	PRE	Available	Available	Available	Available	Not Reported	Not Reported	Not Reported	No
