@@ -5,7 +5,7 @@
 - **UTSW Glioma dataset** (~622 subjects)
 - **TCGA-LGG + TCGA-GBM**
 - **UCSF-PDGM**
-Used together to test cross-site generalization rather than just single-site accuracy. See DATASETS/ for loading/splits.
+- Used together to test cross-site generalization rather than just single-site accuracy. See DATASETS/ for details.
 
 ## Approach
  
@@ -15,7 +15,7 @@ Used together to test cross-site generalization rather than just single-site acc
   - Non-local self-attention blocks
   - A modality-dropout curriculum during training (randomly withholding modalities so the model doesn't over-rely on any one)
   - Continual learning via Elastic Weight Consolidation (EWC), tested in `CONTINUAL LEARNING/`
-  - 
+  
 ## Status
 Actively in progress.
 
