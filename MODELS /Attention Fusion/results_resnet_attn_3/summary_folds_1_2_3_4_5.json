@@ -1,0 +1,41 @@
+{
+  "Attention_Fusion_ResNet": {
+    "All_4": {
+      "mean": 0.825,
+      "std": 0.0266
+    },
+    "T1CE_missing": {
+      "mean": 0.8162,
+      "std": 0.0355
+    },
+    "FLAIR_missing": {
+      "mean": 0.7578,
+      "std": 0.0214
+    },
+    "T2_missing": {
+      "mean": 0.8188,
+      "std": 0.0146
+    },
+    "T1_T2_only": {
+      "mean": 0.7312,
+      "std": 0.0441
+    },
+    "T1_only": {
+      "mean": 0.6164,
+      "std": 0.0352
+    }
+  },
+  "run_folds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "active_modalities": [
+    "T1",
+    "T1CE",
+    "T2",
+    "FLAIR"
+  ]
+}

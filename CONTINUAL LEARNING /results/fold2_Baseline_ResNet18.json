@@ -1,0 +1,7566 @@
+{
+  "fold": 2,
+  "model": "Baseline_ResNet18",
+  "train_subjects": [
+    "BT0001",
+    "BT0002",
+    "BT0003",
+    "BT0007",
+    "BT0008",
+    "BT0009",
+    "BT0013",
+    "BT0015",
+    "BT0018",
+    "BT0019",
+    "BT0020",
+    "BT0021",
+    "BT0023",
+    "BT0024",
+    "BT0026",
+    "BT0029",
+    "BT0030",
+    "BT0033",
+    "BT0034",
+    "BT0035",
+    "BT0036",
+    "BT0042",
+    "BT0045",
+    "BT0048",
+    "BT0053",
+    "BT0061",
+    "BT0062",
+    "BT0063",
+    "BT0066",
+    "BT0068",
+    "BT0070",
+    "BT0075",
+    "BT0076",
+    "BT0078",
+    "BT0081",
+    "BT0083",
+    "BT0084",
+    "BT0087",
+    "BT0089",
+    "BT0090",
+    "BT0091",
+    "BT0095",
+    "BT0096",
+    "BT0099",
+    "BT0102",
+    "BT0103",
+    "BT0104",
+    "BT0108",
+    "BT0112",
+    "BT0113",
+    "BT0119",
+    "BT0122",
+    "BT0124",
+    "BT0126",
+    "BT0127",
+    "BT0128",
+    "BT0129",
+    "BT0130",
+    "BT0133",
+    "BT0137",
+    "BT0138",
+    "BT0139",
+    "BT0140",
+    "BT0141",
+    "BT0142",
+    "BT0143",
+    "BT0144",
+    "BT0145",
+    "BT0146",
+    "BT0147",
+    "BT0148",
+    "BT0149",
+    "BT0150",
+    "BT0152",
+    "BT0155",
+    "BT0156",
+    "BT0157",
+    "BT0159",
+    "BT0160",
+    "BT0162",
+    "BT0165",
+    "BT0166",
+    "BT0168",
+    "BT0169",
+    "BT0170",
+    "BT0172",
+    "BT0173",
+    "BT0179",
+    "BT0181",
+    "BT0182",
+    "BT0183",
+    "BT0184",
+    "BT0187",
+    "BT0190",
+    "BT0191",
+    "BT0193",
+    "BT0194",
+    "BT0196",
+    "BT0197",
+    "BT0199",
+    "BT0205",
+    "BT0206",
+    "BT0210",
+    "BT0212",
+    "BT0213",
+    "BT0216",
+    "BT0219",
+    "BT0220",
+    "BT0221",
+    "BT0222",
+    "BT0223",
+    "BT0224",
+    "BT0225",
+    "BT0233",
+    "BT0236",
+    "BT0237",
+    "BT0240",
+    "BT0242",
+    "BT0244",
+    "BT0246",
+    "BT0250",
+    "BT0251",
+    "BT0252",
+    "BT0254",
+    "BT0255",
+    "BT0262",
+    "BT0268",
+    "BT0269",
+    "BT0270",
+    "BT0273",
+    "BT0275",
+    "BT0276",
+    "BT0277",
+    "BT0281",
+    "BT0283",
+    "BT0285",
+    "BT0287",
+    "BT0289",
+    "BT0291",
+    "BT0292",
+    "BT0295",
+    "BT0296",
+    "BT0300",
+    "BT0301",
+    "BT0305",
+    "BT0307",
+    "BT0310",
+    "BT0311",
+    "BT0312",
+    "BT0315",
+    "BT0318",
+    "BT0319",
+    "BT0320",
+    "BT0323",
+    "BT0324",
+    "BT0327",
+    "BT0330",
+    "BT0333",
+    "BT0336",
+    "BT0345",
+    "BT0348",
+    "BT0351",
+    "BT0358",
+    "BT0360",
+    "BT0361",
+    "BT0364",
+    "BT0365",
+    "BT0368",
+    "BT0373",
+    "BT0377",
+    "BT0384",
+    "BT0385",
+    "BT0398",
+    "BT0399",
+    "BT0400",
+    "BT0405",
+    "BT0406",
+    "BT0408",
+    "BT0411",
+    "BT0412",
+    "BT0414",
+    "BT0416",
+    "BT0421",
+    "BT0424",
+    "BT0425",
+    "BT0426",
+    "BT0427",
+    "BT0431",
+    "BT0432",
+    "BT0436",
+    "BT0438",
+    "BT0444",
+    "BT0448",
+    "BT0450",
+    "BT0452",
+    "BT0456",
+    "BT0461",
+    "BT0462",
+    "BT0465",
+    "BT0466",
+    "BT0469",
+    "BT0472",
+    "BT0474",
+    "BT0476",
+    "BT0479",
+    "BT0484",
+    "BT0486",
+    "BT0489",
+    "BT0490",
+    "BT0498",
+    "BT0501",
+    "BT0502",
+    "BT0507",
+    "BT0515",
+    "BT0521",
+    "BT0525",
+    "BT0533",
+    "BT0602",
+    "BT0605",
+    "BT0606",
+    "BT0607",
+    "BT0611",
+    "BT0612",
+    "BT0614",
+    "BT0616",
+    "BT0618",
+    "BT0619",
+    "BT0621",
+    "BT0622",
+    "BT0623",
+    "BT0624",
+    "BT0625",
+    "BT0626",
+    "BT0629",
+    "BT0630",
+    "BT0631",
+    "BT0633",
+    "BT0636",
+    "BT0638",
+    "BT0639",
+    "BT0642",
+    "BT0645",
+    "BT0649",
+    "BT0655",
+    "BT0656",
+    "BT0657",
+    "BT0663",
+    "BT0667",
+    "BT0669",
+    "BT0670",
+    "BT0671",
+    "BT0676",
+    "BT0678",
+    "BT0679",
+    "BT0680",
+    "BT0681",
+    "BT0686",
+    "BT0687",
+    "BT0688",
+    "BT0690",
+    "BT0692",
+    "BT0697",
+    "BT0700",
+    "BT0704",
+    "BT0707",
+    "BT0709",
+    "BT0712",
+    "BT0713",
+    "BT0716",
+    "BT0721",
+    "BT0722",
+    "BT0725",
+    "BT0726",
+    "BT0728",
+    "BT0729",
+    "BT0732",
+    "BT0733",
+    "BT0735",
+    "BT0737",
+    "BT0738",
+    "BT0740",
+    "BT0741",
+    "BT0742",
+    "BT0743",
+    "BT0747",
+    "BT0748",
+    "BT0750",
+    "BT0751",
+    "BT0752",
+    "BT0753",
+    "BT0754",
+    "BT0757",
+    "BT0759",
+    "BT0762",
+    "BT0764",
+    "BT0765",
+    "BT0766",
+    "BT0767",
+    "BT0768",
+    "BT0773",
+    "BT0777",
+    "BT0781",
+    "BT0785",
+    "BT0786",
+    "BT0787",
+    "BT0790",
+    "BT0793",
+    "BT0794",
+    "BT0796",
+    "BT0802",
+    "BT0804",
+    "BT0805",
+    "BT0807",
+    "BT0809",
+    "BT0812",
+    "BT0815",
+    "BT0817",
+    "BT0818",
+    "BT0820",
+    "BT0828",
+    "BT0829",
+    "BT0830",
+    "BT0833",
+    "BT0837",
+    "BT0840",
+    "BT0841",
+    "BT0843",
+    "BT0847",
+    "BT0848",
+    "BT0900",
+    "BT0904",
+    "BT0905",
+    "BT0908",
+    "BT0912",
+    "BT0914",
+    "BT0915",
+    "BT0917",
+    "BT0919",
+    "BT0925",
+    "BT0926",
+    "BT0928",
+    "BT0929",
+    "BT0930",
+    "BT0931",
+    "BT0932",
+    "BT0945",
+    "BT0947",
+    "BT0948",
+    "BT0950",
+    "BT0951",
+    "BT0953",
+    "BT0955",
+    "BT0958",
+    "BT0961",
+    "BT0962",
+    "BT0964",
+    "BT0965",
+    "BT0969",
+    "BT0970",
+    "BT0972",
+    "BT1000",
+    "BT1001",
+    "BT1006",
+    "BT1009",
+    "BT1011",
+    "BT1016",
+    "BT1017",
+    "BT1018",
+    "BT1019",
+    "BT1020",
+    "BT1021",
+    "BT1023",
+    "BT1025",
+    "BT1026",
+    "BT1027",
+    "BT1029",
+    "BT1033",
+    "BT1036",
+    "BT1037",
+    "BT1038",
+    "BT1039",
+    "BT1041",
+    "BT1046",
+    "BT1048",
+    "BT1050",
+    "BT1051",
+    "BT1053",
+    "BT1054",
+    "BT1056",
+    "BT1058",
+    "BT1060",
+    "BT1067",
+    "BT1068",
+    "BT1070",
+    "BT1071",
+    "BT1072",
+    "BT1073",
+    "BT1076",
+    "BT1079",
+    "BT1080",
+    "BT1081",
+    "BT1082",
+    "BT1083",
+    "BT1084",
+    "BT1085",
+    "BT1086",
+    "BT1087",
+    "BT1088",
+    "BT1090",
+    "BT1091",
+    "BT1092",
+    "BT1094",
+    "BT1095",
+    "BT1098",
+    "BT1099",
+    "BT1100",
+    "BT1102",
+    "BT1103",
+    "BT1105",
+    "BT1106",
+    "BT1107",
+    "BT1108",
+    "BT1109",
+    "BT1110",
+    "BT1112",
+    "BT1113",
+    "BT1114",
+    "BT1116",
+    "BT1117",
+    "BT1120",
+    "BT1121",
+    "BT1122",
+    "BT1123",
+    "BT1124",
+    "BT1125",
+    "BT1126",
+    "BT1128",
+    "BT1129",
+    "BT1134",
+    "BT1135",
+    "BT1138",
+    "BT1139",
+    "BT1140",
+    "BT1141",
+    "BT1143",
+    "BT1146",
+    "BT1147",
+    "BT1148",
+    "BT1150",
+    "BT1151",
+    "BT1201",
+    "BT1205",
+    "BT1207",
+    "BT1208",
+    "BT1213",
+    "BT1215",
+    "BT1216",
+    "BT1226",
+    "BT1228",
+    "BT1229",
+    "BT1233",
+    "BT1234",
+    "BT1235",
+    "BT1236",
+    "BT1239",
+    "BT1240",
+    "BT1243",
+    "BT1245",
+    "BT1246",
+    "BT1247",
+    "BT1249",
+    "BT1250",
+    "BT1252",
+    "BT1253",
+    "BT1254",
+    "BT1263",
+    "BT1268",
+    "BT1269",
+    "BT1270",
+    "BT1271",
+    "BT1273",
+    "BT1274",
+    "BT1276",
+    "BT1277",
+    "BT1280",
+    "BT1282",
+    "BT1283",
+    "BT1284",
+    "BT1286",
+    "BT1288",
+    "BT1289",
+    "BT1296",
+    "BT1297",
+    "BT1298",
+    "BT1300",
+    "BT1301",
+    "BT1311"
+  ],
+  "val_subjects": [
+    "BT0005",
+    "BT0011",
+    "BT0027",
+    "BT0041",
+    "BT0050",
+    "BT0055",
+    "BT0059",
+    "BT0060",
+    "BT0065",
+    "BT0079",
+    "BT0086",
+    "BT0101",
+    "BT0107",
+    "BT0115",
+    "BT0120",
+    "BT0136",
+    "BT0158",
+    "BT0188",
+    "BT0189",
+    "BT0204",
+    "BT0211",
+    "BT0226",
+    "BT0227",
+    "BT0228",
+    "BT0243",
+    "BT0248",
+    "BT0258",
+    "BT0261",
+    "BT0280",
+    "BT0282",
+    "BT0294",
+    "BT0299",
+    "BT0306",
+    "BT0308",
+    "BT0325",
+    "BT0338",
+    "BT0339",
+    "BT0342",
+    "BT0347",
+    "BT0359",
+    "BT0363",
+    "BT0367",
+    "BT0374",
+    "BT0376",
+    "BT0378",
+    "BT0387",
+    "BT0394",
+    "BT0397",
+    "BT0407",
+    "BT0422",
+    "BT0460",
+    "BT0463",
+    "BT0468",
+    "BT0482",
+    "BT0488",
+    "BT0491",
+    "BT0537",
+    "BT0540",
+    "BT0600",
+    "BT0610",
+    "BT0617",
+    "BT0632",
+    "BT0635",
+    "BT0637",
+    "BT0643",
+    "BT0646",
+    "BT0647",
+    "BT0652",
+    "BT0653",
+    "BT0660",
+    "BT0661",
+    "BT0672",
+    "BT0675",
+    "BT0694",
+    "BT0695",
+    "BT0717",
+    "BT0719",
+    "BT0734",
+    "BT0749",
+    "BT0756",
+    "BT0769",
+    "BT0770",
+    "BT0772",
+    "BT0782",
+    "BT0783",
+    "BT0784",
+    "BT0788",
+    "BT0791",
+    "BT0801",
+    "BT0823",
+    "BT0835",
+    "BT0836",
+    "BT0842",
+    "BT0907",
+    "BT0944",
+    "BT0957",
+    "BT0959",
+    "BT0960",
+    "BT0971",
+    "BT1010",
+    "BT1012",
+    "BT1015",
+    "BT1028",
+    "BT1032",
+    "BT1034",
+    "BT1035",
+    "BT1042",
+    "BT1096",
+    "BT1104",
+    "BT1115",
+    "BT1131",
+    "BT1137",
+    "BT1209",
+    "BT1223",
+    "BT1232",
+    "BT1244",
+    "BT1258",
+    "BT1259",
+    "BT1262",
+    "BT1267",
+    "BT1272",
+    "BT1279",
+    "BT1285",
+    "BT1303",
+    "BT1312"
+  ],
+  "train_labels": [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+  ],
+  "val_labels": [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+  ],
+  "best_auc": 0.8511235955056179,
+  "history": {
+    "train_loss": [
+      0.7931802499861944,
+      0.6576748774165199,
+      0.6373021560055869,
+      0.4979452065059117,
+      0.4681761953092757,
+      0.4586740604468754,
+      0.27877157075064524,
+      0.24467809551528522,
+      0.1831986191904261,
+      0.11776643902772949,
+      0.07914820797963157
+    ],
+    "val_loss": [
+      0.8268864353497823,
+      0.7386413713296255,
+      0.7381451725959778,
+      0.5825758030017217,
+      0.7791151603062948,
+      1.6628070672353108,
+      0.7493765304485956,
+      1.2196618914604187,
+      1.524144485592842,
+      1.4273268679777782,
+      1.482607215642929
+    ],
+    "auc": [
+      0.5511860174781523,
+      0.7465667915106118,
+      0.8086766541822722,
+      0.8511235955056179,
+      0.7759051186017478,
+      0.7671660424469413,
+      0.7843320848938826,
+      0.8155430711610487,
+      0.8280274656679151,
+      0.7771535580524345,
+      0.818039950062422
+    ],
+    "bal_acc": [
+      0.5,
+      0.5082709113607989,
+      0.5525905118601748,
+      0.6632334581772784,
+      0.6382646691635455,
+      0.5082709113607989,
+      0.7570224719101124,
+      0.6629213483146068,
+      0.6303058676654183,
+      0.7156679151061174,
+      0.6743133583021224
+    ],
+    "f1": [
+      0.0,
+      0.05263157894736842,
+      0.22727272727272727,
+      0.544,
+      0.4666666666666667,
+      0.05263157894736842,
+      0.6428571428571429,
+      0.5454545454545454,
+      0.43137254901960786,
+      0.5945945945945946,
+      0.53125
+    ],
+    "sensitivity": [
+      0.0,
+      0.027777777770061726,
+      0.13888888885030864,
+      0.9444444441820987,
+      0.3888888887808642,
+      0.027777777770061726,
+      0.7499999997916666,
+      0.9999999997222222,
+      0.30555555547067903,
+      0.6111111109413581,
+      0.47222222209104936
+    ],
+    "specificity": [
+      0.9999999998876405,
+      0.9887640448327232,
+      0.9662921347228886,
+      0.3820224718671885,
+      0.8876404493384674,
+      0.9887640448327232,
+      0.764044943734377,
+      0.32584269659260195,
+      0.9550561796679713,
+      0.8202247190089635,
+      0.8764044942835502
+    ]
+  },
+  "scenario_results": {
+    "All_4": {
+      "metrics": {
+        "AUC": 0.8511,
+        "BalAcc": 0.6632,
+        "Sensitivity": 0.9444,
+        "Specificity": 0.382,
+        "F1": 0.544
+      },
+      "confusion_matrix": [
+        [
+          34,
+          55
+        ],
+        [
+          2,
+          34
+        ]
+      ],
+      "roc_curve": {
+        "fpr": [
+          0.0,
+          0.0,
+          0.0,
+          0.011235955056179775,
+          0.011235955056179775,
+          0.02247191011235955,
+          0.02247191011235955,
+          0.033707865168539325,
+          0.033707865168539325,
+          0.056179775280898875,
+          0.056179775280898875,
+          0.10112359550561797,
+          0.10112359550561797,
+          0.14606741573033707,
+          0.14606741573033707,
+          0.15730337078651685,
+          0.15730337078651685,
+          0.19101123595505617,
+          0.19101123595505617,
+          0.20224719101123595,
+          0.20224719101123595,
+          0.25842696629213485,
+          0.25842696629213485,
+          0.3258426966292135,
+          0.3258426966292135,
+          0.47191011235955055,
+          0.47191011235955055,
+          0.5280898876404494,
+          0.5280898876404494,
+          0.5393258426966292,
+          0.5393258426966292,
+          0.6404494382022472,
+          0.6404494382022472,
+          0.7865168539325843,
+          0.7865168539325843,
+          1.0
+        ],
+        "tpr": [
+          0.0,
+          0.027777777777777776,
+          0.2222222222222222,
+          0.2222222222222222,
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3611111111111111,
+          0.3611111111111111,
+          0.4166666666666667,
+          0.4166666666666667,
+          0.5555555555555556,
+          0.5555555555555556,
+          0.6111111111111112,
+          0.6111111111111112,
+          0.6666666666666666,
+          0.6666666666666666,
+          0.7222222222222222,
+          0.7222222222222222,
+          0.7777777777777778,
+          0.7777777777777778,
+          0.8055555555555556,
+          0.8055555555555556,
+          0.8333333333333334,
+          0.8333333333333334,
+          0.8611111111111112,
+          0.8611111111111112,
+          0.8888888888888888,
+          0.8888888888888888,
+          0.9166666666666666,
+          0.9166666666666666,
+          0.9444444444444444,
+          0.9444444444444444,
+          0.9722222222222222,
+          0.9722222222222222,
+          1.0,
+          1.0
+        ],
+        "thresholds": [
+          Infinity,
+          0.9966873526573181,
+          0.9820243120193481,
+          0.9747412800788879,
+          0.9598551392555237,
+          0.9593992233276367,
+          0.9542396068572998,
+          0.9474021196365356,
+          0.944693386554718,
+          0.9386149048805237,
+          0.9241040349006653,
+          0.9005388617515564,
+          0.8957694172859192,
+          0.8872950673103333,
+          0.8866625428199768,
+          0.8791240453720093,
+          0.8719159960746765,
+          0.8509769439697266,
+          0.8403655290603638,
+          0.839723527431488,
+          0.8388122916221619,
+          0.7696962356567383,
+          0.7664403319358826,
+          0.7245737910270691,
+          0.7201855778694153,
+          0.6306652426719666,
+          0.6276496648788452,
+          0.6001506447792053,
+          0.5985506176948547,
+          0.5949180126190186,
+          0.5895005464553833,
+          0.4745602011680603,
+          0.4641282856464386,
+          0.36502522230148315,
+          0.36321550607681274,
+          0.025365173816680908
+        ]
+      },
+      "embedding_path": "results/embeddings/fold2_Baseline_ResNet18_All_4.npy",
+      "per_subject": [
+        {
+          "subject_id": "BT0005",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.0914,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0011",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9542,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0027",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6178,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0041",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8987,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0050",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4251,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0055",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5363,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0059",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.0609,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0060",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7252,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0065",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8783,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0079",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.0976,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0086",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.3703,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0101",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6331,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0107",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.2953,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0115",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.9436,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0120",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.5895,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0136",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4259,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0158",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7246,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0188",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9682,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0189",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9241,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0204",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9706,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0211",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.676,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0226",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7578,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0227",
+          "true_label": 1,
+          "pred_label": 0,
+          "pred_prob": 0.4641,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0228",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9831,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0243",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6785,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0248",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.9198,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0258",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5417,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0261",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9967,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0280",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5237,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0282",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9357,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0294",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.0464,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0299",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.9594,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0306",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6014,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0308",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.2689,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0325",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6591,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0338",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.2347,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0339",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.9386,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0342",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5577,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0347",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9599,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0359",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8101,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0363",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8121,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0367",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9382,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0374",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.927,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0376",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7861,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0378",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.3959,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0387",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6451,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0394",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.891,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0397",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9457,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0407",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9952,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0422",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8873,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0460",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.6276,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0463",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6615,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0468",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.7202,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0482",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.982,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0488",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.3782,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0491",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9866,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0537",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8397,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0540",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5559,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0600",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.851,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0610",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8937,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0617",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.1687,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0632",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.2695,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0635",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.9211,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0637",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.0989,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0643",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8867,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0646",
+          "true_label": 1,
+          "pred_label": 0,
+          "pred_prob": 0.3632,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0647",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6002,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0652",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6501,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0653",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7482,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0660",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9822,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0661",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.3602,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0672",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.0705,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0675",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7612,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0694",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.5986,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0695",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8488,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0717",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6572,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0719",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7697,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0734",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5429,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0749",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9344,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0756",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.0452,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0769",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.9221,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0770",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9966,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0772",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8516,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0782",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6074,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0783",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.1748,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0784",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8404,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0788",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8791,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0791",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4494,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0801",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4786,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0823",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.1024,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0835",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.0254,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0836",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.76,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0842",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8516,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0907",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4107,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0944",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4267,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0957",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5513,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0959",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.9747,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0960",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8872,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0971",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9668,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1010",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8958,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1012",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9941,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1015",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8388,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1028",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.365,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1032",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.9005,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1034",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.1287,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1035",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5949,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1042",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7956,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1096",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6558,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1104",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4197,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1115",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6498,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1131",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.1558,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1137",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6495,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1209",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9447,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1223",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6746,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1232",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.9474,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1244",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6191,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1258",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4746,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1259",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.444,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1262",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8875,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1267",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6307,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1272",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4307,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1279",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.3608,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1285",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.7664,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1303",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8719,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1312",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.374,
+          "correct": true
+        }
+      ]
+    },
+    "T1CE_missing": {
+      "metrics": {
+        "AUC": 0.8748,
+        "BalAcc": 0.7052,
+        "Sensitivity": 0.9722,
+        "Specificity": 0.4382,
+        "F1": 0.5785
+      },
+      "confusion_matrix": [
+        [
+          39,
+          50
+        ],
+        [
+          1,
+          35
+        ]
+      ],
+      "roc_curve": {
+        "fpr": [
+          0.0,
+          0.0,
+          0.0,
+          0.011235955056179775,
+          0.011235955056179775,
+          0.02247191011235955,
+          0.02247191011235955,
+          0.033707865168539325,
+          0.033707865168539325,
+          0.056179775280898875,
+          0.056179775280898875,
+          0.06741573033707865,
+          0.06741573033707865,
+          0.11235955056179775,
+          0.11235955056179775,
+          0.12359550561797752,
+          0.12359550561797752,
+          0.23595505617977527,
+          0.23595505617977527,
+          0.2696629213483146,
+          0.2696629213483146,
+          0.38202247191011235,
+          0.38202247191011235,
+          0.5280898876404494,
+          0.5280898876404494,
+          0.6179775280898876,
+          0.6179775280898876,
+          1.0
+        ],
+        "tpr": [
+          0.0,
+          0.027777777777777776,
+          0.05555555555555555,
+          0.05555555555555555,
+          0.3888888888888889,
+          0.3888888888888889,
+          0.4444444444444444,
+          0.4444444444444444,
+          0.4722222222222222,
+          0.4722222222222222,
+          0.5277777777777778,
+          0.5277777777777778,
+          0.5833333333333334,
+          0.5833333333333334,
+          0.6666666666666666,
+          0.6666666666666666,
+          0.7777777777777778,
+          0.7777777777777778,
+          0.8055555555555556,
+          0.8055555555555556,
+          0.8611111111111112,
+          0.8611111111111112,
+          0.9166666666666666,
+          0.9166666666666666,
+          0.9722222222222222,
+          0.9722222222222222,
+          1.0,
+          1.0
+        ],
+        "thresholds": [
+          Infinity,
+          0.9962455630302429,
+          0.995781660079956,
+          0.9943996071815491,
+          0.9775206446647644,
+          0.9737584590911865,
+          0.9696460962295532,
+          0.9680394530296326,
+          0.9680136442184448,
+          0.9511045217514038,
+          0.9472762942314148,
+          0.9460393190383911,
+          0.9416820406913757,
+          0.9305543899536133,
+          0.9293160438537598,
+          0.9244176149368286,
+          0.892848014831543,
+          0.8337388038635254,
+          0.8331685066223145,
+          0.8108252882957458,
+          0.7906034588813782,
+          0.6650335192680359,
+          0.6558468341827393,
+          0.5684615969657898,
+          0.5571444630622864,
+          0.4708404541015625,
+          0.46942728757858276,
+          0.03119470179080963
+        ]
+      },
+      "embedding_path": "results/embeddings/fold2_Baseline_ResNet18_T1CE_missing.npy",
+      "per_subject": [
+        {
+          "subject_id": "BT0005",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.0885,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0011",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.93,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0027",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6829,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0041",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9293,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0050",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.2935,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0055",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6289,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0059",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.2753,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0060",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.665,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0065",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9874,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0079",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.056,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0086",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6279,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0101",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7791,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0107",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4595,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0115",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8337,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0120",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.5571,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0136",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8125,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0158",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7466,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0188",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9822,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0189",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9417,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0204",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9849,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0211",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6016,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0226",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5717,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0227",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.5587,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0228",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9934,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0243",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7775,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0248",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8552,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0258",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.3609,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0261",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9958,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0280",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4566,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0282",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9775,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0294",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.0312,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0299",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.968,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0306",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6367,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0308",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.2174,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0325",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6688,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0338",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.2408,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0339",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.9306,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0342",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6518,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0347",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.948,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0359",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4435,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0363",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8379,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0367",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9831,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0374",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9305,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0376",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.94,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0378",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4988,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0387",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4091,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0394",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7191,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0397",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9872,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0407",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9929,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0422",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8728,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0460",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8332,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0463",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6311,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0468",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.7906,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0482",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9924,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0488",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5685,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0491",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9919,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0537",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8532,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0540",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7068,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0600",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8504,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0610",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8828,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0617",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.642,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0632",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.3396,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0635",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.946,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0637",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.0363,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0643",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.98,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0646",
+          "true_label": 1,
+          "pred_label": 0,
+          "pred_prob": 0.4694,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0647",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.2261,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0652",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.3863,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0653",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8108,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0660",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9455,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0661",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4741,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0672",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.1598,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0675",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7016,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0694",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8052,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0695",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9473,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0717",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4961,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0719",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.9244,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0734",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.374,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0749",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9002,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0756",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.1859,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0769",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.9738,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0770",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9962,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0772",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.867,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0782",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.386,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0783",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.1529,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0784",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8949,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0788",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8913,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0791",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5381,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0801",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5522,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0823",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.0941,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0835",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.0664,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0836",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8179,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0842",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.9306,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0907",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4184,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0944",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.3428,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0957",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6221,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0959",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.9944,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0960",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8928,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0971",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9696,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1010",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.968,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1012",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9937,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1015",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.6606,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1028",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4509,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1032",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.9334,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1034",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.0865,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1035",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.3777,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1042",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6307,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1096",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8478,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1104",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4708,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1115",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.2743,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1131",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.2052,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1137",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6119,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1209",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.971,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1223",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4947,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1232",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.9511,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1244",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5512,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1258",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.3525,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1259",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6514,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1262",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.9512,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1267",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.3292,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1272",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7028,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1279",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.1364,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1285",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.6558,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1303",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9067,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1312",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.2998,
+          "correct": true
+        }
+      ]
+    },
+    "FLAIR_missing": {
+      "metrics": {
+        "AUC": 0.7094,
+        "BalAcc": 0.5393,
+        "Sensitivity": 1.0,
+        "Specificity": 0.0787,
+        "F1": 0.4675
+      },
+      "confusion_matrix": [
+        [
+          7,
+          82
+        ],
+        [
+          0,
+          36
+        ]
+      ],
+      "roc_curve": {
+        "fpr": [
+          0.0,
+          0.0,
+          0.02247191011235955,
+          0.02247191011235955,
+          0.0449438202247191,
+          0.0449438202247191,
+          0.06741573033707865,
+          0.06741573033707865,
+          0.07865168539325842,
+          0.07865168539325842,
+          0.0898876404494382,
+          0.0898876404494382,
+          0.10112359550561797,
+          0.10112359550561797,
+          0.12359550561797752,
+          0.12359550561797752,
+          0.15730337078651685,
+          0.15730337078651685,
+          0.21348314606741572,
+          0.21348314606741572,
+          0.29213483146067415,
+          0.29213483146067415,
+          0.3146067415730337,
+          0.3146067415730337,
+          0.38202247191011235,
+          0.38202247191011235,
+          0.39325842696629215,
+          0.39325842696629215,
+          0.4044943820224719,
+          0.4044943820224719,
+          0.4606741573033708,
+          0.4606741573033708,
+          0.48314606741573035,
+          0.48314606741573035,
+          0.5955056179775281,
+          0.5955056179775281,
+          0.6179775280898876,
+          0.6179775280898876,
+          0.6292134831460674,
+          0.6292134831460674,
+          0.6404494382022472,
+          0.6404494382022472,
+          0.7191011235955056,
+          0.7191011235955056,
+          0.7865168539325843,
+          0.7865168539325843,
+          1.0
+        ],
+        "tpr": [
+          0.0,
+          0.027777777777777776,
+          0.027777777777777776,
+          0.1388888888888889,
+          0.1388888888888889,
+          0.16666666666666666,
+          0.16666666666666666,
+          0.19444444444444445,
+          0.19444444444444445,
+          0.2222222222222222,
+          0.2222222222222222,
+          0.2777777777777778,
+          0.2777777777777778,
+          0.3055555555555556,
+          0.3055555555555556,
+          0.3888888888888889,
+          0.3888888888888889,
+          0.4444444444444444,
+          0.4444444444444444,
+          0.5,
+          0.5,
+          0.5277777777777778,
+          0.5277777777777778,
+          0.5833333333333334,
+          0.5833333333333334,
+          0.6388888888888888,
+          0.6388888888888888,
+          0.6666666666666666,
+          0.6666666666666666,
+          0.7222222222222222,
+          0.7222222222222222,
+          0.75,
+          0.75,
+          0.8333333333333334,
+          0.8333333333333334,
+          0.8611111111111112,
+          0.8611111111111112,
+          0.8888888888888888,
+          0.8888888888888888,
+          0.9166666666666666,
+          0.9166666666666666,
+          0.9444444444444444,
+          0.9444444444444444,
+          0.9722222222222222,
+          0.9722222222222222,
+          1.0,
+          1.0
+        ],
+        "thresholds": [
+          Infinity,
+          0.9773775935173035,
+          0.9547758102416992,
+          0.9307904243469238,
+          0.9283676743507385,
+          0.9264520406723022,
+          0.924199640750885,
+          0.9230083227157593,
+          0.920423150062561,
+          0.9175341129302979,
+          0.9150795340538025,
+          0.9136139750480652,
+          0.9097819328308105,
+          0.9039387702941895,
+          0.9001139998435974,
+          0.8801931738853455,
+          0.8756787180900574,
+          0.8690470457077026,
+          0.8556641340255737,
+          0.8518862128257751,
+          0.8432738184928894,
+          0.8382382392883301,
+          0.8315626978874207,
+          0.8240519165992737,
+          0.8111277222633362,
+          0.8058816194534302,
+          0.8047926425933838,
+          0.79977947473526,
+          0.7981655597686768,
+          0.7956734895706177,
+          0.7757172584533691,
+          0.7752065062522888,
+          0.7728965282440186,
+          0.764815092086792,
+          0.7340631484985352,
+          0.7324894070625305,
+          0.7139649391174316,
+          0.7041369676589966,
+          0.7033015489578247,
+          0.6954760551452637,
+          0.6828170418739319,
+          0.6816725730895996,
+          0.6631938815116882,
+          0.6560477018356323,
+          0.6307990550994873,
+          0.6292514801025391,
+          0.34771132469177246
+        ]
+      },
+      "embedding_path": "results/embeddings/fold2_Baseline_ResNet18_FLAIR_missing.npy",
+      "per_subject": [
+        {
+          "subject_id": "BT0005",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6632,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0011",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.7709,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0027",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7729,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0041",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.953,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0050",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.876,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0055",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6308,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0059",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4519,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0060",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7341,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0065",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.7752,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0079",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6335,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0086",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5342,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0101",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6742,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0107",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4255,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0115",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.9749,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0120",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8936,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0136",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6756,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0158",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7904,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0188",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8542,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0189",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9136,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0204",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8241,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0211",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7806,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0226",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8777,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0227",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.7041,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0228",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.7648,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0243",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5225,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0248",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.9001,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0258",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7181,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0261",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.869,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0280",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.622,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0282",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8519,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0294",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.655,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0299",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8572,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0306",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7616,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0308",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.761,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0325",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.742,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0338",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7823,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0339",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8462,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0342",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.795,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0347",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.656,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0359",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.9548,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0363",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8124,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0367",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8072,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0374",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9175,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0376",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7529,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0378",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5618,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0387",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.9284,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0394",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.9242,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0397",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9146,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0407",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9265,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0422",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6082,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0460",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.7325,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0463",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8454,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0468",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.6817,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0482",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9039,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0488",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5709,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0491",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8382,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0537",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5387,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0540",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8433,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0600",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7033,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0610",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7615,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0617",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6773,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0632",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6778,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0635",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8557,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0637",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6474,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0643",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8692,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0646",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.6293,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0647",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.9299,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0652",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.9258,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0653",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4713,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0660",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9317,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0661",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6694,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0672",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.3477,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0675",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7382,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0694",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8802,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0695",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.6955,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0717",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7381,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0719",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4967,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0734",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8048,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0749",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8889,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0756",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4696,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0769",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8453,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0770",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9774,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0772",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8316,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0782",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8151,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0783",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5654,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0784",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8059,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0788",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.9098,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0791",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8219,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0801",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7757,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0823",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6779,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0835",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.3726,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0836",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8757,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0842",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8495,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0907",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8332,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0944",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8111,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0957",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.614,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0959",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.9151,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0960",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.7998,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0971",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8269,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1010",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.7666,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1012",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.923,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1015",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9312,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1028",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6828,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1032",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7982,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1034",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.714,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1035",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.747,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1042",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.856,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1096",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5487,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1104",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7737,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1115",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.9204,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1131",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5288,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1137",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6377,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1209",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.7957,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1223",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8498,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1232",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.823,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1244",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.9028,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1258",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6376,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1259",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7413,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1262",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8234,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1267",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8433,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1272",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5773,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1279",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8568,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1285",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9308,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1303",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.7974,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1312",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8661,
+          "correct": false
+        }
+      ]
+    },
+    "T2_missing": {
+      "metrics": {
+        "AUC": 0.8077,
+        "BalAcc": 0.5535,
+        "Sensitivity": 0.9722,
+        "Specificity": 0.1348,
+        "F1": 0.473
+      },
+      "confusion_matrix": [
+        [
+          12,
+          77
+        ],
+        [
+          1,
+          35
+        ]
+      ],
+      "roc_curve": {
+        "fpr": [
+          0.0,
+          0.0,
+          0.0,
+          0.011235955056179775,
+          0.011235955056179775,
+          0.0449438202247191,
+          0.0449438202247191,
+          0.056179775280898875,
+          0.056179775280898875,
+          0.10112359550561797,
+          0.10112359550561797,
+          0.12359550561797752,
+          0.12359550561797752,
+          0.1348314606741573,
+          0.1348314606741573,
+          0.14606741573033707,
+          0.14606741573033707,
+          0.15730337078651685,
+          0.15730337078651685,
+          0.1797752808988764,
+          0.1797752808988764,
+          0.20224719101123595,
+          0.20224719101123595,
+          0.2247191011235955,
+          0.2247191011235955,
+          0.25842696629213485,
+          0.25842696629213485,
+          0.2696629213483146,
+          0.2696629213483146,
+          0.30337078651685395,
+          0.30337078651685395,
+          0.3258426966292135,
+          0.3258426966292135,
+          0.5393258426966292,
+          0.5393258426966292,
+          0.7528089887640449,
+          0.7528089887640449,
+          0.898876404494382,
+          0.898876404494382,
+          1.0
+        ],
+        "tpr": [
+          0.0,
+          0.027777777777777776,
+          0.16666666666666666,
+          0.16666666666666666,
+          0.19444444444444445,
+          0.19444444444444445,
+          0.25,
+          0.25,
+          0.2777777777777778,
+          0.2777777777777778,
+          0.4166666666666667,
+          0.4166666666666667,
+          0.4722222222222222,
+          0.4722222222222222,
+          0.5,
+          0.5,
+          0.5277777777777778,
+          0.5277777777777778,
+          0.5555555555555556,
+          0.5555555555555556,
+          0.5833333333333334,
+          0.5833333333333334,
+          0.6111111111111112,
+          0.6111111111111112,
+          0.6388888888888888,
+          0.6388888888888888,
+          0.6666666666666666,
+          0.6666666666666666,
+          0.8611111111111112,
+          0.8611111111111112,
+          0.8888888888888888,
+          0.8888888888888888,
+          0.9166666666666666,
+          0.9166666666666666,
+          0.9444444444444444,
+          0.9444444444444444,
+          0.9722222222222222,
+          0.9722222222222222,
+          1.0,
+          1.0
+        ],
+        "thresholds": [
+          Infinity,
+          0.9938567280769348,
+          0.957801103591919,
+          0.9575636386871338,
+          0.9507009983062744,
+          0.9409878849983215,
+          0.9399873614311218,
+          0.9347296953201294,
+          0.9309000968933105,
+          0.9235264658927917,
+          0.918556809425354,
+          0.9172104001045227,
+          0.913421094417572,
+          0.9116829037666321,
+          0.9101526737213135,
+          0.901256799697876,
+          0.8997591733932495,
+          0.8986192345619202,
+          0.8975085616111755,
+          0.8920832872390747,
+          0.8890870809555054,
+          0.8863080739974976,
+          0.8843014240264893,
+          0.8831833600997925,
+          0.8811745643615723,
+          0.8721407055854797,
+          0.8643503785133362,
+          0.8632836937904358,
+          0.8451116681098938,
+          0.8305500745773315,
+          0.8296715021133423,
+          0.8216989636421204,
+          0.8119154572486877,
+          0.7144291996955872,
+          0.6976771950721741,
+          0.583699643611908,
+          0.5819541215896606,
+          0.45319852232933044,
+          0.43519726395606995,
+          0.14328287541866302
+        ]
+      },
+      "embedding_path": "results/embeddings/fold2_Baseline_ResNet18_T2_missing.npy",
+      "per_subject": [
+        {
+          "subject_id": "BT0005",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.3093,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0011",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9309,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0027",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7676,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0041",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9598,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0050",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7198,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0055",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4532,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0059",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.2649,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0060",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7452,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0065",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8812,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0079",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5854,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0086",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.3065,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0101",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.9117,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0107",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7939,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0115",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.9576,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0120",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8509,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0136",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.9172,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0158",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7472,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0188",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8998,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0189",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9706,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0204",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8975,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0211",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7476,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0226",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8343,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0227",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9143,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0228",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8451,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0243",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5615,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0248",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.941,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0258",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6248,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0261",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9195,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0280",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6066,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0282",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8644,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0294",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5109,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0299",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8306,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0306",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7475,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0308",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8023,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0325",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6529,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0338",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.3909,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0339",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8633,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0342",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8832,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0347",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9408,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0359",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5636,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0363",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7784,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0367",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.94,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0374",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9186,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0376",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.873,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0378",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5837,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0387",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7596,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0394",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.9424,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0397",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9578,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0407",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9507,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0422",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8217,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0460",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.6977,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0463",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8722,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0468",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8119,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0482",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9689,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0488",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7669,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0491",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9216,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0537",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8863,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0540",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4834,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0600",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6678,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0610",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7633,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0617",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.3818,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0632",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5063,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0635",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.9347,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0637",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5418,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0643",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9219,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0646",
+          "true_label": 1,
+          "pred_label": 0,
+          "pred_prob": 0.4352,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0647",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6055,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0652",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8866,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0653",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.9013,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0660",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8843,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0661",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6686,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0672",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4044,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0675",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7762,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0694",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8585,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0695",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9134,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0717",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6015,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0719",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6482,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0734",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6783,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0749",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8604,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0756",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.1741,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0769",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7782,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0770",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9939,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0772",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.9248,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0782",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6278,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0783",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8721,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0784",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8297,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0788",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.941,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0791",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5394,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0801",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.9178,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0823",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5788,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0835",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.1433,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0836",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8921,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0842",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.9235,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0907",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4682,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0944",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.3934,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0957",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6706,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0959",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.9278,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0960",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8534,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0971",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8633,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1010",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8891,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1012",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9731,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1015",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9204,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1028",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5434,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1032",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5989,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1034",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5071,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1035",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8969,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1042",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.9309,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1096",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7342,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1104",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8986,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1115",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7619,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1131",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6043,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1137",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.576,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1209",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.9102,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1223",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6796,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1232",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8308,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1244",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6974,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1258",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8092,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1259",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7806,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1262",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8838,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1267",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6853,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1272",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8222,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1279",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7144,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1285",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.582,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1303",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8454,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1312",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6431,
+          "correct": false
+        }
+      ]
+    },
+    "T1_T2_only": {
+      "metrics": {
+        "AUC": 0.7453,
+        "BalAcc": 0.6269,
+        "Sensitivity": 0.9167,
+        "Specificity": 0.3371,
+        "F1": 0.5156
+      },
+      "confusion_matrix": [
+        [
+          30,
+          59
+        ],
+        [
+          3,
+          33
+        ]
+      ],
+      "roc_curve": {
+        "fpr": [
+          0.0,
+          0.0,
+          0.0,
+          0.011235955056179775,
+          0.011235955056179775,
+          0.033707865168539325,
+          0.033707865168539325,
+          0.0449438202247191,
+          0.0449438202247191,
+          0.056179775280898875,
+          0.056179775280898875,
+          0.07865168539325842,
+          0.07865168539325842,
+          0.11235955056179775,
+          0.11235955056179775,
+          0.12359550561797752,
+          0.12359550561797752,
+          0.14606741573033707,
+          0.14606741573033707,
+          0.16853932584269662,
+          0.16853932584269662,
+          0.1797752808988764,
+          0.1797752808988764,
+          0.2247191011235955,
+          0.2247191011235955,
+          0.24719101123595505,
+          0.24719101123595505,
+          0.25842696629213485,
+          0.25842696629213485,
+          0.2696629213483146,
+          0.2696629213483146,
+          0.29213483146067415,
+          0.29213483146067415,
+          0.3595505617977528,
+          0.3595505617977528,
+          0.3707865168539326,
+          0.3707865168539326,
+          0.5168539325842697,
+          0.5168539325842697,
+          0.6292134831460674,
+          0.6292134831460674,
+          0.651685393258427,
+          0.651685393258427,
+          0.7415730337078652,
+          0.7415730337078652,
+          0.7752808988764045,
+          0.7752808988764045,
+          0.8651685393258427,
+          0.8651685393258427,
+          1.0
+        ],
+        "tpr": [
+          0.0,
+          0.027777777777777776,
+          0.05555555555555555,
+          0.05555555555555555,
+          0.1111111111111111,
+          0.1111111111111111,
+          0.1388888888888889,
+          0.1388888888888889,
+          0.16666666666666666,
+          0.16666666666666666,
+          0.2222222222222222,
+          0.2222222222222222,
+          0.2777777777777778,
+          0.2777777777777778,
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3611111111111111,
+          0.3611111111111111,
+          0.4166666666666667,
+          0.4166666666666667,
+          0.4722222222222222,
+          0.4722222222222222,
+          0.5,
+          0.5,
+          0.5833333333333334,
+          0.5833333333333334,
+          0.6111111111111112,
+          0.6111111111111112,
+          0.6666666666666666,
+          0.6666666666666666,
+          0.6944444444444444,
+          0.6944444444444444,
+          0.7222222222222222,
+          0.7222222222222222,
+          0.7777777777777778,
+          0.7777777777777778,
+          0.8333333333333334,
+          0.8333333333333334,
+          0.8611111111111112,
+          0.8611111111111112,
+          0.8888888888888888,
+          0.8888888888888888,
+          0.9166666666666666,
+          0.9166666666666666,
+          0.9444444444444444,
+          0.9444444444444444,
+          0.9722222222222222,
+          0.9722222222222222,
+          1.0,
+          1.0
+        ],
+        "thresholds": [
+          Infinity,
+          0.8863514065742493,
+          0.8678540587425232,
+          0.8511988520622253,
+          0.8390201330184937,
+          0.8309913277626038,
+          0.8238134980201721,
+          0.8163192868232727,
+          0.799166202545166,
+          0.7974367737770081,
+          0.7946568727493286,
+          0.7935472726821899,
+          0.7751608490943909,
+          0.7542664408683777,
+          0.7508901357650757,
+          0.7494556903839111,
+          0.745593249797821,
+          0.7394893765449524,
+          0.7337866425514221,
+          0.7323621511459351,
+          0.7272480130195618,
+          0.7270185351371765,
+          0.7213279604911804,
+          0.7058159112930298,
+          0.6958082318305969,
+          0.6905156373977661,
+          0.6880725622177124,
+          0.6869866847991943,
+          0.6845875382423401,
+          0.6822808980941772,
+          0.6814790964126587,
+          0.6633042097091675,
+          0.6584821343421936,
+          0.6282117962837219,
+          0.6262943148612976,
+          0.6216787099838257,
+          0.6093347668647766,
+          0.5564433336257935,
+          0.5526910424232483,
+          0.5141370892524719,
+          0.5083058476448059,
+          0.5051087141036987,
+          0.5043382048606873,
+          0.4609033763408661,
+          0.45988622307777405,
+          0.4487447738647461,
+          0.4356498122215271,
+          0.41716185212135315,
+          0.4164275825023651,
+          0.2520565390586853
+        ]
+      },
+      "embedding_path": "results/embeddings/fold2_Baseline_ResNet18_T1_T2_only.npy",
+      "per_subject": [
+        {
+          "subject_id": "BT0005",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4304,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0011",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.5083,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0027",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5564,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0041",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8864,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0050",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7656,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0055",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4248,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0059",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.3509,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0060",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.49,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0065",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.7318,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0079",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4925,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0086",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4233,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0101",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5058,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0107",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.3119,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0115",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7974,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0120",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.6846,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0136",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6082,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0158",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.609,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0188",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.7523,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0189",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.7752,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0204",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.7016,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0211",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4656,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0226",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6907,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0227",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.5527,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0228",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.6881,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0243",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.547,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0248",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7066,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0258",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4519,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0261",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.7213,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0280",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4052,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0282",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.7509,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0294",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5233,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0299",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.727,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0306",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5309,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0308",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0325",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4271,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0338",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5418,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0339",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7328,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0342",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6497,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0347",
+          "true_label": 1,
+          "pred_label": 0,
+          "pred_prob": 0.4599,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0359",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7115,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0363",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6823,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0367",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.6958,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0374",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.7456,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0376",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5728,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0378",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.415,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0387",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7558,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0394",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8365,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0397",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8238,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0407",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.7992,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0422",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4487,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0460",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.6263,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0463",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7543,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0468",
+          "true_label": 1,
+          "pred_label": 0,
+          "pred_prob": 0.4164,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0482",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.7955,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0488",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.515,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0491",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.6815,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0537",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4172,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0540",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6387,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0600",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.56,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0610",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6217,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0617",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4279,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0632",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4734,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0635",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7937,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0637",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4539,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0643",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.7947,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0646",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.5043,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0647",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.687,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0652",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8512,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0653",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4609,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0660",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.7898,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0661",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5583,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0672",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.2802,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0675",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.596,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0694",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.7047,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0695",
+          "true_label": 1,
+          "pred_label": 0,
+          "pred_prob": 0.4356,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0717",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5884,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0719",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4079,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0734",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5606,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0749",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.6857,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0756",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4089,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0769",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6567,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0770",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8679,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0772",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7146,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0782",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7408,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0783",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.3006,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0784",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.6585,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0788",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.831,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0791",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5979,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0801",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7324,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0823",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.3623,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0835",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.2521,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0836",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7495,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0842",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7058,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0907",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6438,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0944",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5466,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0957",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4963,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0959",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7395,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0960",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.6093,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0971",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.7359,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1010",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.6201,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1012",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8512,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1015",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.7338,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1028",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4902,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1032",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6289,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1034",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5241,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1035",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.524,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1042",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6664,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1096",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5051,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1104",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5832,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1115",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8163,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1131",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.3516,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1137",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4157,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1209",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.7272,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1223",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5141,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1232",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6282,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1244",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7935,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1258",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4348,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1259",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5458,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1262",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.562,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1267",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5963,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1272",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4268,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1279",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6633,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1285",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.839,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1303",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.6275,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1312",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6905,
+          "correct": false
+        }
+      ]
+    },
+    "T1_only": {
+      "metrics": {
+        "AUC": 0.6601,
+        "BalAcc": 0.5056,
+        "Sensitivity": 1.0,
+        "Specificity": 0.0112,
+        "F1": 0.45
+      },
+      "confusion_matrix": [
+        [
+          1,
+          88
+        ],
+        [
+          0,
+          36
+        ]
+      ],
+      "roc_curve": {
+        "fpr": [
+          0.0,
+          0.0,
+          0.011235955056179775,
+          0.011235955056179775,
+          0.02247191011235955,
+          0.02247191011235955,
+          0.033707865168539325,
+          0.033707865168539325,
+          0.07865168539325842,
+          0.07865168539325842,
+          0.0898876404494382,
+          0.0898876404494382,
+          0.11235955056179775,
+          0.11235955056179775,
+          0.16853932584269662,
+          0.16853932584269662,
+          0.23595505617977527,
+          0.23595505617977527,
+          0.24719101123595505,
+          0.24719101123595505,
+          0.2696629213483146,
+          0.2696629213483146,
+          0.2808988764044944,
+          0.2808988764044944,
+          0.39325842696629215,
+          0.39325842696629215,
+          0.43820224719101125,
+          0.43820224719101125,
+          0.449438202247191,
+          0.449438202247191,
+          0.4606741573033708,
+          0.4606741573033708,
+          0.5056179775280899,
+          0.5056179775280899,
+          0.5280898876404494,
+          0.5280898876404494,
+          0.5393258426966292,
+          0.5393258426966292,
+          0.5730337078651685,
+          0.5730337078651685,
+          0.5955056179775281,
+          0.5955056179775281,
+          0.6179775280898876,
+          0.6179775280898876,
+          0.6853932584269663,
+          0.6853932584269663,
+          0.6966292134831461,
+          0.6966292134831461,
+          0.7303370786516854,
+          0.7303370786516854,
+          0.8202247191011236,
+          0.8202247191011236,
+          1.0
+        ],
+        "tpr": [
+          0.0,
+          0.027777777777777776,
+          0.027777777777777776,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.1111111111111111,
+          0.1111111111111111,
+          0.2222222222222222,
+          0.2222222222222222,
+          0.25,
+          0.25,
+          0.2777777777777778,
+          0.2777777777777778,
+          0.3055555555555556,
+          0.3055555555555556,
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3611111111111111,
+          0.3611111111111111,
+          0.4166666666666667,
+          0.4166666666666667,
+          0.4722222222222222,
+          0.4722222222222222,
+          0.5277777777777778,
+          0.5277777777777778,
+          0.5555555555555556,
+          0.5555555555555556,
+          0.5833333333333334,
+          0.5833333333333334,
+          0.6388888888888888,
+          0.6388888888888888,
+          0.6666666666666666,
+          0.6666666666666666,
+          0.6944444444444444,
+          0.6944444444444444,
+          0.7222222222222222,
+          0.7222222222222222,
+          0.75,
+          0.75,
+          0.7777777777777778,
+          0.7777777777777778,
+          0.8333333333333334,
+          0.8333333333333334,
+          0.8611111111111112,
+          0.8611111111111112,
+          0.8888888888888888,
+          0.8888888888888888,
+          0.9444444444444444,
+          0.9444444444444444,
+          0.9722222222222222,
+          0.9722222222222222,
+          1.0,
+          1.0
+        ],
+        "thresholds": [
+          Infinity,
+          0.8679652214050293,
+          0.8605924844741821,
+          0.803265392780304,
+          0.8031599521636963,
+          0.7897796034812927,
+          0.789503812789917,
+          0.7800998687744141,
+          0.7629672884941101,
+          0.7602663040161133,
+          0.7542232871055603,
+          0.7516590356826782,
+          0.74271559715271,
+          0.7401972413063049,
+          0.7276197671890259,
+          0.7240671515464783,
+          0.7132440209388733,
+          0.7120352387428284,
+          0.7115272879600525,
+          0.7111475467681885,
+          0.7077135443687439,
+          0.6941530704498291,
+          0.6934723854064941,
+          0.6875321269035339,
+          0.6757068634033203,
+          0.674595296382904,
+          0.6707789897918701,
+          0.6659443378448486,
+          0.6651076674461365,
+          0.6609128713607788,
+          0.6598972082138062,
+          0.6593531966209412,
+          0.6482985019683838,
+          0.646260678768158,
+          0.645289957523346,
+          0.643341064453125,
+          0.6422168612480164,
+          0.6410338282585144,
+          0.6383782625198364,
+          0.6367468237876892,
+          0.6315292716026306,
+          0.6273747086524963,
+          0.6250985264778137,
+          0.6207512617111206,
+          0.6088082194328308,
+          0.6079654097557068,
+          0.6072208285331726,
+          0.6060472726821899,
+          0.5968251824378967,
+          0.5949008464813232,
+          0.573839008808136,
+          0.5724632740020752,
+          0.49221542477607727
+        ]
+      },
+      "embedding_path": "results/embeddings/fold2_Baseline_ResNet18_T1_only.npy",
+      "per_subject": [
+        {
+          "subject_id": "BT0005",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5272,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0011",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.6283,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0027",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.582,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0041",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8483,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0050",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7276,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0055",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5551,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0059",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6422,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0060",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6408,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0065",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.608,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0079",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5432,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0086",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5211,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0101",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.763,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0107",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5822,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0115",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.778,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0120",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.712,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0136",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7132,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0158",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6734,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0188",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.6942,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0189",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.7869,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0204",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.5949,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0211",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5485,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0226",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7456,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0227",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.7241,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0228",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.6746,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0243",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.672,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0248",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7115,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0258",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5134,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0261",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.6433,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0280",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6072,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0282",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.704,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0294",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5738,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0299",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6459,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0306",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6272,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0308",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7077,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0325",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5694,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0338",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5908,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0339",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5995,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0342",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7167,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0347",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.6875,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0359",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6251,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0363",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6453,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0367",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.664,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0374",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.7867,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0376",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6384,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0378",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6552,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0387",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6796,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0394",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7332,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0397",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.7898,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0407",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.7111,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0422",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6599,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0460",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.6367,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0463",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7895,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0468",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.7603,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0482",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.7801,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0488",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5812,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0491",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.606,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0537",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6861,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0540",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6818,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0600",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6784,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0610",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.686,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0617",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.686,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0632",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5641,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0635",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7778,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0637",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6829,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0643",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.6906,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0646",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.6274,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0647",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6529,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0652",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7648,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0653",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6153,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0660",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.7114,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0661",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5706,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0672",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6651,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0675",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6092,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0694",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.7856,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0695",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.6208,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0717",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5378,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0719",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6162,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0734",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6088,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0749",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.6062,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0756",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6483,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0769",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6757,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0770",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.868,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0772",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7542,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0782",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6485,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0783",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.674,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0784",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.6463,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0788",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7233,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0791",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5877,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0801",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8032,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0823",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6189,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0835",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5914,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0836",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7427,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0842",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7157,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0907",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5336,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0944",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6333,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0957",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5625,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0959",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6935,
+          "correct": false
+        },
+        {
+          "subject_id": "BT0960",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.6659,
+          "correct": true
+        },
+        {
+          "subject_id": "BT0971",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.641,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1010",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.6609,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1012",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.8033,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1015",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.7517,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1028",
+          "true_label": 0,
+          "pred_label": 0,
+          "pred_prob": 0.4922,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1032",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.518,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1034",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6041,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1035",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6397,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1042",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7337,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1096",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.68,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1104",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7382,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1115",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7166,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1131",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5968,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1137",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.55,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1209",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.6594,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1223",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5502,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1232",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7172,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1244",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7321,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1258",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6708,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1259",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.617,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1262",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6793,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1267",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.5929,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1272",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.7094,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1279",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.8606,
+          "correct": false
+        },
+        {
+          "subject_id": "BT1285",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.7402,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1303",
+          "true_label": 1,
+          "pred_label": 1,
+          "pred_prob": 0.5725,
+          "correct": true
+        },
+        {
+          "subject_id": "BT1312",
+          "true_label": 0,
+          "pred_label": 1,
+          "pred_prob": 0.6315,
+          "correct": false
+        }
+      ]
+    }
+  },
+  "checkpoint_path": "results/fold2_Baseline_ResNet18_best.pth",
+  "config": {
+    "img_size": 96,
+    "batch": 24,
+    "epochs": 100,
+    "lr": 0.0001,
+    "dropout_p": 0.0,
+    "dropout_mode": null,
+    "gpu_ids": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      7
+    ],
+    "seed": 42,
+    "class_weights": [
+      1.0,
+      2.55
+    ]
+  }
+}
