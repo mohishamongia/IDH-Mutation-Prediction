@@ -1,0 +1,18 @@
+{
+  "Attention_Fusion_ResNet": {
+    "All": {
+      "mean": 0.8407,
+      "std": 0.011
+    }
+  },
+  "run_folds": [
+    1,
+    2
+  ],
+  "active_modalities": [
+    "T1",
+    "T1CE",
+    "T2",
+    "FLAIR"
+  ]
+}

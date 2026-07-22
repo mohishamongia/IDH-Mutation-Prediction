@@ -1,0 +1,80 @@
+{
+  "Baseline_ResNet18": {
+    "All_4": {
+      "mean": 0.8056,
+      "std": 0.0344
+    },
+    "T1CE_missing": {
+      "mean": 0.779,
+      "std": 0.0337
+    },
+    "FLAIR_missing": {
+      "mean": 0.6115,
+      "std": 0.0623
+    },
+    "T2_missing": {
+      "mean": 0.6919,
+      "std": 0.0593
+    },
+    "T1_T2_only": {
+      "mean": 0.6638,
+      "std": 0.0508
+    },
+    "T1_only": {
+      "mean": 0.4126,
+      "std": 0.078
+    }
+  },
+  "Dropout_ResNet18": {
+    "All_4": {
+      "mean": 0.6756,
+      "std": 0.0353
+    },
+    "T1CE_missing": {
+      "mean": 0.6469,
+      "std": 0.0573
+    },
+    "FLAIR_missing": {
+      "mean": 0.6116,
+      "std": 0.0599
+    },
+    "T2_missing": {
+      "mean": 0.6045,
+      "std": 0.1111
+    },
+    "T1_T2_only": {
+      "mean": 0.576,
+      "std": 0.062
+    },
+    "T1_only": {
+      "mean": 0.5131,
+      "std": 0.0424
+    }
+  },
+  "Attention_Fusion": {
+    "All_4": {
+      "mean": 0.7121,
+      "std": 0.0402
+    },
+    "T1CE_missing": {
+      "mean": 0.7117,
+      "std": 0.0368
+    },
+    "FLAIR_missing": {
+      "mean": 0.712,
+      "std": 0.0386
+    },
+    "T2_missing": {
+      "mean": 0.6668,
+      "std": 0.0524
+    },
+    "T1_T2_only": {
+      "mean": 0.71,
+      "std": 0.0356
+    },
+    "T1_only": {
+      "mean": 0.6415,
+      "std": 0.0464
+    }
+  }
+}

@@ -1,0 +1,1596 @@
+{
+  "experiment": "cross_site_UTSW_to_TCGA_GBM_LGG_combined",
+  "train_site": "UTSW Glioma",
+  "test_site": "TCGA-GBM + TCGA-LGG (combined)",
+  "model": "Baseline_ResNet18",
+  "n_checkpoints_ensembled": 5,
+  "checkpoint_names": [
+    "fold1",
+    "fold2",
+    "fold3",
+    "fold4",
+    "fold5"
+  ],
+  "n_subjects": 167,
+  "n_mutated": 61,
+  "n_wild_type": 106,
+  "cohort_breakdown": {
+    "TCGA-02-0006": "GBM",
+    "TCGA-02-0009": "GBM",
+    "TCGA-02-0011": "GBM",
+    "TCGA-02-0027": "GBM",
+    "TCGA-02-0033": "GBM",
+    "TCGA-02-0034": "GBM",
+    "TCGA-02-0037": "GBM",
+    "TCGA-02-0046": "GBM",
+    "TCGA-02-0047": "GBM",
+    "TCGA-02-0054": "GBM",
+    "TCGA-02-0059": "GBM",
+    "TCGA-02-0064": "GBM",
+    "TCGA-02-0068": "GBM",
+    "TCGA-02-0069": "GBM",
+    "TCGA-02-0070": "GBM",
+    "TCGA-02-0075": "GBM",
+    "TCGA-02-0085": "GBM",
+    "TCGA-02-0086": "GBM",
+    "TCGA-02-0087": "GBM",
+    "TCGA-02-0102": "GBM",
+    "TCGA-02-0106": "GBM",
+    "TCGA-02-0116": "GBM",
+    "TCGA-06-0119": "GBM",
+    "TCGA-06-0122": "GBM",
+    "TCGA-06-0130": "GBM",
+    "TCGA-06-0137": "GBM",
+    "TCGA-06-0138": "GBM",
+    "TCGA-06-0139": "GBM",
+    "TCGA-06-0142": "GBM",
+    "TCGA-06-0145": "GBM",
+    "TCGA-06-0149": "GBM",
+    "TCGA-06-0154": "GBM",
+    "TCGA-06-0158": "GBM",
+    "TCGA-06-0162": "GBM",
+    "TCGA-06-0164": "GBM",
+    "TCGA-06-0176": "GBM",
+    "TCGA-06-0177": "GBM",
+    "TCGA-06-0179": "GBM",
+    "TCGA-06-0182": "GBM",
+    "TCGA-06-0184": "GBM",
+    "TCGA-06-0185": "GBM",
+    "TCGA-06-0187": "GBM",
+    "TCGA-06-0188": "GBM",
+    "TCGA-06-0190": "GBM",
+    "TCGA-06-0192": "GBM",
+    "TCGA-06-0238": "GBM",
+    "TCGA-06-0240": "GBM",
+    "TCGA-06-0644": "GBM",
+    "TCGA-06-0646": "GBM",
+    "TCGA-06-1084": "GBM",
+    "TCGA-06-1802": "GBM",
+    "TCGA-06-2570": "GBM",
+    "TCGA-06-5408": "GBM",
+    "TCGA-06-5413": "GBM",
+    "TCGA-06-5417": "GBM",
+    "TCGA-06-6389": "GBM",
+    "TCGA-08-0355": "GBM",
+    "TCGA-08-0356": "GBM",
+    "TCGA-08-0359": "GBM",
+    "TCGA-08-0360": "GBM",
+    "TCGA-08-0385": "GBM",
+    "TCGA-08-0389": "GBM",
+    "TCGA-08-0390": "GBM",
+    "TCGA-08-0392": "GBM",
+    "TCGA-08-0509": "GBM",
+    "TCGA-08-0512": "GBM",
+    "TCGA-08-0520": "GBM",
+    "TCGA-08-0522": "GBM",
+    "TCGA-12-0616": "GBM",
+    "TCGA-12-0776": "GBM",
+    "TCGA-12-0829": "GBM",
+    "TCGA-12-1094": "GBM",
+    "TCGA-12-1098": "GBM",
+    "TCGA-12-1598": "GBM",
+    "TCGA-12-1601": "GBM",
+    "TCGA-12-3650": "GBM",
+    "TCGA-14-1456": "GBM",
+    "TCGA-14-1794": "GBM",
+    "TCGA-14-1825": "GBM",
+    "TCGA-14-3477": "GBM",
+    "TCGA-19-0963": "GBM",
+    "TCGA-19-1789": "GBM",
+    "TCGA-19-2624": "GBM",
+    "TCGA-19-2631": "GBM",
+    "TCGA-19-5951": "GBM",
+    "TCGA-19-5954": "GBM",
+    "TCGA-19-5958": "GBM",
+    "TCGA-19-5960": "GBM",
+    "TCGA-76-4932": "GBM",
+    "TCGA-76-4934": "GBM",
+    "TCGA-76-4935": "GBM",
+    "TCGA-76-6191": "GBM",
+    "TCGA-76-6193": "GBM",
+    "TCGA-76-6280": "GBM",
+    "TCGA-76-6282": "GBM",
+    "TCGA-76-6285": "GBM",
+    "TCGA-76-6656": "GBM",
+    "TCGA-76-6657": "GBM",
+    "TCGA-76-6661": "GBM",
+    "TCGA-76-6662": "GBM",
+    "TCGA-76-6663": "GBM",
+    "TCGA-76-6664": "GBM",
+    "TCGA-CS-4942": "LGG",
+    "TCGA-CS-4944": "LGG",
+    "TCGA-CS-5393": "LGG",
+    "TCGA-CS-5396": "LGG",
+    "TCGA-CS-5397": "LGG",
+    "TCGA-CS-6186": "LGG",
+    "TCGA-CS-6188": "LGG",
+    "TCGA-CS-6665": "LGG",
+    "TCGA-CS-6666": "LGG",
+    "TCGA-CS-6668": "LGG",
+    "TCGA-CS-6669": "LGG",
+    "TCGA-DU-5851": "LGG",
+    "TCGA-DU-5854": "LGG",
+    "TCGA-DU-5855": "LGG",
+    "TCGA-DU-5872": "LGG",
+    "TCGA-DU-5874": "LGG",
+    "TCGA-DU-6404": "LGG",
+    "TCGA-DU-6542": "LGG",
+    "TCGA-DU-7008": "LGG",
+    "TCGA-DU-7010": "LGG",
+    "TCGA-DU-7014": "LGG",
+    "TCGA-DU-7015": "LGG",
+    "TCGA-DU-7018": "LGG",
+    "TCGA-DU-7019": "LGG",
+    "TCGA-DU-7294": "LGG",
+    "TCGA-DU-7298": "LGG",
+    "TCGA-DU-7299": "LGG",
+    "TCGA-DU-7300": "LGG",
+    "TCGA-DU-7301": "LGG",
+    "TCGA-DU-7302": "LGG",
+    "TCGA-DU-7304": "LGG",
+    "TCGA-DU-7306": "LGG",
+    "TCGA-DU-7309": "LGG",
+    "TCGA-DU-8162": "LGG",
+    "TCGA-DU-8164": "LGG",
+    "TCGA-DU-8166": "LGG",
+    "TCGA-DU-8167": "LGG",
+    "TCGA-DU-8168": "LGG",
+    "TCGA-DU-A5TR": "LGG",
+    "TCGA-DU-A5TS": "LGG",
+    "TCGA-DU-A5TT": "LGG",
+    "TCGA-DU-A5TU": "LGG",
+    "TCGA-DU-A5TW": "LGG",
+    "TCGA-DU-A5TY": "LGG",
+    "TCGA-DU-A6S7": "LGG",
+    "TCGA-DU-A6S8": "LGG",
+    "TCGA-FG-5964": "LGG",
+    "TCGA-FG-6689": "LGG",
+    "TCGA-FG-6691": "LGG",
+    "TCGA-FG-6692": "LGG",
+    "TCGA-FG-7634": "LGG",
+    "TCGA-FG-A4MT": "LGG",
+    "TCGA-HT-7473": "LGG",
+    "TCGA-HT-7602": "LGG",
+    "TCGA-HT-7680": "LGG",
+    "TCGA-HT-7686": "LGG",
+    "TCGA-HT-7690": "LGG",
+    "TCGA-HT-7694": "LGG",
+    "TCGA-HT-7879": "LGG",
+    "TCGA-HT-7884": "LGG",
+    "TCGA-HT-8018": "LGG",
+    "TCGA-HT-8111": "LGG",
+    "TCGA-HT-8114": "LGG",
+    "TCGA-HT-8563": "LGG",
+    "TCGA-HT-A61A": "LGG"
+  },
+  "img_size": 96,
+  "metrics": {
+    "AUC": 0.7495,
+    "BalAcc": 0.5969,
+    "Sensitivity": 0.2787,
+    "Specificity": 0.9151,
+    "F1": 0.3908,
+    "PPV": 0.6538,
+    "NPV": 0.6879,
+    "TP": 17,
+    "TN": 97,
+    "FP": 9,
+    "FN": 44
+  },
+  "confusion_matrix": [
+    [
+      97,
+      9
+    ],
+    [
+      44,
+      17
+    ]
+  ],
+  "roc_curve": {
+    "fpr": [
+      0.0,
+      0.0,
+      0.009433962264150943,
+      0.009433962264150943,
+      0.02830188679245283,
+      0.02830188679245283,
+      0.05660377358490566,
+      0.05660377358490566,
+      0.0660377358490566,
+      0.0660377358490566,
+      0.07547169811320754,
+      0.07547169811320754,
+      0.08490566037735849,
+      0.08490566037735849,
+      0.09433962264150944,
+      0.09433962264150944,
+      0.11320754716981132,
+      0.11320754716981132,
+      0.12264150943396226,
+      0.12264150943396226,
+      0.1320754716981132,
+      0.1320754716981132,
+      0.14150943396226415,
+      0.14150943396226415,
+      0.1509433962264151,
+      0.1509433962264151,
+      0.16981132075471697,
+      0.16981132075471697,
+      0.1792452830188679,
+      0.1792452830188679,
+      0.2169811320754717,
+      0.2169811320754717,
+      0.2641509433962264,
+      0.2641509433962264,
+      0.27358490566037735,
+      0.27358490566037735,
+      0.29245283018867924,
+      0.29245283018867924,
+      0.330188679245283,
+      0.330188679245283,
+      0.3490566037735849,
+      0.3490566037735849,
+      0.37735849056603776,
+      0.37735849056603776,
+      0.3867924528301887,
+      0.3867924528301887,
+      0.4056603773584906,
+      0.4056603773584906,
+      0.4339622641509434,
+      0.4339622641509434,
+      0.4716981132075472,
+      0.4716981132075472,
+      0.5566037735849056,
+      0.5566037735849056,
+      0.5943396226415094,
+      0.5943396226415094,
+      0.6132075471698113,
+      0.6132075471698113,
+      0.6698113207547169,
+      0.6698113207547169,
+      0.6886792452830188,
+      0.6886792452830188,
+      0.8301886792452831,
+      0.8301886792452831,
+      0.9245283018867925,
+      0.9245283018867925,
+      0.9622641509433962,
+      0.9622641509433962,
+      1.0
+    ],
+    "tpr": [
+      0.0,
+      0.01639344262295082,
+      0.01639344262295082,
+      0.03278688524590164,
+      0.03278688524590164,
+      0.09836065573770492,
+      0.09836065573770492,
+      0.13114754098360656,
+      0.13114754098360656,
+      0.14754098360655737,
+      0.14754098360655737,
+      0.21311475409836064,
+      0.21311475409836064,
+      0.2786885245901639,
+      0.2786885245901639,
+      0.3114754098360656,
+      0.3114754098360656,
+      0.3442622950819672,
+      0.3442622950819672,
+      0.3770491803278688,
+      0.3770491803278688,
+      0.45901639344262296,
+      0.45901639344262296,
+      0.47540983606557374,
+      0.47540983606557374,
+      0.4918032786885246,
+      0.4918032786885246,
+      0.5409836065573771,
+      0.5409836065573771,
+      0.5901639344262295,
+      0.5901639344262295,
+      0.639344262295082,
+      0.639344262295082,
+      0.6885245901639344,
+      0.6885245901639344,
+      0.7049180327868853,
+      0.7049180327868853,
+      0.7213114754098361,
+      0.7213114754098361,
+      0.7377049180327869,
+      0.7377049180327869,
+      0.7540983606557377,
+      0.7540983606557377,
+      0.7704918032786885,
+      0.7704918032786885,
+      0.8032786885245902,
+      0.8032786885245902,
+      0.819672131147541,
+      0.819672131147541,
+      0.8360655737704918,
+      0.8360655737704918,
+      0.8524590163934426,
+      0.8524590163934426,
+      0.8688524590163934,
+      0.8688524590163934,
+      0.8852459016393442,
+      0.8852459016393442,
+      0.9016393442622951,
+      0.9016393442622951,
+      0.9180327868852459,
+      0.9180327868852459,
+      0.9508196721311475,
+      0.9508196721311475,
+      0.9672131147540983,
+      0.9672131147540983,
+      0.9836065573770492,
+      0.9836065573770492,
+      1.0,
+      1.0
+    ],
+    "thresholds": [
+      Infinity,
+      0.9382312536239624,
+      0.9307387351989747,
+      0.8920358061790467,
+      0.8230376750230789,
+      0.7258161127567291,
+      0.6255106795579195,
+      0.606103191897273,
+      0.6019607202149928,
+      0.5923078656196594,
+      0.5847826594486832,
+      0.5374116574879736,
+      0.5299744347110391,
+      0.5030883234925568,
+      0.48188684780616314,
+      0.47815914773382245,
+      0.46236549913883207,
+      0.4468633435084485,
+      0.44500981355085967,
+      0.435188156273216,
+      0.42340999357402326,
+      0.36931121565867214,
+      0.3520979539389373,
+      0.34776048806961624,
+      0.3474561730399728,
+      0.34558174372650685,
+      0.3362479344010353,
+      0.3253688404169225,
+      0.2926452174782753,
+      0.2614219504641369,
+      0.2425238718278706,
+      0.2378733820049092,
+      0.2121268478455022,
+      0.2017570555442944,
+      0.20173053920734674,
+      0.1989211623906158,
+      0.19611637043999508,
+      0.18954577770782635,
+      0.16212931756381294,
+      0.15612233421998098,
+      0.13096845725376624,
+      0.12162088432814926,
+      0.09502824563824105,
+      0.09095516696106642,
+      0.08416303839039756,
+      0.05479410734260455,
+      0.04513418140122667,
+      0.0439185724593699,
+      0.03657070777844638,
+      0.030543604213744403,
+      0.020420454916893503,
+      0.017309205771016422,
+      0.004057085124077276,
+      0.0038110705616418274,
+      0.0030432497544097712,
+      0.002789063850650564,
+      0.002715878246817738,
+      0.002715602194075473,
+      0.002290990070468979,
+      0.002166278846561909,
+      0.001842336835397873,
+      0.0018178898782934994,
+      0.0006607791750866454,
+      0.000609623715718044,
+      0.0003233295998597896,
+      0.0003099250053310243,
+      0.00023060120802256278,
+      0.00020576042861648603,
+      2.286747726429894e-05
+    ]
+  },
+  "per_subject": [
+    {
+      "subject_id": "TCGA-02-0006",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2273,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-02-0009",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0001,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-02-0011",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0026,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-02-0027",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1412,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-02-0033",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1151,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-02-0034",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2121,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-02-0037",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0009,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-02-0046",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0027,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-02-0047",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0003,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-02-0054",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0379,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-02-0059",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0003,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-02-0064",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0026,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-02-0068",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0004,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-02-0069",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4756,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-02-0070",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1621,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-02-0075",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0023,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-02-0085",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0366,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-02-0086",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2425,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-02-0087",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3407,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-02-0102",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0204,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-02-0106",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0005,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-02-0116",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0052,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-06-0119",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-06-0122",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0003,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-06-0130",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2163,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-06-0137",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0004,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-06-0138",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0987,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-06-0139",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2451,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-06-0142",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0027,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-06-0145",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0012,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-06-0149",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.001,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-06-0154",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1629,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-06-0158",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2185,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-06-0162",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0062,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-06-0164",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0023,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-06-0176",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2454,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-06-0177",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2569,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-06-0179",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0006,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-06-0182",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0001,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-06-0184",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.234,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-06-0185",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0041,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-06-0187",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0001,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-06-0188",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0081,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-06-0190",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0005,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-06-0192",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.131,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-06-0238",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0112,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-06-0240",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0013,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-06-0644",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0003,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-06-0646",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2926,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-06-1084",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0032,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-06-1802",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0018,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-06-2570",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4624,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-06-5408",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3475,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-06-5413",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0452,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-06-5417",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2017,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-06-6389",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0007,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-08-0355",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.003,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-08-0356",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0023,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-08-0359",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.095,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-08-0360",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0003,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-08-0385",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0005,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-08-0389",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0258,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-08-0390",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0007,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-08-0392",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0013,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-08-0509",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0437,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-08-0512",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3521,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-08-0520",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0017,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-08-0522",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3362,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-12-0616",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.9307,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-12-0776",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0032,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-12-0829",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0224,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-12-1094",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0451,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-12-1098",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1969,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-12-1598",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0004,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-12-1601",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0014,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-12-3650",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4819,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-14-1456",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6556,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-14-1794",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.602,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-14-1825",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0007,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-14-3477",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5848,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-19-0963",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1841,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-19-1789",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0013,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-19-2624",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0008,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-19-2631",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0052,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-19-5951",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0002,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-19-5954",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0159,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-19-5958",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0008,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-19-5960",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0027,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-76-4932",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0021,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-76-4934",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0068,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-76-4935",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0216,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-76-6191",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.445,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-76-6193",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.001,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-76-6280",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1709,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-76-6282",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0842,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-76-6285",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0034,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-76-6656",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0018,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-76-6657",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0003,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-76-6661",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.009,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-76-6662",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1961,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-76-6663",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6255,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-76-6664",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.53,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-CS-4942",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.1216,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-CS-4944",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.0027,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-CS-5393",
+      "true_label": 1,
+      "pred_label": 1,
+      "pred_prob": 0.551,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-CS-5396",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.0305,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-CS-5397",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.3456,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-CS-6186",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.1989,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-CS-6188",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.0006,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-CS-6665",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.0022,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-CS-6666",
+      "true_label": 1,
+      "pred_label": 1,
+      "pred_prob": 0.7295,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-CS-6668",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.2018,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-CS-6669",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.2022,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-DU-5851",
+      "true_label": 1,
+      "pred_label": 1,
+      "pred_prob": 0.5772,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-DU-5854",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.0038,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-DU-5855",
+      "true_label": 1,
+      "pred_label": 1,
+      "pred_prob": 0.9382,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-DU-5872",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4234,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-DU-5874",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.0002,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-DU-6404",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6959,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-DU-6542",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.4782,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-DU-7008",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.2079,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-DU-7010",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.3693,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-DU-7014",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.4469,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-DU-7015",
+      "true_label": 1,
+      "pred_label": 1,
+      "pred_prob": 0.5282,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-DU-7018",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.2379,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-DU-7019",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.4554,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-DU-7294",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.0028,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-DU-7298",
+      "true_label": 1,
+      "pred_label": 1,
+      "pred_prob": 0.5081,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-DU-7299",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.3254,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-DU-7300",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.2381,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-DU-7301",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.0003,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-DU-7302",
+      "true_label": 1,
+      "pred_label": 1,
+      "pred_prob": 0.5821,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-DU-7304",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.823,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-DU-7306",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.0173,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-DU-7309",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.2614,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-DU-8162",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.2731,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-DU-8164",
+      "true_label": 1,
+      "pred_label": 1,
+      "pred_prob": 0.6063,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-DU-8166",
+      "true_label": 1,
+      "pred_label": 1,
+      "pred_prob": 0.6061,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-DU-8167",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.3305,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-DU-8168",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.3982,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-DU-A5TR",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.4142,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-DU-A5TS",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.2389,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-DU-A5TT",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.1561,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-DU-A5TU",
+      "true_label": 1,
+      "pred_label": 1,
+      "pred_prob": 0.5172,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-DU-A5TW",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.2774,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-DU-A5TY",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.0439,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-DU-A6S7",
+      "true_label": 1,
+      "pred_label": 1,
+      "pred_prob": 0.8115,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-DU-A6S8",
+      "true_label": 1,
+      "pred_label": 1,
+      "pred_prob": 0.5374,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-FG-5964",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.0018,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-FG-6689",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.4048,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-FG-6691",
+      "true_label": 1,
+      "pred_label": 1,
+      "pred_prob": 0.8036,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-FG-6692",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.0018,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-FG-7634",
+      "true_label": 1,
+      "pred_label": 1,
+      "pred_prob": 0.7258,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-FG-A4MT",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.8712,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-HT-7473",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.1895,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-HT-7602",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.091,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-HT-7680",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.0548,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-HT-7686",
+      "true_label": 1,
+      "pred_label": 1,
+      "pred_prob": 0.5031,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-HT-7690",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.4352,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-HT-7694",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.3478,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-HT-7879",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.3264,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-HT-7884",
+      "true_label": 1,
+      "pred_label": 1,
+      "pred_prob": 0.892,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-HT-8018",
+      "true_label": 1,
+      "pred_label": 1,
+      "pred_prob": 0.5923,
+      "correct": true
+    },
+    {
+      "subject_id": "TCGA-HT-8111",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.4414,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-HT-8114",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.3964,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-HT-8563",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.0706,
+      "correct": false
+    },
+    {
+      "subject_id": "TCGA-HT-A61A",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.4783,
+      "correct": false
+    }
+  ]
+}
