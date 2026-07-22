@@ -27,7 +27,7 @@ from no_ws_harmonization import (
 # ── EDIT THESE THREE LINES ───────────────────────────────────────────────────
 DATA_DIR = "/workspace/DATASETS/UTSW_Glioma_data/UTSW-Glioma"
 CHECK_SUBJECTS = ["BT0001", "BT0002", "BT0003"]  # picked from your BT000X naming convention
-OUT_DIR = "no_ws_harmonization_check"
+OUT_DIR = "harmonization_check"
 # ──────────────────────────────────────────────────────────────────────────────
 
 os.makedirs(OUT_DIR, exist_ok=True)
