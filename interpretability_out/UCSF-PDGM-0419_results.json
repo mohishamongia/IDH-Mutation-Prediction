@@ -1,0 +1,35 @@
+{
+  "subject_id": "UCSF-PDGM-0419",
+  "full_prediction_prob": 0.0644,
+  "true_label": 0,
+  "modality_importance": {
+    "T1": {
+      "full_prob": 0.0644,
+      "ablated_prob": 0.0735,
+      "delta": -0.009,
+      "abs_delta": 0.009,
+      "true_label": 0
+    },
+    "T1CE": {
+      "full_prob": 0.0644,
+      "ablated_prob": 0.7179,
+      "delta": -0.6534,
+      "abs_delta": 0.6534,
+      "true_label": 0
+    },
+    "T2": {
+      "full_prob": 0.0644,
+      "ablated_prob": 0.8841,
+      "delta": -0.8196,
+      "abs_delta": 0.8196,
+      "true_label": 0
+    },
+    "FLAIR": {
+      "full_prob": 0.0644,
+      "ablated_prob": 0.143,
+      "delta": -0.0786,
+      "abs_delta": 0.0786,
+      "true_label": 0
+    }
+  }
+}

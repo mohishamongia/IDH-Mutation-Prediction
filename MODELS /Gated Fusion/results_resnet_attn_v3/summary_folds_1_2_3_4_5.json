@@ -1,0 +1,23 @@
+{
+  "Gated_Fusion_ResNet": {
+    "All": {
+      "auc_mean": 0.7606,
+      "auc_std": 0.054,
+      "sens_mean": 0.6752,
+      "spec_mean": 0.7133
+    }
+  },
+  "run_folds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "active_modalities": [
+    "T1",
+    "T1CE",
+    "T2",
+    "FLAIR"
+  ]
+}
