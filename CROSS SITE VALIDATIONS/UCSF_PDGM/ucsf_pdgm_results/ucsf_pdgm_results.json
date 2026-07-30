@@ -1,0 +1,3231 @@
+{
+  "experiment": "cross_site_UTSW_to_UCSF_PDGM",
+  "train_site": "UTSW Glioma",
+  "test_site": "UCSF-PDGM",
+  "model": "Baseline_ResNet18",
+  "n_checkpoints_ensembled": 5,
+  "checkpoint_names": [
+    "fold1",
+    "fold2",
+    "fold3",
+    "fold4",
+    "fold5"
+  ],
+  "n_subjects": 429,
+  "n_mutated": 31,
+  "n_wild_type": 398,
+  "img_size": 96,
+  "metrics": {
+    "AUC": 0.731,
+    "BalAcc": 0.6628,
+    "Sensitivity": 0.6774,
+    "Specificity": 0.6482,
+    "F1": 0.2188,
+    "PPV": 0.1304,
+    "NPV": 0.9627,
+    "TP": 21,
+    "TN": 258,
+    "FP": 140,
+    "FN": 10
+  },
+  "confusion_matrix": [
+    [
+      258,
+      140
+    ],
+    [
+      10,
+      21
+    ]
+  ],
+  "roc_curve": {
+    "fpr": [
+      0.0,
+      0.0,
+      0.002512562814070352,
+      0.002512562814070352,
+      0.04020100502512563,
+      0.04020100502512563,
+      0.04522613065326633,
+      0.04522613065326633,
+      0.06030150753768844,
+      0.06030150753768844,
+      0.07537688442211055,
+      0.07537688442211055,
+      0.0829145728643216,
+      0.0829145728643216,
+      0.09798994974874371,
+      0.09798994974874371,
+      0.12060301507537688,
+      0.12060301507537688,
+      0.13819095477386933,
+      0.13819095477386933,
+      0.15577889447236182,
+      0.15577889447236182,
+      0.15829145728643215,
+      0.15829145728643215,
+      0.23366834170854273,
+      0.23366834170854273,
+      0.23618090452261306,
+      0.23618090452261306,
+      0.27386934673366836,
+      0.27386934673366836,
+      0.2814070351758794,
+      0.2814070351758794,
+      0.28391959798994976,
+      0.28391959798994976,
+      0.2864321608040201,
+      0.2864321608040201,
+      0.32914572864321606,
+      0.32914572864321606,
+      0.3743718592964824,
+      0.3743718592964824,
+      0.3793969849246231,
+      0.3793969849246231,
+      0.40703517587939697,
+      0.40703517587939697,
+      0.4371859296482412,
+      0.4371859296482412,
+      0.4396984924623116,
+      0.4396984924623116,
+      0.5201005025125628,
+      0.5201005025125628,
+      0.5527638190954773,
+      0.5527638190954773,
+      0.5753768844221105,
+      0.5753768844221105,
+      0.6407035175879398,
+      0.6407035175879398,
+      0.7939698492462312,
+      0.7939698492462312,
+      1.0
+    ],
+    "tpr": [
+      0.0,
+      0.03225806451612903,
+      0.03225806451612903,
+      0.06451612903225806,
+      0.06451612903225806,
+      0.0967741935483871,
+      0.0967741935483871,
+      0.12903225806451613,
+      0.12903225806451613,
+      0.16129032258064516,
+      0.16129032258064516,
+      0.1935483870967742,
+      0.1935483870967742,
+      0.25806451612903225,
+      0.25806451612903225,
+      0.2903225806451613,
+      0.2903225806451613,
+      0.3225806451612903,
+      0.3225806451612903,
+      0.3548387096774194,
+      0.3548387096774194,
+      0.3870967741935484,
+      0.3870967741935484,
+      0.41935483870967744,
+      0.41935483870967744,
+      0.4838709677419355,
+      0.4838709677419355,
+      0.5161290322580645,
+      0.5161290322580645,
+      0.5483870967741935,
+      0.5483870967741935,
+      0.5806451612903226,
+      0.5806451612903226,
+      0.6129032258064516,
+      0.6129032258064516,
+      0.6451612903225806,
+      0.6451612903225806,
+      0.6774193548387096,
+      0.6774193548387096,
+      0.7096774193548387,
+      0.7096774193548387,
+      0.7419354838709677,
+      0.7419354838709677,
+      0.7741935483870968,
+      0.7741935483870968,
+      0.8064516129032258,
+      0.8064516129032258,
+      0.8387096774193549,
+      0.8387096774193549,
+      0.8709677419354839,
+      0.8709677419354839,
+      0.9032258064516129,
+      0.9032258064516129,
+      0.9354838709677419,
+      0.9354838709677419,
+      0.967741935483871,
+      0.967741935483871,
+      1.0,
+      1.0
+    ],
+    "thresholds": [
+      Infinity,
+      0.9958597540855407,
+      0.9728911638259887,
+      0.9726572036743164,
+      0.8417684733867645,
+      0.840793764591217,
+      0.8348679363727569,
+      0.8303359776735306,
+      0.8144073337316513,
+      0.8121678471565247,
+      0.7771822296082973,
+      0.7750817745923996,
+      0.764328221231699,
+      0.7611376047134399,
+      0.7330141738057137,
+      0.7316519618034363,
+      0.7026409447193146,
+      0.7015642434358597,
+      0.6870143376290798,
+      0.6820687592029572,
+      0.6665338136255741,
+      0.6650158584117889,
+      0.6645043268799782,
+      0.6598700633272528,
+      0.6061700597405434,
+      0.603351604193449,
+      0.5978716477751732,
+      0.5971475519239903,
+      0.568831741809845,
+      0.5685810569673777,
+      0.5652889042161405,
+      0.5625123880803585,
+      0.5581227226182819,
+      0.5580062177032232,
+      0.5575506607070565,
+      0.5543458875501528,
+      0.515206924173981,
+      0.5133281387388706,
+      0.476149192173034,
+      0.47445011138916016,
+      0.47166573740541934,
+      0.470589929074049,
+      0.4491487305611372,
+      0.44617841988801954,
+      0.4201262049376965,
+      0.4189976361580193,
+      0.41835208707489074,
+      0.41769708395004274,
+      0.3719463331159204,
+      0.37162686958909036,
+      0.33761251755058763,
+      0.33747168686240914,
+      0.319721395149827,
+      0.3161890087649226,
+      0.2679361402988434,
+      0.2674087988154497,
+      0.12874105777591466,
+      0.12867034673690797,
+      0.0005920579118537716
+    ]
+  },
+  "per_subject": [
+    {
+      "subject_id": "UCSF-PDGM-0004",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.8016,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0005",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0008,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0007",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0897,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0008",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1774,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0009",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.632,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0010",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.862,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0011",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.032,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0012",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5946,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0013",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4717,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0014",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.7656,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0015",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1852,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0016",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1268,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0017",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5692,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0018",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0573,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0019",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0302,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0020",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2208,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0021",
+      "true_label": 1,
+      "pred_label": 1,
+      "pred_prob": 0.8408,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0022",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0017,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0023",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5051,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0024",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.59,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0025",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2495,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0026",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.167,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0027",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6918,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0029",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4573,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0030",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0467,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0031",
+      "true_label": 1,
+      "pred_label": 1,
+      "pred_prob": 0.6821,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0032",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3213,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0033",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6323,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0034",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0047,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0035",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3667,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0036",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.8517,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0037",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0623,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0038",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5696,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0039",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.7369,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0040",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1458,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0041",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0677,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0042",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.8218,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0043",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2305,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0044",
+      "true_label": 1,
+      "pred_label": 1,
+      "pred_prob": 0.8122,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0045",
+      "true_label": 1,
+      "pred_label": 1,
+      "pred_prob": 0.6034,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0046",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1434,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0047",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1355,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0048",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.8601,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0049",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0313,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0050",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4081,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0053",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.8177,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0055",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2704,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0056",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3799,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0057",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6974,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0058",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.7119,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0059",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0226,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0061",
+      "true_label": 1,
+      "pred_label": 1,
+      "pred_prob": 0.7016,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0063",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4385,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0064",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4995,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0065",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0772,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0066",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1843,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0067",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3979,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0068",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6818,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0069",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0608,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0070",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.174,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0071",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0036,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0072",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0472,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0073",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.3375,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0074",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2056,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0075",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5297,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0076",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6645,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0077",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.104,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0078",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0113,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0079",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.409,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0080",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0104,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0082",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1838,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0083",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6076,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0084",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6138,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0085",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5837,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0086",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3629,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0087",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5391,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0088",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6478,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0090",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0422,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0091",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0228,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0092",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0163,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0093",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0418,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0094",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.7026,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0095",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1744,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0096",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.7089,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0097",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3197,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0099",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6336,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0101",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5243,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0102",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6795,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0103",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1002,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0104",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0774,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0105",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0472,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0106",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2853,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0107",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4393,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0108",
+      "true_label": 1,
+      "pred_label": 1,
+      "pred_prob": 0.605,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0109",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.366,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0111",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3852,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0112",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3338,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0113",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.7157,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0114",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.55,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0115",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.8105,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0116",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.9725,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0118",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0008,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0119",
+      "true_label": 1,
+      "pred_label": 1,
+      "pred_prob": 0.5543,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0121",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4327,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0122",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0496,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0123",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1287,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0126",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3739,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0127",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.279,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0128",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6978,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0129",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2962,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0130",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6441,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0131",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2153,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0133",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6741,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0134",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6346,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0135",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4784,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0136",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0096,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0137",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5193,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0139",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0544,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0140",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0125,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0141",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0673,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0142",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1419,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0143",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0184,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0144",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4142,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0145",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2349,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0146",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6443,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0148",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0335,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0149",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.334,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0150",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3864,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0151",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5525,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0152",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2996,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0153",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0006,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0154",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.8475,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0155",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0877,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0157",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5685,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0158",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.647,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0159",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0051,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0160",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2725,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0161",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.8429,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0163",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3151,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0164",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.607,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0165",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4676,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0166",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.7165,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0167",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.8349,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0168",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.8769,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0169",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3315,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0170",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3999,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0172",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0496,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0173",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.006,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0176",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1476,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0178",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0979,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0179",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2418,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0180",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6508,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0182",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6437,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0183",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2187,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0184",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5576,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0185",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3082,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0186",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6518,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0187",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6273,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0188",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1382,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0189",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6167,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0191",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5382,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0193",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.7921,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0194",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.7042,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0195",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5653,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0196",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2819,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0197",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.7941,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0198",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.134,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0200",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6526,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0201",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4698,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0202",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3789,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0203",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5036,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0204",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0678,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0207",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.31,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0208",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2882,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0209",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.414,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0210",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1426,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0212",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2595,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0213",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0051,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0214",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0976,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0215",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1568,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0223",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0875,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0225",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5038,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0227",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.7574,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0228",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0667,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0229",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0815,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0231",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.2674,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0236",
+      "true_label": 1,
+      "pred_label": 1,
+      "pred_prob": 0.7317,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0237",
+      "true_label": 1,
+      "pred_label": 1,
+      "pred_prob": 0.9959,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0239",
+      "true_label": 1,
+      "pred_label": 1,
+      "pred_prob": 0.7611,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0240",
+      "true_label": 1,
+      "pred_label": 1,
+      "pred_prob": 0.558,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0241",
+      "true_label": 1,
+      "pred_label": 1,
+      "pred_prob": 0.7629,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0242",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.419,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0243",
+      "true_label": 1,
+      "pred_label": 1,
+      "pred_prob": 0.5625,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0244",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.4706,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0246",
+      "true_label": 1,
+      "pred_label": 1,
+      "pred_prob": 0.5133,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0247",
+      "true_label": 1,
+      "pred_label": 1,
+      "pred_prob": 0.7751,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0249",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.8232,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0250",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.1287,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0254",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5284,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0255",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.4462,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0258",
+      "true_label": 1,
+      "pred_label": 1,
+      "pred_prob": 0.5971,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0259",
+      "true_label": 1,
+      "pred_label": 1,
+      "pred_prob": 0.6599,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0260",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.4177,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0261",
+      "true_label": 1,
+      "pred_label": 1,
+      "pred_prob": 0.8303,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0263",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.8151,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0264",
+      "true_label": 1,
+      "pred_label": 1,
+      "pred_prob": 0.9727,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0265",
+      "true_label": 1,
+      "pred_label": 1,
+      "pred_prob": 0.665,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0266",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.3716,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0267",
+      "true_label": 1,
+      "pred_label": 1,
+      "pred_prob": 0.5686,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0268",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2317,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0269",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.4745,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0270",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1895,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0273",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.8578,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0275",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4116,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0276",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1418,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0277",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5581,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0279",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2771,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0280",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0955,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0281",
+      "true_label": 1,
+      "pred_label": 0,
+      "pred_prob": 0.3162,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0283",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4387,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0284",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.22,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0287",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4027,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0288",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5485,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0291",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4571,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0295",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6256,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0296",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4366,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0297",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0449,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0302",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.8121,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0306",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5979,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0309",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1252,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0310",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0105,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0311",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3747,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0312",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3296,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0313",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4053,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0314",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1635,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0316",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1795,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0317",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6665,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0318",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5295,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0319",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2325,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0320",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4285,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0321",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1273,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0323",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2256,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0325",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3768,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0327",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3459,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0328",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5076,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0329",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3951,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0330",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.8218,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0332",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.8947,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0333",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6768,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0334",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6499,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0335",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4936,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0336",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3252,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0337",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.9355,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0338",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.118,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0339",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.8144,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0340",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6145,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0341",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.8418,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0342",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6062,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0343",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.7313,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0344",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.687,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0345",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3063,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0346",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0141,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0347",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2388,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0348",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1735,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0349",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4999,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0350",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3933,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0351",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.9172,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0352",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.096,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0353",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2305,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0354",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1381,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0355",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0195,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0356",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2308,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0357",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3342,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0358",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0068,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0359",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.026,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0360",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5815,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0361",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3725,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0362",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3969,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0363",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.9699,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0364",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5186,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0365",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4946,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0366",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.7185,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0368",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.733,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0369",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0209,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0370",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.8602,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0371",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2884,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0372",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0589,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0373",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0134,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0374",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4965,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0375",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2211,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0376",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0174,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0377",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0101,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0378",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5038,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0379",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3389,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0380",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6124,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0381",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4201,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0382",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.9729,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0383",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6992,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0384",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1678,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0385",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6969,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0386",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0042,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0387",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.7544,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0388",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6906,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0389",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4606,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0390",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.7772,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0391_FU016d",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4664,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0391",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4703,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0392",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0247,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0393",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4283,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0394",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5007,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0395",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0334,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0396_FU175d",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.212,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0396",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1983,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0397",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.199,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0398",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4161,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0399",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4433,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0400",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6343,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0401",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1135,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0402",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5128,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0403",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4893,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0404",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4761,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0405",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2223,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0406",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4961,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0409_FU001d",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4155,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0409",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.7643,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0410",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5152,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0411",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4184,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0412",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5796,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0413",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.135,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0414",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3103,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0416",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.278,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0417",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5489,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0418",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2679,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0419",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5912,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0420",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6334,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0421",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.8371,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0422",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4153,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0423",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4491,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0424",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5694,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0425",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6462,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0426",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5121,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0428",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.7598,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0429_FU003d",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0194,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0429",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2812,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0430",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3562,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0431_FU001d",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5028,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0431",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5157,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0433_FU007d",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0705,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0433",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2515,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0434",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4133,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0435",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4567,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0436",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3361,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0442",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0364,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0443",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.299,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0447",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.627,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0448",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0473,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0449",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4304,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0450",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4234,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0451",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.7198,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0452",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0895,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0453",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0569,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0454",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5828,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0455",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3391,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0456",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5848,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0457",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5659,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0458",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0027,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0459",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4132,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0461",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1395,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0462",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5887,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0463",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0354,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0464",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3696,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0465",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1357,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0466",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4171,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0467",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2694,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0470",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0075,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0471",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3376,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0472",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2001,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0477",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1542,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0479",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0101,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0480",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1754,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0481",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0249,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0483",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2791,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0484",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2383,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0486",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.7665,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0487",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3741,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0488",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3767,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0491",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4684,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0492",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4734,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0493",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6761,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0494",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2964,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0495",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6248,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0496",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3719,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0497",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5955,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0498",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2198,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0500",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0072,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0502",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0963,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0503",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3868,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0504",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6667,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0505",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5874,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0506",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2714,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0507",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.389,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0508",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6085,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0509",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5476,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0510",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6523,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0511",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4593,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0512",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1143,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0513",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2035,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0514",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2388,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0515",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5262,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0516",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2846,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0518",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.9361,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0519",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5393,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0520",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.7549,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0521",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.5688,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0522",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3805,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0523",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3711,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0524",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2961,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0525",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1662,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0526",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.1806,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0527",
+      "true_label": 0,
+      "pred_label": 1,
+      "pred_prob": 0.6396,
+      "correct": false
+    },
+    {
+      "subject_id": "UCSF-PDGM-0528",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3645,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0532",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2226,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0533",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.0774,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0534",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2336,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0536",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2621,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0537",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.4323,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0538",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3538,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0539",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.3574,
+      "correct": true
+    },
+    {
+      "subject_id": "UCSF-PDGM-0541",
+      "true_label": 0,
+      "pred_label": 0,
+      "pred_prob": 0.2741,
+      "correct": true
+    }
+  ]
+}
